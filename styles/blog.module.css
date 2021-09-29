@@ -1,0 +1,96 @@
+
+
+.DateBlog {
+  background: #054958;
+  width: 50px;
+  height: 50px;
+  line-height: 35px;
+  position: relative;
+  bottom: -8px;
+}
+.DateBlog,
+.ph_index a {
+  color: #fff;
+  font-size: 150%;
+}
+.DateBlog,
+.MonthBlog {
+  padding: 8px;
+  border-radius: 30px;
+  display: table;
+  margin: auto;
+  text-align: center;
+}
+.MonthBlog {
+  background: #eee;
+  color: #777;
+  font-size: 75%;
+  width: 55px;
+  height: 55px;
+  line-height: 15px;
+}
+.block-manage-blog,
+.block-wikihow {
+  margin-top: 20px;
+  font-size: 0.89em;
+  letter-spacing: 1px;
+}
+.ovlgSidebar,
+.block-wikihow {
+  display: flex;
+  flex-direction: column;
+  background: #e8e2d6;
+  padding: 15px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.ovlgSidebar .header-h2,
+.ovlgSidebar h2,
+.block-wikihow h2,
+.block-wikihow .header-h2 {
+  text-align: center;
+}
+.ovlgSidebar a,
+.block-wikihow a {
+  color: #4a1500;
+  font-size: 100%;
+  transition: all 400ms;
+}
+.block-manage-blog ul,
+.block-wikihow ul {
+  padding-left: 25px;
+}
+.blog_pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.blog_pagination > li > a,
+.blog_pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.blog_pagination > li {
+  display: inline;
+}
+.blog_active span{
+  z-index: 2;
+  color: #fff !important;
+  cursor: default;
+  background-color: #337ab7 !important;
+  border-color: #337ab7;
+}
+.blog_img{
+  position:relative;
+  top: 12px;
+  margin-right:20px;
+  float:left;
+}

@@ -1,0 +1,91 @@
+.success-stories-tab-home .nav-tabs > li > a .textUnderline {
+    border-bottom: 3px solid #e8e2d6;
+    transition: border .5s;
+}
+.success-stories-tab-home .nav-tabs > li.active > a .textUnderline {
+    border-bottom: 3px solid #4A1500;
+}
+.success-stories-tab-home .nav-tabs > li > a.active .textUnderline {
+    border-bottom: 3px solid #4A1500;
+}
+.success-stories-tab-home .nav-tabs > li > a:hover {
+    background: none;
+    color: #111;
+    border: none;
+}
+.success-stories-tab-home .negotiations-tab, .success-stories-tab-home .creditors-tab {
+    margin-top:20px;
+    border-top: 2px solid #4A1500;
+    position:relative;
+    padding:0;
+}
+.success-stories-tab-home .negotiations-tab:after, .success-stories-tab-home .creditors-tab:after {
+    position:absolute;
+    content:"";
+    top:-17px;
+    width:30px;
+    height:30px;	  
+    background:#fff;
+    transform:rotate(315deg);
+    border-top:#4A1500 solid 2px;
+    border-right:#4A1500 solid 2px;
+    border-bottom:none;
+    border-left:none;
+}
+.success-stories-tab-home .negotiations-tab:after {
+    left:23%;
+}
+.success-stories-tab-home .creditors-tab:after {
+    right:23%;
+}
+.success-stories-tab-home .nav-tabs
+{
+    border: none;
+}
+.success-stories-tab-home .nav-tabs > li.active > a
+{
+    color: #4A1500;
+    background: #FFF;
+    border: none;
+}
+.success-stories-tab-home .nav-tabs > li > a.active
+{
+    color: #4A1500;
+    background: #FFF;
+    border: none;
+}
+.success-stories-tab-home .nav-tabs > li > a
+{
+    color: #a09b9b;
+}
+
+.success-stories-tab-home .nav-tabs > li > a > span
+{
+    font-size:28px;
+    font-family: 'EB Garamond', serif;
+    display:block;
+}
+.story-img{
+    border: 1px solid #ccc;
+}
+.nego-img-sect {
+    padding-right: 15px;
+}
+.nego-info-sect {
+    padding-left:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nego-info-sect .creditor-name {
+    color: #4a1500;
+}
+
+@media screen and (max-width: 757px) {
+    .success-stories-tab-home .nav-tabs > li > a > span
+    {
+    font-size: 1.4em;
+    padding: 20px 0;
+    }
+
+}

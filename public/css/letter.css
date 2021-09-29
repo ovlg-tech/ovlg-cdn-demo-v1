@@ -1,0 +1,72 @@
+
+
+.el-line-200 {
+    line-height: 200%;
+}
+
+
+.el-mar-10 {
+    margin-top: 10px;
+}
+input:focus-visible
+{
+    outline: 0;
+}
+.letter_input_box {
+  border: none;
+  /*border-bottom: 2px dashed #bbb !important;*/
+  background: none;
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+.line-group, .line-group-dollar, .line-group-comma
+{
+ position: relative;
+}
+.line-group:after
+{
+    position: absolute;
+    content: "---------------------------------------";
+    bottom: 15px;
+    left: 0;
+    width: auto;
+    height: 2px;
+    color: #ccc;
+}
+.line-group-dollar:after, .line-group-comma:after
+{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: auto;
+    height: 2px;
+    color: #ccc;
+}
+.line-group-dollar:after
+{
+    content: "------------------------";
+}
+.line-group-comma:after
+{
+    content: "-------------------------------------,";
+}
+.width-33
+{
+    width: 33%;
+    display: inline-block;
+}
+.width-90
+{
+    width: 90%;
+    display: inline-block;
+}
+
+.letter-heading {
+  background-color: #4a1500;
+  padding: 10px;
+  color: #fff;
+}
+.sample-letters-container {
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #4a1500;
+}

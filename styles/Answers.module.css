@@ -1,0 +1,51 @@
+.answer_vote {
+  width: 150px;
+  vertical-align: top;
+}
+
+.answered,
+.unanswered,
+.votes {
+    float: left;
+    text-align: center;
+    margin: 5px;
+    font-size: 0.83em;
+}
+.votes {
+    border-bottom: 3px solid #999;
+}
+.answered {
+    border-bottom: 3px solid #066;
+}
+.unanswered {
+    border-bottom: 3px solid #900;
+}
+.tag {
+  float: left;
+}
+.tag {
+  border: 1px solid #ccc;
+  margin: 1px;
+  padding: 0 5px;
+}
+.tag a {
+  color: #ccc;
+}
+
+/***********  media query max-width: 991px (col-md)  ***********/
+
+@media screen and (max-width: 992px) {
+  .answer_vote {
+      width: 120px;
+  }
+
+}
+
+/***********  media query max-width: 600px (custom)  ***********/
+
+@media screen and (max-width: 600px) {
+  .answer_vote {
+      width: 100px;
+  }
+
+}
