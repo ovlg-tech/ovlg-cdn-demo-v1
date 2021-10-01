@@ -76,7 +76,8 @@ export default function Footer({ FooterInfo }) {
                 </li>
                 <li>
                   <img
-                    src={`${publicRuntimeConfig.rootPath}/images/TrustLink.jpg`}
+                    data-src={`${publicRuntimeConfig.rootPath}/images/TrustLink.jpg`}
+                    className="lazy"
                     alt="TrustLink logo"
                     useMap="#Map"
                     width={141}
@@ -110,7 +111,8 @@ export default function Footer({ FooterInfo }) {
                   itemType="https://schema.org/Organization">
                   <a href="https://www.bbb.org/us/ca/auburn/profile/debt-relief-services/oak-view-law-group-apc-1156-47014743/customer-reviews" rel="nofollow">
                     <img
-                      src={`${publicRuntimeConfig.rootPath}/images/review-bbb.jpg`}
+                      data-src={`${publicRuntimeConfig.rootPath}/images/review-bbb.jpg`}
+                      className="lazy"
                       alt="Customer ratings on BBB"
                       width={141}
                       height={77}
@@ -124,7 +126,8 @@ export default function Footer({ FooterInfo }) {
                 <li>
                   <a href="https://www.credential.net/48ce1e80-ac54-4614-bd1a-0843f19250f1#gs.a5alei" target="_blank" rel="nofollow" title="IAPDA">
                     <img
-                      src={`${publicRuntimeConfig.rootPath}/images/IAPDA.jpg`}
+                      data-src={`${publicRuntimeConfig.rootPath}/images/IAPDA.jpg`}
+                      className="lazy"
                       alt="IAPDA logo"
                       width={141}
                       height={77}
@@ -135,7 +138,8 @@ export default function Footer({ FooterInfo }) {
                 <li>
                   <a href="/calchamber.html" target="_blank" rel="nofollow" title="Calchamber Member">
                     <img
-                      src={`${publicRuntimeConfig.rootPath}/images/calchamber_Member.jpg`}
+                      data-src={`${publicRuntimeConfig.rootPath}/images/calchamber_Member.jpg`}
+                      className="lazy"
                       alt="Calchamber Member"
                       width={156}
                       height={36}
@@ -155,7 +159,8 @@ export default function Footer({ FooterInfo }) {
                 <li>
                   <a href="https://www.dnb.com/business-directory/company-profiles.oak_view_law_group_a_professional_corporation.f8da0516c769b409cc43433c0beed5b2.html" target="_blank" rel="nofollow" title="D&B">
                     <img
-                      src={`${publicRuntimeConfig.rootPath}/images/DandB.jpg`}
+                      data-src={`${publicRuntimeConfig.rootPath}/images/DandB.jpg`}
+                      className="lazy"
                       alt="D&B"
                       width={184}
                       height={40}
@@ -165,7 +170,8 @@ export default function Footer({ FooterInfo }) {
                 <li>
                   <a href="https://seal.godaddy.com/verifySeal?sealID=soavTJ602i4zePU9VC0bdypC9PUhYG8SMgjj60novyzjcaPxLs" target="_blank" rel="nofollow" title="Godaddy">
                     <img
-                      src={`${publicRuntimeConfig.rootPath}/images/go_daddy.jpg`}
+                      data-src={`${publicRuntimeConfig.rootPath}/images/go_daddy.jpg`}
+                      className="lazy"
                       alt="Godaddy"
                       width={153}
                       height={81}
@@ -176,7 +182,8 @@ export default function Footer({ FooterInfo }) {
                   <a title="yelp" target="_blank" href="https://www.yelp.com/biz/oak-view-law-group-los-altos-2" rel="nofollow">
                     {/* <img src={`${publicRuntimeConfig.rootPath}/images/yelp-logo.png`} alt="yelp logo" /> */}
                     <img
-                      src={`${publicRuntimeConfig.rootPath}/images/yelp-logo.png`}
+                      data-src={`${publicRuntimeConfig.rootPath}/images/yelp-logo.png`}
+                      className="lazy"
                       alt="yelp logo"
                       width={128}
                       height={67}
@@ -201,9 +208,9 @@ export default function Footer({ FooterInfo }) {
                   {/* <img src={`${publicRuntimeConfig.rootPath}/images/logo-white_252x47.png`} alt="ovlg brand logo" className="img-responsive white-logo-footer mar-t-20 pad-t-10" /> */}
                   <div className=" white-logo-footer mt-3 pt-2">
                     <img
-                      src={`${publicRuntimeConfig.rootPath}/images/logo-white_252x47.png`}
+                      data-src={`${publicRuntimeConfig.rootPath}/images/logo-white_252x47.png`}
                       alt="ovlg brand logo"
-                      className="img-responsive"
+                      className="lazy img-responsive"
                       width={252}
                       height={47}
                     />
