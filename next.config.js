@@ -11,6 +11,7 @@ module.exports = {
       // Will be available on both server and client
       staticFolder: '/static',
       rootPath: '',
+      attImgPathUrl: 'https://ik.imagekit.io/800530ovlg/banner-images/small/',
    },
    env: {
       prod: false,

@@ -1,4 +1,4 @@
-import Image from 'next/image'
+//import Image from 'next/image'
 import getConfig from 'next/config'
 const { publicRuntimeConfig } = getConfig()
 import homeStyle from '../../styles/Homepage.module.css'
@@ -35,36 +35,36 @@ export default function HomeBanner() {
                                 <img src={`${publicRuntimeConfig.rootPath}/images/attorney-images/picture-382251.webp`} className="col-3 pb-1 img-responsive" />
                                 <img src={`${publicRuntimeConfig.rootPath}/images/attorney-images/picture-404540.webp`} className="col-3 pb-1 img-responsive" /> */}
                                 <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                    <Image
+                                    <img
                                         loader={smallImgCdnLoader}
-                                        src="picture-382250_I9quaZwWO.webp"
+                                        src={`${publicRuntimeConfig.attImgPathUrl}/picture-382250_I9quaZwWO.webp`}
                                         className=""
                                         width={84}
                                         height={100}
                                     />
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                    <Image
+                                    <img
                                         loader={smallImgCdnLoader}
-                                        src="picture-382277_WP-Vo5qGSt.webp"
+                                        src={`${publicRuntimeConfig.attImgPathUrl}/picture-382277_WP-Vo5qGSt.webp`}
                                         className=""
                                         width={84}
                                         height={100}
                                     />
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                    <Image
+                                    <img
                                         loader={smallImgCdnLoader}
-                                        src="picture-382251_e7BakZmFOe.webp"
+                                        src={`${publicRuntimeConfig.attImgPathUrl}/picture-382251_e7BakZmFOe.webp`}
                                         className=""
                                         width={84}
                                         height={100}
                                     />
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                    <Image
+                                    <img
                                         loader={smallImgCdnLoader}
-                                        src="picture-404540_kqy7X1PyJ.webp"
+                                        src={`${publicRuntimeConfig.attImgPathUrl}/picture-404540_kqy7X1PyJ.webp`}
                                         className=""
                                         width={84}
                                         height={100}

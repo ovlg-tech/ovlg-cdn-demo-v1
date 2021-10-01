@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Image from 'next/image'
+//import Image from 'next/image'
 import getConfig from 'next/config'
 const { publicRuntimeConfig } = getConfig()
 import dynamic from 'next/dynamic'
@@ -241,7 +241,7 @@ export default function NavBar() {
                         <div className="nav-bbb d-block d-md-none">
                             <a className="el-inline img-bbb-logo" target="_blank"
                                 href="http://www.bbb.org/sacramento/business-reviews/debt-relief-services/oak-view-law-group-apc-in-citrus-heights-ca-47014743">
-                                <Image
+                                <img
                                     src={`${publicRuntimeConfig.rootPath}/images/BBB-A-Rating.png`}
                                     alt="BBB-A-Rating"
                                     width={80}

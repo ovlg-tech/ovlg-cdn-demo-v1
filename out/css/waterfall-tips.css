@@ -1,0 +1,40 @@
+#waterfallCarousel .carousel-control-prev, 
+#waterfallCarousel .carousel-control-next {
+    /* border: 1px solid red; */
+    top: 45%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;  
+    /* color: #fff; */
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+}
+#waterfallCarousel .carousel-control-prev {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-repeat: repeat-x;
+}
+#waterfallCarousel .carousel-control-prev:hover, #waterfallCarousel .carousel-control-next:hover {
+    /* color: #fff; */
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+}
+#waterfallCarousel .carousel-control-next {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-repeat: repeat-x;
+}
+#waterfallCarousel .slider-height {
+    height: 600px;
+    overflow-y: auto;
+}
+#waterfallCarousel .read-more{
+    cursor: pointer;
+}
+.cursor-progress{
+    cursor: progress;
+}

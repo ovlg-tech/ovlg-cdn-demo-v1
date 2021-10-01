@@ -1,4 +1,4 @@
-import Image from 'next/image'
+//import Image from 'next/image'
 import getConfig from 'next/config'
 const { publicRuntimeConfig } = getConfig()
 
@@ -34,7 +34,7 @@ export default function PersonalConnectionDemo({ BannerInfo }) {
             <aside className="col-12 col-md-5 col-lg-4">
                 <div className="position-relative banner-image-group" style={{ minHeight: '360px' }}>
                     {/* <Image alt="Attorney Lyle Solomon" src="https://ik.imagekit.io/bvdsyrew4be/compressed-banner-image-lyle-solomon_v700VjgJP.webp?updatedAt=1631182578632" layout="fill" objectFit="cover" priority className="banner-lyle-image" /> */}
-                    <Image
+                    <img
                         loader={myLoader}
                         src="compressed-banner-image-lyle-solomon_v700VjgJP.webp"
                         alt="Attorney Lyle Solomon"

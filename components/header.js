@@ -1,4 +1,4 @@
-import Image from 'next/image'
+//import Image from 'next/image'
 import getConfig from 'next/config'
 const { publicRuntimeConfig } = getConfig()
 
@@ -27,16 +27,16 @@ export default function Header() {
                         <div className="row">
                             <div className="col-8 col-md-4 col-lg-3 pad-t-10" style={{ paddingRight: "0" }}>
                                 <a href="/">
-                                    {/* <Image
+                                    <img
                                         src={`${publicRuntimeConfig.rootPath}/images/ovlg-logo.png`}
                                         alt="OVLG logo"
                                         className="logo img-responsive"
                                         width={293}
                                         height={55}
                                         priority
-                                    /> */}
+                                    />
 
-                                    <Image
+                                    {/* <Image
                                         loader={logoCdnLoader}
                                         src="ovlg-logo_0C5iTaB29j.png"
                                         alt="OVLG logo"
@@ -44,8 +44,10 @@ export default function Header() {
                                         width={293}
                                         height={55}
                                         priority
-                                    />
-                                </a>
+                                    /> */}
+
+                                    
+                                   </a>
                             </div>
 
                             <div className="col-6 col-md-8 col-lg-9 d-none d-md-block d-lg-block d-xl-block d-xxl-block text-right float-end">
@@ -63,7 +65,7 @@ export default function Header() {
                                 <div className="el-inline" >
                                     <a className="el-inline img-bbb-logo" target="_blank"
                                         href="http://www.bbb.org/sacramento/business-reviews/debt-relief-services/oak-view-law-group-apc-in-citrus-heights-ca-47014743">
-                                        <Image
+                                        <img
                                             src={`${publicRuntimeConfig.rootPath}/images/BBB-A-Rating.png`}
                                             alt="BBB-A-Rating"
                                             width={80}

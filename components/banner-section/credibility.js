@@ -1,6 +1,6 @@
-import Image from 'next/image'
+//import Image from 'next/image'
 import getConfig from 'next/config'
-const { publicRuntimeConfig } = getConfig()
+const { publicRuntimeConfig} = getConfig()
 
 const smallImgCdnLoader = ({ src, width, quality }) => {
     return `https://ik.imagekit.io/800530ovlg/banner-images/small/${src}?w=${width}&q=${quality || 75}`
@@ -15,9 +15,9 @@ export default function Credibility({ BannerInfo }) {
                         <a href="/attorneys"><h3 className="text-center banner-atty-topic-name">Our Attorneys</h3></a>
                         <div className="row">                            
                             <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                <Image
+                                <img
                                     loader={smallImgCdnLoader}
-                                    src="picture-382250_I9quaZwWO.webp"
+                                    src={`${publicRuntimeConfig.attImgPathUrl}/picture-382250_I9quaZwWO.webp`}
                                     className=""
                                     width={84}
                                     height={100}
@@ -25,9 +25,9 @@ export default function Credibility({ BannerInfo }) {
                                 />
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                <Image
+                                <img
                                     loader={smallImgCdnLoader}
-                                    src="picture-382277_WP-Vo5qGSt.webp"
+                                    src={`${publicRuntimeConfig.attImgPathUrl}/picture-382277_WP-Vo5qGSt.webp`}
                                     className=""
                                     width={84}
                                     height={100}
@@ -35,9 +35,9 @@ export default function Credibility({ BannerInfo }) {
                                 />
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                <Image
+                                <img
                                     loader={smallImgCdnLoader}
-                                    src="picture-382251_e7BakZmFOe.webp"
+                                    src={`${publicRuntimeConfig.attImgPathUrl}/picture-382251_e7BakZmFOe.webp`}
                                     className=""
                                     width={84}
                                     height={100}
@@ -45,9 +45,9 @@ export default function Credibility({ BannerInfo }) {
                                 />
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                <Image
+                                <img
                                     loader={smallImgCdnLoader}
-                                    src="picture-404540_kqy7X1PyJ.webp"
+                                    src={`${publicRuntimeConfig.attImgPathUrl}/picture-404540_kqy7X1PyJ.webp`}
                                     className=""
                                     width={84}
                                     height={100}

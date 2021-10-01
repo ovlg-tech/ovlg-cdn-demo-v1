@@ -1,4 +1,4 @@
-import Image from 'next/image'
+//import Image from 'next/image'
 import getConfig from 'next/config'
 const { publicRuntimeConfig } = getConfig()
 export default function Header() {

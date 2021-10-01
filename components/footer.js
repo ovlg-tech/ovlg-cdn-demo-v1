@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image'
+//import Image from 'next/image'
 import getConfig from 'next/config'
 const { publicRuntimeConfig } = getConfig()
 
@@ -57,7 +57,7 @@ export default function Footer({ FooterInfo }) {
               <ul className="footerItem">
                 <li>
                   <a href="https://www.expertise.com/ca/sacramento/bankruptcy-attorney" rel="nofollow">
-                    <Image
+                    <img
                       src={`${publicRuntimeConfig.rootPath}/images/expertise-badge.webp`}
                       alt="expertise badge"
                       width={125}
@@ -75,7 +75,7 @@ export default function Footer({ FooterInfo }) {
                   </a>
                 </li>
                 <li>
-                  <Image
+                  <img
                     src={`${publicRuntimeConfig.rootPath}/images/TrustLink.jpg`}
                     alt="TrustLink logo"
                     useMap="#Map"
@@ -109,7 +109,7 @@ export default function Footer({ FooterInfo }) {
                   itemScope
                   itemType="https://schema.org/Organization">
                   <a href="https://www.bbb.org/us/ca/auburn/profile/debt-relief-services/oak-view-law-group-apc-1156-47014743/customer-reviews" rel="nofollow">
-                    <Image
+                    <img
                       src={`${publicRuntimeConfig.rootPath}/images/review-bbb.jpg`}
                       alt="Customer ratings on BBB"
                       width={141}
@@ -120,45 +120,10 @@ export default function Footer({ FooterInfo }) {
                 </li>
                 <meta itemProp="reviewCount" content="84" />
                 <meta itemProp="ratingValue" content="4.95" />
-                { /* <li>
-                  <a target="_blank" href="http://www.bbb.org/sacramento/business-reviews/debt-relief-services/oak-view-law-group-apc-in-citrus-heights-ca-47014743" rel="nofollow">
-                    <Image
-                      src={`${publicRuntimeConfig.rootPath}/images/BBB-A-Rating.png`}
-                      alt="BBB-A-Rating"
-                      width={109}
-                      height={56}
-                    />
-                  </a>
-                </li>
-                <li
-                  itemProp="itemReviewed"
-                  itemScope
-                  itemType="https://schema.org/Organization"
-                  style={{
-                    position: "relative",
-                    top: "10px",
-                    marginBottom: "25px",
-                  }}
-                >
-                  <Image
-                    src={`${publicRuntimeConfig.rootPath}/images/BBB-accredited-rating.jpg`}
-                    alt="4.8 rating"
-                    width={100}
-                    height={20}
-                  />
-                  <br />
-                  <a href="https://www.bbb.org/us/ca/citrus-heights/profile/debt-relief-services/oak-view-law-group-apc-1156-47014743" rel="nofollow" target="_blank">
-                    Based on 82 reviews
-                  </a>
-                  <br />
-                  14 Years in Business
-                  <meta itemProp="name" content="Oak View Law Group" />
-                </li>
-                <meta itemProp="reviewCount" content="82" />
-                <meta itemProp="ratingValue" content="4.84" /> */}
+                
                 <li>
                   <a href="https://www.credential.net/48ce1e80-ac54-4614-bd1a-0843f19250f1#gs.a5alei" target="_blank" rel="nofollow" title="IAPDA">
-                    <Image
+                    <img
                       src={`${publicRuntimeConfig.rootPath}/images/IAPDA.jpg`}
                       alt="IAPDA logo"
                       width={141}
@@ -169,7 +134,7 @@ export default function Footer({ FooterInfo }) {
 
                 <li>
                   <a href="/calchamber.html" target="_blank" rel="nofollow" title="Calchamber Member">
-                    <Image
+                    <img
                       src={`${publicRuntimeConfig.rootPath}/images/calchamber_Member.jpg`}
                       alt="Calchamber Member"
                       width={156}
@@ -177,17 +142,9 @@ export default function Footer({ FooterInfo }) {
                     />
                   </a>
                 </li>
-                {/*  <li>
-                  <a href="/calchamber.html" target="_blank" rel="nofollow"><span
-                    title="Calchamber Member"
-                    name="Calchamber Member"
-                    className="common_sprite calchamber_Member"
-                    style={{ verticalAlign: "middle" }}
-                  ></span></a>
-                </li> */}
                 <li>
                   <a href="/state-bar-california-certificate-registration.html" target="_blank" rel="nofollow" title="Calbar Registered">
-                    <Image
+                    <img
                       src={`${publicRuntimeConfig.rootPath}/images/calbar.jpg`}
                       alt="Calbar Registered"
                       width={93}
@@ -195,20 +152,9 @@ export default function Footer({ FooterInfo }) {
                     />
                   </a>
                 </li>
-                {/* <li> 
-                  <a href="/state-bar-california-certificate-registration.html" target="_blank" rel="nofollow">
-                    <span
-                      title="Calbar Registered"
-                      name="Calbar Registered"
-                      className="common_sprite calbar"
-                      style={{ verticalAlign: "middle" }}
-                    ></span>
-                  </a>
-                </li> */}
-
                 <li>
                   <a href="https://www.dnb.com/business-directory/company-profiles.oak_view_law_group_a_professional_corporation.f8da0516c769b409cc43433c0beed5b2.html" target="_blank" rel="nofollow" title="D&B">
-                    <Image
+                    <img
                       src={`${publicRuntimeConfig.rootPath}/images/DandB.jpg`}
                       alt="D&B"
                       width={184}
@@ -216,19 +162,9 @@ export default function Footer({ FooterInfo }) {
                     />
                   </a>
                 </li>
-                {/* <li>
-                  <a target="_blank" href="https://www.dnb.com/business-directory/company-profiles.oak_view_law_group_a_professional_corporation.f8da0516c769b409cc43433c0beed5b2.html" rel="nofollow">
-                    <span
-                      title="D&B"
-                      name="D&B"
-                      className="common_sprite DandB"
-                      style={{ verticalAlign: "middle" }}
-                    ></span>
-                  </a>
-                </li>*/}
                 <li>
                   <a href="https://seal.godaddy.com/verifySeal?sealID=soavTJ602i4zePU9VC0bdypC9PUhYG8SMgjj60novyzjcaPxLs" target="_blank" rel="nofollow" title="Godaddy">
-                    <Image
+                    <img
                       src={`${publicRuntimeConfig.rootPath}/images/go_daddy.jpg`}
                       alt="Godaddy"
                       width={153}
@@ -236,19 +172,10 @@ export default function Footer({ FooterInfo }) {
                     />
                   </a>
                 </li>
-
-                {/* <li>
-                  <a
-                    title="Godaddy"
-                    name="Godaddy"
-                    href="https://seal.godaddy.com/verifySeal?sealID=soavTJ602i4zePU9VC0bdypC9PUhYG8SMgjj60novyzjcaPxLs" rel="nofollow" className="go_daddy common_sprite"
-                    style={{ verticalAlign: "middle" }}
-                  ></a>
-                </li>*/}
                 <li>
                   <a title="yelp" target="_blank" href="https://www.yelp.com/biz/oak-view-law-group-los-altos-2" rel="nofollow">
                     {/* <img src={`${publicRuntimeConfig.rootPath}/images/yelp-logo.png`} alt="yelp logo" /> */}
-                    <Image
+                    <img
                       src={`${publicRuntimeConfig.rootPath}/images/yelp-logo.png`}
                       alt="yelp logo"
                       width={128}
@@ -273,7 +200,7 @@ export default function Footer({ FooterInfo }) {
                   {/* <img src="https://www.ovlg.com/sites/all/themes/ovlg_bootstrap/ovlg/images/logo-white.png" alt="ovlg brand logo" className="img-responsive white-logo-footer mar-t-20 pad-t-10" /> */}
                   {/* <img src={`${publicRuntimeConfig.rootPath}/images/logo-white_252x47.png`} alt="ovlg brand logo" className="img-responsive white-logo-footer mar-t-20 pad-t-10" /> */}
                   <div className=" white-logo-footer mt-3 pt-2">
-                    <Image
+                    <img
                       src={`${publicRuntimeConfig.rootPath}/images/logo-white_252x47.png`}
                       alt="ovlg brand logo"
                       className="img-responsive"

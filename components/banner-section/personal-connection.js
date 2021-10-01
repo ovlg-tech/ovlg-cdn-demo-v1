@@ -1,4 +1,4 @@
-import Image from 'next/image'
+//import Image from 'next/image'
 import getConfig from 'next/config'
 const { publicRuntimeConfig } = getConfig()
 
@@ -36,7 +36,7 @@ export default function PersonalConnection({ BannerInfo }) {
 
                     {/* <Image alt="Attorney Lyle Solomon" src={`${publicRuntimeConfig.rootPath}/images/compressed-banner-image-lyle-solomon.webp`}
                         layout="fill" objectFit="cover" priority className="banner-lyle-image" /> */}
-                    <Image
+                    <img
                         loader={imgCdnLoader}
                         src="compressed-banner-image-lyle-solomon_v700VjgJP.webp"
                         alt="Attorney Lyle Solomon"

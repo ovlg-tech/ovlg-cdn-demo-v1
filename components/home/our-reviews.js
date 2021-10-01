@@ -1,4 +1,4 @@
-import Image from 'next/image'
+//import Image from 'next/image'
 import homeStyle from '../../styles/Homepage.module.css'
 
 export default function OurReviews() {
@@ -18,7 +18,7 @@ export default function OurReviews() {
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 src="https://i1.ytimg.com/vi/CNzMCfj6sAA/hqdefault.jpg"
               /> */}
-              <Image
+              <img
                 src="https://i1.ytimg.com/vi/CNzMCfj6sAA/hqdefault.jpg"
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 layout="responsive"
@@ -45,7 +45,7 @@ export default function OurReviews() {
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 src="https://i1.ytimg.com/vi/wgiUALcfF5M/hqdefault.jpg"
               /> */}
-              <Image
+              <img
                 src="https://i1.ytimg.com/vi/wgiUALcfF5M/hqdefault.jpg"
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 layout="responsive"
@@ -72,7 +72,7 @@ export default function OurReviews() {
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 src="https://i1.ytimg.com/vi/aYrtqaPrZMI/hqdefault.jpg"
               /> */}
-              <Image
+              <img
                 src="https://i1.ytimg.com/vi/aYrtqaPrZMI/hqdefault.jpg"
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 layout="responsive"
@@ -99,7 +99,7 @@ export default function OurReviews() {
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 src="https://i1.ytimg.com/vi/IyPSEkexbg0/hqdefault.jpg"
               /> */}
-              <Image
+              <img
                 src="https://i1.ytimg.com/vi/IyPSEkexbg0/hqdefault.jpg"
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 layout="responsive"
@@ -126,7 +126,7 @@ export default function OurReviews() {
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 src="https://i1.ytimg.com/vi/vWP0be_NwEE/hqdefault.jpg"
               /> */}
-              <Image
+              <img
                 src="https://i1.ytimg.com/vi/vWP0be_NwEE/hqdefault.jpg"
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 layout="responsive"
@@ -153,7 +153,7 @@ export default function OurReviews() {
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 src="https://i1.ytimg.com/vi/e_7DVaDwVrA/hqdefault.jpg"
               /> */}
-              <Image
+              <img
                 src="https://i1.ytimg.com/vi/e_7DVaDwVrA/hqdefault.jpg"
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 layout="responsive"
@@ -180,7 +180,7 @@ export default function OurReviews() {
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 src="https://i1.ytimg.com/vi/du9sK7XYAwY/hqdefault.jpg"
               /> */}
-              <Image
+              <img
                 src="https://i1.ytimg.com/vi/du9sK7XYAwY/hqdefault.jpg"
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 layout="responsive"
@@ -207,7 +207,7 @@ export default function OurReviews() {
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 src="https://i1.ytimg.com/vi/cWSbEilyVDs/hqdefault.jpg"
               /> */}
-              <Image
+              <img
                 src="https://i1.ytimg.com/vi/cWSbEilyVDs/hqdefault.jpg"
                 className="img-fluid grayscale-to-normal center-block lazyloaded"
                 layout="responsive"
