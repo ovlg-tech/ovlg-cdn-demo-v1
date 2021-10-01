@@ -38,7 +38,7 @@ export default function PersonalConnection({ BannerInfo }) {
                         layout="fill" objectFit="cover" priority className="banner-lyle-image" /> */}
                     <img
                         loader={imgCdnLoader}
-                        src="compressed-banner-image-lyle-solomon_v700VjgJP.webp"
+                        src="https://ik.imagekit.io/bvdsyrew4be/compressed-banner-image-lyle-solomon_v700VjgJP.webp?w=3840&q=75"
                         alt="Attorney Lyle Solomon"
                         layout="fill" objectFit="cover" priority className="banner-lyle-image"
                     />
