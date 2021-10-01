@@ -2,6 +2,8 @@
 import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
 
+import Reviewsfn from "./fn_reviews"
+
 export default function PrincipalAttorneyLetter() {
   return (
     <div className="container">
@@ -56,7 +58,7 @@ export default function PrincipalAttorneyLetter() {
                     className="width100 ls-is-cached lazyloaded"
                     src="https://www.ovlg.com/sites/all/themes/ovlg_bootstrap/ovlg/images/solomon-interview-max.webp"
                   /> */}
-                  <img
+                  <img 
                     src={`${publicRuntimeConfig.rootPath}/images/solomon-interview-max.png`}
                     alt="Attorney youtube video thumbnail"
                     className="width100 ls-is-cached lazyloaded"
@@ -93,6 +95,7 @@ export default function PrincipalAttorneyLetter() {
             </div>
           </div>
         </div>
+        <Reviewsfn />
       </div>
     </div>
   );

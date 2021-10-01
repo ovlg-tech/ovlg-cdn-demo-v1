@@ -13,7 +13,9 @@ import WhyChooseUs from "../components/home/why-choose-us";
 import GetFreeCounseling from "../components/home/get-free-counseling";
 import OurReviews from "../components/home/our-reviews";
 import ConsumerLawPracticeAreas from "../components/home/consumer-law-practice-areas";
+
 export default function index({ FooterInfo }) {
+
   return (
     <>
       <Head>
@@ -41,6 +43,21 @@ export default function index({ FooterInfo }) {
         <link rel="canonical" href="https://www.ovlg.com/" />
         <link rel="icon" href={`${publicRuntimeConfig.rootPath}/favicon.ico`} />
         {/* <link rel="stylesheet" href={`${publicRuntimeConfig.rootPath}/css/home.css`} /> */}
+
+        {/* <!-- connect to domain of font files --> */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="true" />
+
+        {/* <!-- optionally increase loading priority --> */}
+        {/* <link rel="preload" as="style" href="(font CSS URL here)" /> */}
+
+        {/* <!-- async CSS --> */}
+        <link rel="stylesheet" id='DeliusFont' media="print" onLoad="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Delius&display=swap" />
+
+
+        {/* <!-- no-JS fallback --> */}
+        <noscript>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Delius&display=swap" />
+        </noscript>
       </Head>
 
       <Header></Header>
@@ -74,25 +91,26 @@ export default function index({ FooterInfo }) {
         </div>
       </div>
       <Footer FooterInfo={FooterInfo}></Footer>
-      <script
+      {/* <script
         defer="defer"
         src={`${publicRuntimeConfig.rootPath}/js/user_signup.js`}
-      ></script>
-      <script
+      ></script> */}
+      {/* <script
         defer="defer"
         src={`${publicRuntimeConfig.rootPath}/js/reviews.js`}
-      ></script>
-       <script
+      ></script> */}
+      <script
         defer="defer"
         src={`${publicRuntimeConfig.rootPath}/js/lazy.js`}
       ></script>
+
     </>
   );
 }
 export const getStaticProps = async () => {
   return {
     props: {
-      FooterInfo: { excludeJs: ['global'] }
+      FooterInfo: { excludeJs: ['jquery', 'global'] }
     }
   }
 }
