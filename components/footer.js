@@ -58,19 +58,21 @@ export default function Footer({ FooterInfo }) {
                 <li>
                   <a href="https://www.expertise.com/ca/sacramento/bankruptcy-attorney" rel="nofollow">
                     <img
-                      src={`${publicRuntimeConfig.rootPath}/images/expertise-badge.webp`}
+                      data-src={`${publicRuntimeConfig.rootPath}/images/expertise-badge.webp`}
                       alt="expertise badge"
                       width={125}
                       height={100}
+                      className="lazy"
                     />
                   </a>
                 </li>
                 <li>
                   <a href="https://botw.org/listing/oakview-law-group/" target="_blank" style={{ cursor: 'pointer' }} id="footer_trust_badge" rel="nofollow">
                     <img
-                      src="https://s3.amazonaws.com/botwcdn.org/trustbadges/badge-templates/green/130x49-8.png"
+                      data-src="https://s3.amazonaws.com/botwcdn.org/trustbadges/badge-templates/green/130x49-8.png"
                       alt="This site is verified as a Trusted Site by Best of the Web"
                       useMap="#Map"
+                      className="lazy"
                     />
                   </a>
                 </li>
@@ -149,10 +151,11 @@ export default function Footer({ FooterInfo }) {
                 <li>
                   <a href="/state-bar-california-certificate-registration.html" target="_blank" rel="nofollow" title="Calbar Registered">
                     <img
-                      src={`${publicRuntimeConfig.rootPath}/images/calbar.jpg`}
+                      data-src={`${publicRuntimeConfig.rootPath}/images/calbar.jpg`}
                       alt="Calbar Registered"
                       width={93}
                       height={44}
+                      className="lazy"
                     />
                   </a>
                 </li>
