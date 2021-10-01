@@ -9,18 +9,6 @@ const logoCdnLoader = ({ src, width, quality }) => {
 export default function Header() {
     return (
         <header className="fixedHeader" >
-
-            <script type="text/javascript" defer src="https://www.ovlg.com/sites/all/themes/ovlg_bootstrap/ovlg/js/google_analytics.js"></script>
-            {process.env.prod &&
-                <script dangerouslySetInnerHTML={{
-                    __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-3474577-1'); `,
-                }} />
-            }
-
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12 col-xl-10 offset-xl-1">
@@ -35,18 +23,6 @@ export default function Header() {
                                         height={55}
                                         priority
                                     />
-
-                                    {/* <Image
-                                        loader={logoCdnLoader}
-                                        src="ovlg-logo_0C5iTaB29j.png"
-                                        alt="OVLG logo"
-                                        className="logo img-responsive"
-                                        width={293}
-                                        height={55}
-                                        priority
-                                    /> */}
-
-                                    
                                    </a>
                             </div>
 
@@ -95,7 +71,5 @@ export default function Header() {
                 </div>
             </div>
         </header>
-
-
     )
 }
