@@ -11,7 +11,7 @@ export default function GetFreeCounseling() {
       <div className={`${homeStyle['counseling-main-bg']}`}>
         <div className={`${homeStyle['counseling-image-bg']}`}>
           <img 
-            src={`${publicRuntimeConfig.rootPath}/images/ovlg-service-banner.jpg`}
+            src={`${publicRuntimeConfig.rootPath}/images/ovlg-service-banner.webp`}
             alt="Attorney Lyle Solomon" layout="fill" objectFit="cover" className="banner-lyle-image" />
         </div>
 

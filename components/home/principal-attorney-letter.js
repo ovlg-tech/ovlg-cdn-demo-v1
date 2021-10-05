@@ -74,7 +74,7 @@ export default function PrincipalAttorneyLetter() {
                     :
                     <>
                       <img
-                        src={`${publicRuntimeConfig.rootPath}/images/solomon-interview-max.png`}
+                        src={`${publicRuntimeConfig.rootPath}/images/solomon-interview-max.webp`}
                         alt="Attorney youtube video thumbnail"
                         className="width100 ls-is-cached lazyloaded"
                         layout="responsive"
