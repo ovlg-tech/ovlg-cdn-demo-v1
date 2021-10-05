@@ -22,7 +22,7 @@ export default function HomeBanner() {
 
                                 <img 
                                     loader={bannerImgCdnLoader}
-                                    src='https://ik.imagekit.io/800530ovlg/banner-images//ovlg-hero-banner-lyle-684x680_XHppjdrVTHG.webp'
+                                    src='https://ik.imagekit.io/800530ovlg/banner-images/ovlg-hero-banner-lyle-684x680_XHppjdrVTHG.webp'
                                     alt="Attorney Lyle Solomon" layout='fill' objectFit='cover' priority className={`${homeStyle['lyle-img']}`} />
                                 {/* <img 
                                     src={`${publicRuntimeConfig.rootPath}/images/ovlg-hero-banner-lyle-big.jpg`}
