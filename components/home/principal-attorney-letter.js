@@ -1,10 +1,30 @@
+import React, { useState } from 'react';
 //import Image from 'next/image'
 import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
 
-import Reviewsfn from "./fn_reviews"
+// import Reviewsfn from "./fn_reviews";
+import YouTube from "react-youtube";
 
 export default function PrincipalAttorneyLetter() {
+  const [showVid, setShowVid] = useState(false);
+  const opts = {
+    // height: '390',
+    // width: '640',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1,
+      rel: 0
+    },
+  };
+  const ytOnReady = (event) => {
+    // access to player in all event handlers via event.target
+    // event.target.playVideo();
+  }
+  const loadYoutubeVideo = () => {
+    setShowVid(true)
+  }
+
   return (
     <div className="container">
       <div className="row my-5">
@@ -14,10 +34,9 @@ export default function PrincipalAttorneyLetter() {
         <div className="col-lg-6 col-sm-12">
           <div style={{ fontFamily: "'Delius', cursive", fontSize: "19px" }}>
             <p>
-              My name is Lyle Solomon. I have worked with law firms in
-              California, Nevada, and Arizona since 1991.
+              My name is Lyle Solomon. I have worked with people like you since 1991.
             </p>
-            <p>I have helped people like you to:</p>
+            <p>I have helped:</p>
             <div>
               - Reduce monthly payments
               <br />- Waive late fees
@@ -46,27 +65,26 @@ export default function PrincipalAttorneyLetter() {
           <div className="tab-design-vertical">
             <div
               className="embed-responsive embed-responsive-16by9 video"
-              onClick={(e) => loadYoutubeVideoThroughYTApi(e.target.offsetParent)}
-              data-src-id="vid_interview_attorney"
-              data-yut-var="iANWSQtx-ZQ"
+              onClick={loadYoutubeVideo}
             >
               <div className="yt_iframe_img">
                 <div id="vid_interview_attorney">
-                  {/* <img
-                    data-src="https://www.ovlg.com/sites/all/themes/ovlg_bootstrap/ovlg/images/solomon-interview-max.webp"
-                    alt="Attorney youtube video thumbnail"
-                    className="width100 ls-is-cached lazyloaded"
-                    src="https://www.ovlg.com/sites/all/themes/ovlg_bootstrap/ovlg/images/solomon-interview-max.webp"
-                  /> */}
-                  <img 
-                    src={`${publicRuntimeConfig.rootPath}/images/solomon-interview-max.png`}
-                    alt="Attorney youtube video thumbnail"
-                    className="width100 ls-is-cached lazyloaded"
-                    layout="responsive"
-                    width={448}
-                    height={252}
-                  />
-                  <i className="fa fa-youtube-play" aria-hidden="true" style={{ boxShadow: 'none' }}></i>
+                  {showVid ?
+                    <YouTube videoId="iANWSQtx-ZQ" opts={opts} onReady={ytOnReady} />
+                    :
+                    <>
+                      <img
+                        src={`${publicRuntimeConfig.rootPath}/images/solomon-interview-max.png`}
+                        alt="Attorney youtube video thumbnail"
+                        className="width100 ls-is-cached lazyloaded"
+                        layout="responsive"
+                        width={448}
+                        height={252}
+                      />
+                      <i className="fa fa-youtube-play" aria-hidden="true" style={{ boxShadow: 'none' }}></i>
+                    </>
+
+                  }
                 </div>
               </div>
               <div className="meta-itemprop">
@@ -94,8 +112,8 @@ export default function PrincipalAttorneyLetter() {
               </div>
             </div>
           </div>
+
         </div>
-        <Reviewsfn />
       </div>
     </div>
   );

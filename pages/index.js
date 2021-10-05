@@ -103,7 +103,6 @@ export default function index({ FooterInfo }) {
         defer="defer"
         src={`${publicRuntimeConfig.rootPath}/js/lazy.js`}
       ></script>
-
     </>
   );
 }
