@@ -7,7 +7,7 @@ import '../public/css/font-awesome-custom-4.7.css'
 import '../styles/globals.css'
 //import '../styles/practices.css'
 //import '../public/css/education.css'
-import '../public/css/misc.css'
+//import '../public/css/misc.css'
 //import '../styles/reviews.css'
 //import '../public/css/trusts.css'
 
