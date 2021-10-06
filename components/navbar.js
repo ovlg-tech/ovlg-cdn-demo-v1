@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react'
 //import Image from 'next/image'
 import getConfig from 'next/config'
 const { publicRuntimeConfig } = getConfig()
-import dynamic from 'next/dynamic'
-
+//import dynamic from 'next/dynamic'
+/*
 const Bootstrap = dynamic(
     () => import('../node_modules/bootstrap'),
     { ssr: false }
-)
+)*/
 
 export default function NavBar() {
     const [error, setError] = useState(null);
