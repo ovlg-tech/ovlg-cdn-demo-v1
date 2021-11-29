@@ -1,0 +1,167 @@
+<div data-layout="calculator-layout" data-title="Debt Payoff Calculator: Find how to payoff debt and save money"
+    data-breadcrumb="Debt Payoff Calculator" data-content-file="debt-payoff">
+    <div class="sample-calculator-container">
+
+        <div id='intro_text'>
+
+        </div>
+        <p class="fs-3 pt-3" id="details_you_need_to_give">Details you need to give in to the calculator to
+            find the right debt payoff method.</p>
+        <div class="container-fluid">
+            <div class="calculator_steps row">
+                <button id="First_Step" class="active col-4"><span></span> Step 1</button>
+                <button id="Second_Step" class="col-4" disabled="disabled"><span></span> Step 2</button>
+                <button id="Third_Step" class="col-4" disabled="disabled"><span></span> Step 3</button>
+            </div>
+            <div id="FirstStep" style="display:block;padding: 25px 0;background: #e8e2d6;" class="row">
+                <div class="col-md-12 pt-3">
+                    <form id="debtPayOffCalculator" method="post" onsubmit="return debtPayOffCalculator();">
+
+                        <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-sm-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">$</span>
+                                <input type="text" name="totalDebtAmount" id="TotalDebt" class="form-control" value=""
+                                    placeholder="What is your total debt amount?">
+                                <span class="input-group-text">.00</span>
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">$</span>
+                                <input type="text" placeholder="How much can you pay every month? "
+                                    name="monthlyPayment" id="totalMonthlyPayment" class="form-control" value="">
+                                <span class="input-group-text">.00</span>
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <input type="submit" value="Calculate" name="Calculate" class="btn btn-success btn-lg"
+                                    id="check_how_much_save">
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <div id="SecondStep" style="display:none;background: #e8e2d6;" class="row">
+
+                <div id="getData" class="col-md-10">
+                </div>
+                <div class="col-md-12 py-3">
+                    <a href="https://www.ovlg.com/free-consultation">
+                        <button class="btn btn-success btn-lg" style="white-space: normal;">Consult Atty. Solomon's
+                            Assistant <i class="bi bi-chevron-right"></i></button>
+                    </a>
+                </div>
+                <div class="col-md-12 py-3">
+                    <button id="backbutton" style="display:none;" class="btn btn-primary"><i
+                            class="bi bi-chevron-left"></i> Back</button>
+                </div>
+            </div>
+            <div id="ThirdStep" style="display:none" ;>
+                <div id="thirdstepData"></div>
+            </div>
+
+
+            <h2>Q: Why should you use this calculator?</h2>
+            <p>The debt payoff calculator (also known as the bill payoff calculator) shows you the right strategy to
+                repay debt and save money. It offers results based on real figures. So you can easily calculate how much
+                you can save and when you can expect to become debt-free.</p>
+            <p>When used properly, the free online debt payoff calculator can help you to:</p>
+            <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle fs-3"></i> Determine when you
+                    can become debt-free</li>
+                <li><i class="bi bi-check-circle fs-3"></i> Calculate how much
+                    you can expect to save with DIY debt settlement</li>
+                <li><i class="bi bi-check-circle fs-3"></i> Understand how much
+                    you can save with a debt settlement program</li>
+                <li><i class="bi bi-check-circle fs-3"></i> Choose the right
+                    strategy to become debt-free</li>
+            </ul>
+
+
+            <h2>Q: How does the debt repayment calculator work?</h2>
+            <p>The calculator works in 3 simple steps.</p>
+            <p>
+                <strong>Step 1: Enter the correct values</strong><br />
+                Enter your total debt amount and how much you can pay every month.<br />
+                Once done, click on the 'calculate' button.
+            </p>
+            <p>
+                <strong>Step 2: View Report</strong><br />
+                The debt payoff calculator (also known as the bill payoff calculator) will show:
+            </p>
+            <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle fs-3"></i> How much you can save when you settle debts yourself</li>
+                <li><i class="bi bi-check-circle fs-3"></i> Your total savings when attorneys help to settle your debt
+                </li>
+                <li><i class="bi bi-check-circle fs-3"></i> When you will be debt-free</li>
+            </ul>
+            <p>
+                <strong>Step 3: Consult Lyle Solomon</strong><br />
+                In the third step, you can request a free consultation to become debt-free.
+            </p>
+
+            <h2>Q: When should you use a debt payoff calculator?</h2>
+            <p>The best time to use a debt reduction calculator is when:</p>
+            <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle fs-3"></i> You can’t make minimum monthly payments on credit cards,
+                    personal loans, utility bills, etc.</li>
+                <li><i class="bi bi-check-circle fs-3"></i> You want to find the right strategy to reduce credit card
+                    balances.</li>
+                <li><i class="bi bi-check-circle fs-3"></i> You want to know how much time and money you can save on
+                    credit card debt with the right strategy.
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<style>
+    .el-line-200 {
+        line-height: 200%
+    }
+
+    .el-mar-10 {
+        margin-top: 10px
+    }
+
+    .calculator_steps button.active {
+        border-bottom: 5px solid #4a1500
+    }
+
+    .calculator_steps button {
+        border: none;
+        background: 0 0;
+        color: #0c414b;
+        padding: 10px;
+        border-bottom: none
+    }
+
+    .calculator_steps button.active span {
+        background: #4a1500;
+        border: 1px solid #fff
+    }
+
+    .calculator_steps button span {
+        height: 15px;
+        width: 15px;
+        background: #ddd;
+        margin: auto;
+        display: table;
+        border: 1px solid #fff;
+        border-radius: 50%
+    }
+
+    .calculator_steps button[disabled=disabled] {
+        opacity: .6
+    }
+
+    .inactiveLink {
+        pointer-events: none;
+        cursor: default
+    }
+
+    .colr-green {
+        color: #099
+    }
+</style>

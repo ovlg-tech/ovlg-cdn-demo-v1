@@ -1,235 +1,146 @@
-//import Image from 'next/image'
-import homeStyle from '../../styles/Homepage.module.css'
 
+
+import Image from 'next/image'
+import getConfig from 'next/config'
+const { publicRuntimeConfig } = getConfig()
+import homeStyle from '../../styles/Homepage.module.css'
 export default function OurReviews() {
-  return (
-    <section className="container mar-b-20">
-      <h2 className="text-center">Our reviews</h2>
-      <div className="row">
-        <div className="col-12 col-sm-6 col-lg-3" itemProp="name">
-          <div className={`${homeStyle["homepageServiceBox"]}`}>
-            <a
-              href="http://www.ovlg.com/reviews/AC3.html"
-              className="text-center"
-            >
-              {/* <img
-                data-src="https://i1.ytimg.com/vi/CNzMCfj6sAA/hqdefault.jpg"
-                alt=""
-                className="img-fluid grayscale-to-normal center-block lazyloaded"
-                src="https://i1.ytimg.com/vi/CNzMCfj6sAA/hqdefault.jpg"
-              /> */}
-              <img 
-                data-src="https://i1.ytimg.com/vi/CNzMCfj6sAA/hqdefault.jpg"
-                className="lazy img-fluid grayscale-to-normal center-block lazyloaded"
-                layout="responsive"
-                width={208}
-                height={156}
-              />
-              <div className="header-h4 colr-brown text-center">
-                AC3 from NJ
-                <br />
-                saved $47,629
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="col-12 col-sm-6 col-lg-3" itemProp="name">
-          <div className={`${homeStyle["homepageServiceBox"]}`}>
-            <a
-              href="https://www.ovlg.com/reviews/TE.html"
-              className="text-center"
-            >
-              {/* <img
-                data-src="https://i1.ytimg.com/vi/wgiUALcfF5M/hqdefault.jpg"
-                alt=""
-                className="img-fluid grayscale-to-normal center-block lazyloaded"
-                src="https://i1.ytimg.com/vi/wgiUALcfF5M/hqdefault.jpg"
-              /> */}
-              <img 
-                data-src="https://i1.ytimg.com/vi/wgiUALcfF5M/hqdefault.jpg"
-                className="lazy img-fluid grayscale-to-normal center-block lazyloaded"
-                layout="responsive"
-                width={208}
-                height={156}
-              />
-              <div className="header-h4 colr-brown text-center">
-                TE from TX
-                <br />
-                saved $13,105
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="col-12 col-sm-6 col-lg-3" itemProp="name">
-          <div className={`${homeStyle["homepageServiceBox"]}`}>
-            <a
-              href="http://www.ovlg.com/reviews/DR2.html"
-              className="text-center"
-            >
-              {/* <img
-                data-src="https://i1.ytimg.com/vi/aYrtqaPrZMI/hqdefault.jpg"
-                alt=""
-                className="img-fluid grayscale-to-normal center-block lazyloaded"
-                src="https://i1.ytimg.com/vi/aYrtqaPrZMI/hqdefault.jpg"
-              /> */}
-              <img 
-                data-src="https://i1.ytimg.com/vi/aYrtqaPrZMI/hqdefault.jpg"
-                className="lazy img-fluid grayscale-to-normal center-block lazyloaded"
-                layout="responsive"
-                width={208}
-                height={156}
-              />
-              <div className="header-h4 colr-brown text-center">
-                DR2 from IL
-                <br />
-                saved $31,420
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="col-12 col-sm-6 col-lg-3" itemProp="name">
-          <div className={`${homeStyle["homepageServiceBox"]}`}>
-            <a
-              href="http://www.ovlg.com/reviews/RC.html"
-              className="text-center"
-            >
-              {/* <img
-                data-src="https://i1.ytimg.com/vi/IyPSEkexbg0/hqdefault.jpg"
-                alt=""
-                className="img-fluid grayscale-to-normal center-block lazyloaded"
-                src="https://i1.ytimg.com/vi/IyPSEkexbg0/hqdefault.jpg"
-              /> */}
-              <img 
-                data-src="https://i1.ytimg.com/vi/IyPSEkexbg0/hqdefault.jpg"
-                className="lazy img-fluid grayscale-to-normal center-block lazyloaded"
-                layout="responsive"
-                width={208}
-                height={156}
-              />
-              <div className="header-h4 colr-brown text-center">
-                RC from MI
-                <br />
-                saved $8,873
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="col-12 col-sm-6 col-lg-3" itemProp="name">
-          <div className={`${homeStyle["homepageServiceBox"]}`}>
-            <a
-              href="http://www.ovlg.com/reviews/KD.html"
-              className="text-center"
-            >
-              {/* <img
-                data-src="https://i1.ytimg.com/vi/vWP0be_NwEE/hqdefault.jpg"
-                alt=""
-                className="img-fluid grayscale-to-normal center-block lazyloaded"
-                src="https://i1.ytimg.com/vi/vWP0be_NwEE/hqdefault.jpg"
-              /> */}
-              <img 
-                data-src="https://i1.ytimg.com/vi/vWP0be_NwEE/hqdefault.jpg"
-                className="lazy img-fluid grayscale-to-normal center-block lazyloaded"
-                layout="responsive"
-                width={208}
-                height={156}
-              />
-              <div className="header-h4 colr-brown text-center">
-                KD from RI
-                <br />
-                saved $7,645
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="col-12 col-sm-6 col-lg-3" itemProp="name">
-          <div className={`${homeStyle["homepageServiceBox"]}`}>
-            <a
-              href="http://www.ovlg.com/reviews/BM.html"
-              className="text-center"
-            >
-              {/* <img
-                data-src="https://i1.ytimg.com/vi/e_7DVaDwVrA/hqdefault.jpg"
-                alt=""
-                className="img-fluid grayscale-to-normal center-block lazyloaded"
-                src="https://i1.ytimg.com/vi/e_7DVaDwVrA/hqdefault.jpg"
-              /> */}
-              <img 
-                data-src="https://i1.ytimg.com/vi/e_7DVaDwVrA/hqdefault.jpg"
-                className="lazy img-fluid grayscale-to-normal center-block lazyloaded"
-                layout="responsive"
-                width={208}
-                height={156}
-              />
-              <div className="header-h4 colr-brown text-center">
-                BM from NJ
-                <br />
-                saved $12,708
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="col-12 col-sm-6 col-lg-3" itemProp="name">
-          <div className={`${homeStyle["homepageServiceBox"]}`}>
-            <a
-              href="http://www.ovlg.com/reviews/SR3.html"
-              className="text-center"
-            >
-              {/* <img
-                data-src="https://i1.ytimg.com/vi/du9sK7XYAwY/hqdefault.jpg"
-                alt=""
-                className="img-fluid grayscale-to-normal center-block lazyloaded"
-                src="https://i1.ytimg.com/vi/du9sK7XYAwY/hqdefault.jpg"
-              /> */}
-              <img 
-                data-src="https://i1.ytimg.com/vi/du9sK7XYAwY/hqdefault.jpg"
-                className="lazy img-fluid grayscale-to-normal center-block lazyloaded"
-                layout="responsive"
-                width={208}
-                height={156}
-              />
-              <div className="header-h4 colr-brown text-center">
-                SR3 from MA
-                <br />
-                saved $22,242.37
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="col-12 col-sm-6 col-lg-3" itemProp="name">
-          <div className={`${homeStyle["homepageServiceBox"]}`}>
-            <a
-              href="http://www.ovlg.com/reviews/JC3.html"
-              className="text-center"
-            >
-              {/* <img
-                data-src="https://i1.ytimg.com/vi/cWSbEilyVDs/hqdefault.jpg"
-                alt=""
-                className="img-fluid grayscale-to-normal center-block lazyloaded"
-                src="https://i1.ytimg.com/vi/cWSbEilyVDs/hqdefault.jpg"
-              /> */}
-              <img 
-                data-src="https://i1.ytimg.com/vi/cWSbEilyVDs/hqdefault.jpg"
-                className="lazy img-fluid grayscale-to-normal center-block lazyloaded"
-                layout="responsive"
-                width={208}
-                height={156}
-              />
-              <div className="header-h4 colr-brown text-center">
-                JC3 from IL
-                <br />
-                saved $10,292.30
-              </div>
-            </a>
-          </div>
-        </div>
+return (
+<>
+<section className="d-none d-md-block">
+   <h2 className="text-center">Our reviews</h2>
+   <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div className="carousel-indicators">
+         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"><i class="bi bi-chevron-right"></i></button>    
       </div>
-      <div className="row mt-3 mb-5">
-        <div className="col-sm-12 text-center">
-          <a href="/reviews" className="btn btn-lg btn-warning">
-            See More Reviews
-          </a>
-        </div>
+      <div className="carousel-inner container">
+         <div className="carousel-item active" data-bs-interval="10000">
+            <div className="d-flex align-self-stretch justify-content-between">
+               <aside className="col-md-6 card rounded-0 p-5">
+                  <div className="d-flex">
+                     <div className=""><img src="/next/images/Julie-A.jpg" al="OVLG client Julie A." /></div>
+                     <div className="ps-2">
+                        <div><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <div><b>Julie A.</b></div>
+                     </div>
+                  </div>
+                  <p>Sean and the Oak View Law Group have been absolutely fantastic in helping me with my settlement. I am very pleased with their professionalism and the outcome of their diligent work. I highly recommend Sean and the team for your financial legal needs. Much appreciated!</p>
+                  <div><img src="https://www.ovlg.com/images/yelp-logo_60x30.png" alt="Yelp logo" /></div>
+               </aside>
+               <aside className="col-md-6 card rounded-0 p-5">
+                  <div className="d-flex">
+                     <div className=""><img src="/next/images/Cheritta-Stewart.jpg" al="OVLG client Cheritta Stewart" /></div>
+                     <div className="ps-2">
+                        <div><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <div><b>Cheritta Stewart</b></div>
+                     </div>
+                  </div>
+                  <p>I learned about Oakview Law group after I had gotten in over my head with pay day loans (don't ever take out payday loans). I contacted them twice before I signed up . Each time the staff was pleasant and helpful. I Once I did sign up  I was assigned to my account manager Sheldon Anderson.  
+                     <span className="collapse" id="collapseExample"> Sheldon is a great client representative that is responsive and detail oriented.  Sheldon was able to answer any questions that I had upon initial sign up and for the duration of my account.</span>
+                     <span className="text-primary cursor-pointer" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> Read full review</span>
+                  </p>
+                  <div><img src="https://www.ovlg.com/images/Google_2015_logo_60x20.png" alt="Google logo" /></div>
+               </aside>
+            </div>
+         </div>
+         <div className="carousel-item" data-bs-interval="10000">
+            <div className="d-flex align-self-stretch justify-content-between flex-wrap">
+               <aside className="col-sm-12 col-md-6 card rounded-0 p-5">
+                  <div className="d-flex">
+                     <div className=""><img src="/next/images/Danielle-F.jpg" al="OVLG client anielle F." /></div>
+                     <div className="ps-2">
+                        <div><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <div><b>Danielle F.</b></div>
+                     </div>
+                  </div>
+                  <p>I just finished their program last month. I am happy even though my credit score got messed up, OVLG was upfront that it would happen. I am working hard to restore my credit score and VOWED never to allow myself to get back into this situation ever again. Thanks, OVLG for helping me get out of a bad situation.</p>
+                  <div><img src="https://www.ovlg.com/images/yelp-logo_60x30.png" alt="Yelp logo" /></div>
+               </aside>
+               <aside className="col-sm-12 col-md-6 card rounded-0 p-5">
+                  <div className="d-flex">
+                     <div className=""><img src="/next/images/Fabiola-Gutierrez.jpg" alt="OVLG client Fabiola Gutierrez"/></div>
+                     <div className="ps-2">
+                        <div><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <div><b>Fabiola Gutierrez</b></div>
+                     </div>
+                  </div>
+                  <p>I would definitely recommend OVLG they are very helpful, responding, and they always resolve your problems. A big Thank you to Michael Day he always respond to all my emails very professionally, I couldn’t be more happier to have had him help me get thru this. Thank you s much .</p>
+                  <div><img src="https://www.ovlg.com/images/Google_2015_logo_60x20.png" alt="Google logo" /></div>
+               </aside>
+            </div>
+         </div>
       </div>
-    </section>
-  );
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Previous</span>
+      </button>
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Next</span>
+      </button>
+   </div>
+</section>
+<section className="d-block d-md-none">
+   <h2 className="text-center">Our reviews</h2>
+   <aside className="col-md-6 card rounded-0 p-4">
+      <div className="d-flex">
+         <div className=""><img src="/next/images/Julie-A.jpg" al="OVLG client Julie A." /></div>
+         <div className="ps-2">
+            <div><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <div><b>Julie A.</b></div>
+         </div>
+      </div>
+      <p>Sean and the Oak View Law Group have been absolutely fantastic in helping me with my settlement. I am very pleased with their professionalism and the outcome of their diligent work. I highly recommend Sean and the team for your financial legal needs. Much appreciated!</p>
+      <div><img src="https://www.ovlg.com/images/yelp-logo_60x30.png" alt="Yelp logo" /></div>
+   </aside>
+   <aside className="col-md-6 card rounded-0 p-4">
+      <div className="d-flex">
+         <div className=""><img src="/next/images/Cheritta-Stewart.jpg" al="OVLG client Cheritta Stewart" /></div>
+         <div className="ps-2">
+            <div><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <div><b>Cheritta Stewart</b></div>
+         </div>
+      </div>
+      <p>I learned about Oakview Law group after I had gotten in over my head with pay day loans (don't ever take out payday loans). I contacted them twice before I signed up . Each time the staff was pleasant and helpful. I Once I did sign up  I was assigned to my account manager Sheldon Anderson.  
+         <span className="collapse" id="collapseExample"> Sheldon is a great client representative that is responsive and detail oriented.  Sheldon was able to answer any questions that I had upon initial sign up and for the duration of my account.</span>
+         <span className="text-primary cursor-pointer" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> Read full review</span>
+      </p>
+      <div><img src="https://www.ovlg.com/images/Google_2015_logo_60x20.png" alt="Google logo" /></div>
+   </aside>
+   <aside className="col-sm-12 col-md-6 card rounded-0 p-4">
+      <div className="d-flex">
+         <div className=""><img src="/next/images/Danielle-F.jpg" al="OVLG client anielle F." /></div>
+         <div className="ps-2">
+            <div><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <div><b>Danielle F.</b></div>
+         </div>
+      </div>
+      <p>I just finished their program last month. I am happy even though my credit score got messed up, OVLG was upfront that it would happen. I am working hard to restore my credit score and VOWED never to allow myself to get back into this situation ever again. Thanks, OVLG for helping me get out of a bad situation.</p>
+      <div><img src="https://www.ovlg.com/images/yelp-logo_60x30.png" alt="Yelp logo" /></div>
+   </aside>
+   <aside className="col-sm-12 col-md-6 card rounded-0 p-4">
+      <div className="d-flex">
+         <div className=""><img src="/next/images/Fabiola-Gutierrez.jpg" alt="OVLG client Fabiola Gutierrez"/></div>
+         <div className="ps-2">
+            <div><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning pe-1"></i><i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <div><b>Fabiola Gutierrez</b></div>
+         </div>
+      </div>
+      <p>I would definitely recommend OVLG they are very helpful, responding, and they always resolve your problems. A big Thank you to Michael Day he always respond to all my emails very professionally, I couldn’t be more happier to have had him help me get thru this. Thank you s much .</p>
+      <div><img src="https://www.ovlg.com/images/Google_2015_logo_60x20.png" alt="Google logo" /></div>
+   </aside>
+</section>
+
+</>
+);
 }
+

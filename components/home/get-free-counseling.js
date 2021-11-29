@@ -1,5 +1,5 @@
 import homeStyle from '../../styles/Homepage.module.css'
-//import Image from 'next/image'
+import Image from 'next/image'
 import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
 import SignupForm from './signupForm';
@@ -10,8 +10,8 @@ export default function GetFreeCounseling() {
     <section className="row">
       <div className={`${homeStyle['counseling-main-bg']}`}>
         <div className={`${homeStyle['counseling-image-bg']}`}>
-          <img 
-            src={`${publicRuntimeConfig.rootPath}/images/ovlg-service-banner.webp`}
+          <Image
+            src={`${publicRuntimeConfig.rootPath}/images/ovlg-service-banner.jpg`}
             alt="Attorney Lyle Solomon" layout="fill" objectFit="cover" className="banner-lyle-image" />
         </div>
 

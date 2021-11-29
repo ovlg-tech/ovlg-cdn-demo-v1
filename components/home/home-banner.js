@@ -1,4 +1,4 @@
-//import Image from 'next/image'
+import Image from 'next/image'
 import getConfig from 'next/config'
 const { publicRuntimeConfig } = getConfig()
 import homeStyle from '../../styles/Homepage.module.css'
@@ -18,13 +18,15 @@ export default function HomeBanner() {
                     <div className="col-12 col-md-6 col-lg-8 position-relative">
                         <div className={`col-12 ps-0  ${homeStyle['bnner-lyle-inner']}`} style={{ minHeight: '360px' }}>
 
-                            <div style={{ position: 'absolute', bottom: '-10px', left: '0', width: '426px', height: '110%' }}>
+                            <div className={`${homeStyle['home-atty-lyle']}`}>
 
-                                <img 
+                                <Image
                                     loader={bannerImgCdnLoader}
-                                    src='https://ik.imagekit.io/800530ovlg/banner-images/ovlg-hero-banner-lyle-684x680_XHppjdrVTHG.webp'
+                                    src="ovlg-hero-banner-lyle-684x680_XHppjdrVTHG.webp"
                                     alt="Attorney Lyle Solomon" layout='fill' objectFit='cover' priority className={`${homeStyle['lyle-img']}`} />
-                                {/* <img 
+
+
+                                {/* <Image 
                                     src={`${publicRuntimeConfig.rootPath}/images/ovlg-hero-banner-lyle-big.jpg`}
                                     alt="Attorney Lyle Solomon" layout='fill' objectFit='cover' priority className={`${homeStyle['lyle-img']}`} /> 
                                     // https://ik.imagekit.io/800530ovlg/banner-images/ovlg-hero-banner-lyle-big_lFv2j_h5ZNq.jpg?updatedAt=1633011751965
@@ -50,47 +52,51 @@ export default function HomeBanner() {
                             <h3 className="text-center pt-3">Our Attorneys</h3>
                             <div className="px-3">
                                 <div className="row">
-                                    {/* <img src={`${publicRuntimeConfig.rootPath}/images/attorney-images/picture-382250.webp`} className="col-3 pb-1 img-responsive" />
-                                <img src={`${publicRuntimeConfig.rootPath}/images/attorney-images/picture-382277.webp`} className="col-3 pb-1 img-responsive" />
-                                <img src={`${publicRuntimeConfig.rootPath}/images/attorney-images/picture-382251.webp`} className="col-3 pb-1 img-responsive" />
-                                <img src={`${publicRuntimeConfig.rootPath}/images/attorney-images/picture-404540.webp`} className="col-3 pb-1 img-responsive" /> */}
-                                    <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                        <img 
+                                <img src={`${publicRuntimeConfig.rootPath}/images/attorney-images/picture-382250.webp`} className="col-3 pb-1 img-responsive" style={{ aspectRatio: 84/101 }} />
+                                <img src={`${publicRuntimeConfig.rootPath}/images/attorney-images/picture-382277.webp`} className="col-3 pb-1 img-responsive" style={{ aspectRatio: 84/101 }} />
+                                <img src={`${publicRuntimeConfig.rootPath}/images/attorney-images/picture-382251.webp`} className="col-3 pb-1 img-responsive" style={{ aspectRatio: 84/101 }} />
+                                <img src={`${publicRuntimeConfig.rootPath}/images/attorney-images/picture-404540.webp`} className="col-3 pb-1 img-responsive" style={{ aspectRatio: 84/101 }} /> 
+                                    {/* <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
+                                        <Image
                                             loader={smallImgCdnLoader}
-                                            src={`${publicRuntimeConfig.attImgPathUrl}/picture-382250_I9quaZwWO.webp`}
+                                            src="picture-382250_I9quaZwWO.webp"
                                             className=""
                                             width={84}
                                             height={100}
+                                            alt="Attorney Ivan Raevski"
                                         />
                                     </div>
                                     <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                        <img 
+                                        <Image
                                             loader={smallImgCdnLoader}
-                                            src={`${publicRuntimeConfig.attImgPathUrl}/picture-382277_WP-Vo5qGSt.webp`}
+                                            src="picture-382277_WP-Vo5qGSt.webp"
                                             className=""
                                             width={84}
                                             height={100}
+                                            alt="Attorney Camron Hoorfar"
                                         />
                                     </div>
                                     <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                        <img 
+                                        <Image
                                             loader={smallImgCdnLoader}
-                                            src={`${publicRuntimeConfig.attImgPathUrl}/picture-382251_e7BakZmFOe.webp`}
+                                            src="picture-382251_e7BakZmFOe.webp"
                                             className=""
                                             width={84}
                                             height={100}
+                                            alt="Attorney Robert Davis"
                                         />
                                     </div>
                                     <div className="col-lg-3 col-md-6 col-sm-3 col-3 pb-1 img-responsive">
-                                        <img 
+                                        <Image
                                             loader={smallImgCdnLoader}
-                                            src={`${publicRuntimeConfig.attImgPathUrl}/picture-404540_kqy7X1PyJ.webp`}
+                                            src="picture-404540_kqy7X1PyJ.webp"
                                             className=""
                                             width={84}
                                             height={100}
+                                            alt="Attorney Vincent Adams"
                                         />
-                                    </div>
-                                    <div><a href="/attorneys" className="float-end  pad-5">More..</a></div>
+                                    </div> */}
+                                    <div><a href="/attorneys" className="float-end text_blue pad-5">More..</a></div>
                                 </div>
                             </div>
                             <div className="bannerCTAlink banner-cta-mar"><a alt="See what we have done for others" href="#homepageInfoSection">Why choose us</a> | <a alt="" href="/attorneys">Our Attorneys</a> </div>

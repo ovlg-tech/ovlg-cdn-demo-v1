@@ -1,7 +1,12 @@
 import homeStyle from '../../styles/Homepage.module.css'
+import Image from 'next/image'
+import getConfig from 'next/config'
+const { publicRuntimeConfig } = getConfig()
 
 export default function ConsumerLawPracticeAreas() {
   return (
+    <>
+    <div className="col-lg-10 offset-md-0 offset-lg-1 pad-tb-20">
     <div
       className="container mt-5"
       itemScope=""
@@ -104,17 +109,17 @@ export default function ConsumerLawPracticeAreas() {
           </a>
         </div>
       </div>
-      {/* <img
-        style={{ display: "none" }}
-        itemProp="image"
-        src="https://www.ovlg.com/sites/all/themes/ovlg_bootstrap/ovlg/images/logo.png"
-      /> */}
-      <meta
+       <meta
         itemProp="address"
         content="Oak View Law Group APC 4966 El Camino Real STE 225, Los Altos, CA 94022, United States"
       />
       <meta itemProp="priceRange" content="$50 to $1500" />
       <meta itemProp="telephone" content="+18005306854" />
     </div>
+</div>
+    
+
+    </>
+
   );
 }

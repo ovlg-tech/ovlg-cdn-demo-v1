@@ -1,4 +1,4 @@
-//import Image from 'next/image'
+import Image from 'next/image'
 import getConfig from 'next/config'
 const {publicRuntimeConfig } = getConfig()
 export default function ServciePageBanner({ BannerInfo }) {
@@ -11,7 +11,7 @@ export default function ServciePageBanner({ BannerInfo }) {
     <aside className="col-12 col-md-5 col-lg-4">
       <div className="position-relative banner-image-group" style={{minHeight:'450px'}}>
               
-        <img alt="Attorney Lyle Solomon" src={`${publicRuntimeConfig.rootPath}/images/banner-image-lyle-solomon.webp`}
+        <Image alt="Attorney Lyle Solomon" src={`${publicRuntimeConfig.rootPath}/images/banner-image-lyle-solomon.webp`}
         layout="fill" objectFit="cover" priority className="banner-lyle-image" />
          <div className="banner-lyle-image-text">
             <div className="banner-main-text"><em>"I can make you debt free."</em></div>

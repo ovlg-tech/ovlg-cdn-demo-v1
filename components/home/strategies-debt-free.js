@@ -2,6 +2,7 @@ import homeStyle from '../../styles/Homepage.module.css'
 
 export default function StrategiesDebtFree() {
   return (
+<>
     <div
       className="row" itemScope="" itemType="http://schema.org/LegalService">
       <h2 className="text-center">Strategies to Become Debt Free</h2>
@@ -66,13 +67,13 @@ export default function StrategiesDebtFree() {
         </div>
       </div>
       <div className="col-md-4 col-sm-6 col-12" itemProp="name">
-        <div className={`${homeStyle["homepageStrategyBox"]}`} style={{ minHeight: "270px", background: "#ac8160" }}>
+        <div className={`${homeStyle["homepageStrategyBox"]}`} style={{ minHeight: "270px", background: "#92694a" }}>
           <div className="header-h4 text-center">
             <span className="colr-white">Financial Literacy Course</span>
           </div>
           <p className="colr-white">
             <span>It's never too late to learn how to manage money well</span>
-            <a href="https://ovlg.teachable.com/" className="link-light d-block" target="_blank">
+            <a href="https://ovlg.teachable.com/" className="link-light d-block" target="_blank" rel="noreferrer">
               <b> Get started for free</b> <i className="bi bi-arrow-right-circle"></i>
             </a>
           </p>
@@ -80,5 +81,6 @@ export default function StrategiesDebtFree() {
       </div>
 
     </div>
+    </>
   );
 }

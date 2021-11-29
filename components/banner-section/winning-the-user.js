@@ -15,7 +15,7 @@ export default function WinningTheUser({ BannerInfo }) {
 
                     <PageTopic BannerInfo={BannerInfo} />
 
-                    <Credibility BannerInfo={BannerInfo} />
+                    <div className="col-12 col-md-3 col-lg-4"><Credibility BannerInfo={BannerInfo} /></div>
 
                     <PageTopicForMobile BannerInfo={BannerInfo} />
 

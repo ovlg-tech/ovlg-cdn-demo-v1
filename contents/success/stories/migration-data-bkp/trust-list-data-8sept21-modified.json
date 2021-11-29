@@ -1,0 +1,4357 @@
+[
+    {
+        "id": 1,
+        "Success_info_id": "Success_info_280027",
+        "saved_amount_label": "Saved: $13814",
+        "client_initials": "DW",
+        "debt_processed_label": "$50317.20",
+        "debt_settled_lebel": "$22069.03",
+        "creditor_name": "US Bank",
+        "img": {
+            "alt_text": "Saved $13814 with US Bank for Client DW",
+            "src": "https://www.ovlg.com/sites/files/67_USBank_1370935664.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "Success_info_id": "Success_info_390360",
+        "saved_amount_label": "Saved: $8505.65",
+        "client_initials": "NF",
+        "debt_processed_label": "$17447.87",
+        "debt_settled_lebel": "$6107.00",
+        "creditor_name": "Citi Bank",
+        "img": {
+            "alt_text": "Saved $8505.65 with Citi Bank for Client NF",
+            "src": "https://www.ovlg.com/sites/files/success_story/Citi%20Bank_0.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "Success_info_id": "Success_info_276000",
+        "saved_amount_label": "Saved: $11084.24",
+        "client_initials": "RK",
+        "debt_processed_label": "$95583.28",
+        "debt_settled_lebel": "$61391.00",
+        "creditor_name": "Bank Of America",
+        "img": {
+            "alt_text": "Saved $11084.24 with Bank of America for Client RK",
+            "src": "https://www.ovlg.com/sites/files/66_BankOfAmerica_1370933724.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "Success_info_id": "Success_info_238789",
+        "saved_amount_label": "Saved: $5260.88",
+        "client_initials": "TB1",
+        "debt_processed_label": "$12714.50",
+        "debt_settled_lebel": "$5700.00",
+        "creditor_name": "TD Bank",
+        "img": {
+            "alt_text": "Saved $5260.88 with  TD Bank for Client TB1",
+            "src": "https://www.ovlg.com/sites/files/TD%20Bank.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "Success_info_id": "Success_info_300359",
+        "saved_amount_label": "Saved: $6776",
+        "client_initials": "JE",
+        "debt_processed_label": "$24453.56",
+        "debt_settled_lebel": "$9240.03",
+        "creditor_name": "Bank Of America",
+        "img": {
+            "alt_text": "Saved $6776 with Bank of America for Client JE",
+            "src": "https://www.ovlg.com/sites/files/54_BankofAmerica_1370512009.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "Success_info_id": "Success_info_205619",
+        "saved_amount_label": "Saved: $6071.26",
+        "client_initials": "MT",
+        "debt_processed_label": "$32870.99",
+        "debt_settled_lebel": "$16218.36",
+        "creditor_name": "Citi Bank",
+        "img": {
+            "alt_text": "Saved $6071.26 with Citi Bank  for Client MT",
+            "src": "https://www.ovlg.com/sites/files/168_Citi_Bank_1391677528.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "Success_info_id": "Success_info_128701",
+        "saved_amount_label": "Saved: $4451.73",
+        "client_initials": "SR",
+        "debt_processed_label": "$8479.49",
+        "debt_settled_lebel": "$2543.85",
+        "creditor_name": "Washington Mutual(LVNV Funding)",
+        "img": {
+            "alt_text": "Saved $4451.73 with Washington Mutual(LVNV Funding) for Client SR",
+            "src": "https://www.ovlg.com/sites/files/success_story/Washington%20Mutual%28LVNV%20Funding%29.jpg"
+        }
+    },
+    {
+        "id": 8,
+        "Success_info_id": "Success_info_321488",
+        "saved_amount_label": "Saved: $3935.65",
+        "client_initials": "CW1",
+        "debt_processed_label": "$9747.53",
+        "debt_settled_lebel": "$4500.00",
+        "creditor_name": "Home Depot 9831",
+        "img": {
+            "alt_text": "Saved $3935.65 with Home Depot# 9831 for Client CW1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Home%20Depot%209831.jpg"
+        }
+    },
+    {
+        "id": 9,
+        "Success_info_id": "Success_info_289248",
+        "saved_amount_label": "Saved: $4584.74",
+        "client_initials": "TB",
+        "debt_processed_label": "$17600.00",
+        "debt_settled_lebel": "$8239.97",
+        "creditor_name": "Wells Fargo Financial Bank",
+        "img": {
+            "alt_text": "Saved $4584.74 with Wells Fargo Financial Bank for Client TB",
+            "src": "https://www.ovlg.com/sites/files/38_WellsFargo_1370422815.jpg"
+        }
+    },
+    {
+        "id": 10,
+        "Success_info_id": "Success_info_269421",
+        "saved_amount_label": "Saved: $4500",
+        "client_initials": "JT",
+        "debt_processed_label": "$31400.00",
+        "debt_settled_lebel": "$13112.94",
+        "creditor_name": "Bank Of America",
+        "img": {
+            "alt_text": "Saved $4500 with Bank of America for Client JT",
+            "src": "https://www.ovlg.com/sites/files/65_BankOfAmerica_1370932339.jpg"
+        }
+    },
+    {
+        "id": 11,
+        "Success_info_id": "Success_info_292400",
+        "saved_amount_label": "Saved: $3363.63",
+        "client_initials": "TF",
+        "debt_processed_label": "$8029.06",
+        "debt_settled_lebel": "$3544.22",
+        "creditor_name": "Bank Of America(cavalry)",
+        "img": {
+            "alt_text": "Saved $3363.63 with Bank Of America(cavalry) for Client TF",
+            "src": "https://www.ovlg.com/sites/files/bank%20of%20america%28cavalry%29.jpg"
+        }
+    },
+    {
+        "id": 12,
+        "Success_info_id": "Success_info_292401",
+        "saved_amount_label": "Saved: $3360.29",
+        "client_initials": "TF",
+        "debt_processed_label": "$11810.39",
+        "debt_settled_lebel": "$7330.00",
+        "creditor_name": "Discover(zwicker And Assc.)",
+        "img": {
+            "alt_text": "Saved $3360.29 with Discover(zwicker And Assc.) for Client TF",
+            "src": "https://www.ovlg.com/sites/files/discover%28zwicker%20and%20assc.%29.jpg"
+        }
+    },
+    {
+        "id": 13,
+        "Success_info_id": "Success_info_338487",
+        "saved_amount_label": "Saved: $3316.23",
+        "client_initials": "RN",
+        "debt_processed_label": "$8843.29",
+        "debt_settled_lebel": "$4421.65",
+        "creditor_name": "Wells Fargo",
+        "img": {
+            "alt_text": "Saved $3316.23 with Wells Fargo for Client RN",
+            "src": "https://www.ovlg.com/sites/files/Wells%20Fargo.jpg"
+        }
+    },
+    {
+        "id": 14,
+        "Success_info_id": "Success_info_295479",
+        "saved_amount_label": "Saved: $3274.92",
+        "client_initials": "CL1",
+        "debt_processed_label": "$5716.56",
+        "debt_settled_lebel": "$1350.00",
+        "creditor_name": "WESTERN SKY",
+        "img": {
+            "alt_text": "Saved $3274.92 with WESTERN SKY for Client CL1",
+            "src": "https://www.ovlg.com/sites/files/WESTERN%20SKY_1.jpg"
+        }
+    },
+    {
+        "id": 15,
+        "Success_info_id": "Success_info_239548",
+        "saved_amount_label": "Saved: $2922.25",
+        "client_initials": "BB",
+        "debt_processed_label": "$7996.33",
+        "debt_settled_lebel": "$4100.00",
+        "creditor_name": "USAA",
+        "img": {
+            "alt_text": "Saved $2922.25 with USAA for Client BB",
+            "src": "https://www.ovlg.com/sites/files/USAA.jpg"
+        }
+    },
+    {
+        "id": 16,
+        "Success_info_id": "Success_info_292405",
+        "saved_amount_label": "Saved: $2870.21",
+        "client_initials": "TF",
+        "debt_processed_label": "$4857.97",
+        "debt_settled_lebel": "$1031.02",
+        "creditor_name": "Capital One",
+        "img": {
+            "alt_text": "Saved $2870.21 with Capital One for Client TF",
+            "src": "https://www.ovlg.com/sites/files/Capital%20One.jpg"
+        }
+    },
+    {
+        "id": 17,
+        "Success_info_id": "Success_info_303941",
+        "saved_amount_label": "Saved: $3750",
+        "client_initials": "AC",
+        "debt_processed_label": "$11766.78",
+        "debt_settled_lebel": "$5237.94",
+        "creditor_name": "Check N Go Online",
+        "img": {
+            "alt_text": "Saved $3750 with Check n Go Online for Client AC",
+            "src": "https://www.ovlg.com/sites/files/58_CheckNGo_1370518679.jpg"
+        }
+    },
+    {
+        "id": 18,
+        "Success_info_id": "Success_info_321345",
+        "saved_amount_label": "Saved: $2656.79",
+        "client_initials": "IB",
+        "debt_processed_label": "$5192.38",
+        "debt_settled_lebel": "$1650.00",
+        "creditor_name": "Cash Call",
+        "img": {
+            "alt_text": "Saved $2656.79 with Cash Call for Client IB",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cash%20Call_0.jpg"
+        }
+    },
+    {
+        "id": 19,
+        "Success_info_id": "Success_info_251950",
+        "saved_amount_label": "Saved: $3505.46",
+        "client_initials": "BF",
+        "debt_processed_label": "$77234.39",
+        "debt_settled_lebel": "$40333.46",
+        "creditor_name": "Chase Bank",
+        "img": {
+            "alt_text": "Saved $3505.46 with Chase Bank for Client BF",
+            "src": "https://www.ovlg.com/sites/files/14_Chase_1370005935.jpg"
+        }
+    },
+    {
+        "id": 20,
+        "Success_info_id": "Success_info_308026",
+        "saved_amount_label": "Saved: $3479.28",
+        "client_initials": "GC",
+        "debt_processed_label": "$20998.44",
+        "debt_settled_lebel": "$10501.40",
+        "creditor_name": "Chase Card Services",
+        "img": {
+            "alt_text": "Saved $3479.28 with Chase Card Services for Client GC",
+            "src": "https://www.ovlg.com/sites/files/88_Chase_card_services_1372851940.jpg"
+        }
+    },
+    {
+        "id": 21,
+        "Success_info_id": "Success_info_284160",
+        "saved_amount_label": "Saved: $3424.83",
+        "client_initials": "EF",
+        "debt_processed_label": "$21811.59",
+        "debt_settled_lebel": "$10174.91",
+        "creditor_name": "PNC Bank",
+        "img": {
+            "alt_text": "Saved $3424.83 with PNC Bank  for Client EF",
+            "src": "https://www.ovlg.com/sites/files/94_PNC_Bank_1372923695.jpg"
+        }
+    },
+    {
+        "id": 22,
+        "Success_info_id": "Success_info_258475",
+        "saved_amount_label": "Saved: $3321.97",
+        "client_initials": "DW",
+        "debt_processed_label": "$47078.86",
+        "debt_settled_lebel": "$25738.30",
+        "creditor_name": "Bank Of America",
+        "img": {
+            "alt_text": "Saved $3321.97 with Bank of America for Client DW",
+            "src": "https://www.ovlg.com/sites/files/159_Bank_Of_America_1389867705.jpg"
+        }
+    },
+    {
+        "id": 23,
+        "Success_info_id": "Success_info_336168",
+        "saved_amount_label": "Saved: $2294.19",
+        "client_initials": "DJ2",
+        "debt_processed_label": "$5338.92",
+        "debt_settled_lebel": "$2280.00",
+        "creditor_name": "Chase Bank U.S.A 0823",
+        "img": {
+            "alt_text": "Saved $2294.19 with Chase Bank U.S.A# 0823 for Client DJ2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Chase%20Bank%20U.S.A%23%200823.jpg"
+        }
+    },
+    {
+        "id": 24,
+        "Success_info_id": "Success_info_321342",
+        "saved_amount_label": "Saved: $2193.25",
+        "client_initials": "IB",
+        "debt_processed_label": "$3910.66",
+        "debt_settled_lebel": "$986.33",
+        "creditor_name": "Springleaf Financial Services",
+        "img": {
+            "alt_text": "Saved $2193.25 with Springleaf Financial Services for Client IB",
+            "src": "https://www.ovlg.com/sites/files/success_story/Springleaf%20Financial%20Services.jpg"
+        }
+    },
+    {
+        "id": 25,
+        "Success_info_id": "Success_info_335454",
+        "saved_amount_label": "Saved: $2850",
+        "client_initials": "NW",
+        "debt_processed_label": "$6120.85",
+        "debt_settled_lebel": "$1517.25",
+        "creditor_name": "Check N Go Online",
+        "img": {
+            "alt_text": "Saved $2850 with Check n Go Online for Client NW",
+            "src": "https://www.ovlg.com/sites/files/171_Check_N_Go_1399286922.jpg"
+        }
+    },
+    {
+        "id": 26,
+        "Success_info_id": "Success_info_216895",
+        "saved_amount_label": "Saved: $2701.09",
+        "client_initials": "CT",
+        "debt_processed_label": "$15153.37",
+        "debt_settled_lebel": "$7251.00",
+        "creditor_name": "HFC",
+        "img": {
+            "alt_text": "Saved $2701.09 with HFC for Client CT",
+            "src": "https://www.ovlg.com/sites/files/119_HFC_1373539244.jpg"
+        }
+    },
+    {
+        "id": 27,
+        "Success_info_id": "Success_info_335195",
+        "saved_amount_label": "Saved: $2020.26",
+        "client_initials": "EP1",
+        "debt_processed_label": "$4897.60",
+        "debt_settled_lebel": "$2203.92",
+        "creditor_name": "Apple Credit Card",
+        "img": {
+            "alt_text": "Saved $2020.26 with Apple Credit Card for Client EP1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Apple%20Credit%20Card.jpg"
+        }
+    },
+    {
+        "id": 28,
+        "Success_info_id": "Success_info_338562",
+        "saved_amount_label": "Saved: $1973.25",
+        "client_initials": "CJ1",
+        "debt_processed_label": "$2631.00",
+        "debt_settled_lebel": "$0.00",
+        "creditor_name": "Speedy Cash",
+        "img": {
+            "alt_text": "Saved $1973.25 with Speedy Cash for Client CJ1",
+            "src": "https://www.ovlg.com/sites/files/Speedy%20Cash.jpg"
+        }
+    },
+    {
+        "id": 29,
+        "Success_info_id": "Success_info_320436",
+        "saved_amount_label": "Saved: $2480.2",
+        "client_initials": "YT",
+        "debt_processed_label": "$13655.86",
+        "debt_settled_lebel": "$5251.47",
+        "creditor_name": "First National Bank Of Omaha",
+        "img": {
+            "alt_text": "Saved $2480.2 with First National Bank of Omaha for Client YT",
+            "src": "https://www.ovlg.com/sites/files/18_FirstNationalBankofOmaha_1370340614.jpg"
+        }
+    },
+    {
+        "id": 30,
+        "Success_info_id": "Success_info_303191",
+        "saved_amount_label": "Saved: $1840.46",
+        "client_initials": "AC",
+        "debt_processed_label": "$3903.94",
+        "debt_settled_lebel": "$1450.00",
+        "creditor_name": "Cash Net USA",
+        "img": {
+            "alt_text": "Saved $1840.46 with Cash Net USA for Client AC",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cash%20Net%20USA_0.jpg"
+        }
+    },
+    {
+        "id": 31,
+        "Success_info_id": "Success_info_128698",
+        "saved_amount_label": "Saved: $1717.47",
+        "client_initials": "SR",
+        "debt_processed_label": "$3289.96",
+        "debt_settled_lebel": "$1000.00",
+        "creditor_name": "Chase Visa",
+        "img": {
+            "alt_text": "Saved $1717.47 with Chase Visa for Client SR",
+            "src": "https://www.ovlg.com/sites/files/success_story/Chase%20Visa.jpg"
+        }
+    },
+    {
+        "id": 32,
+        "Success_info_id": "Success_info_291130",
+        "saved_amount_label": "Saved: $2273.03",
+        "client_initials": "OT",
+        "debt_processed_label": "$55274.97",
+        "debt_settled_lebel": "$28519.79",
+        "creditor_name": "Chase Bank",
+        "img": {
+            "alt_text": "Saved $2273.03 with Chase Bank for Client OT",
+            "src": "https://www.ovlg.com/sites/files/29_Chase_1370412998.jpg"
+        }
+    },
+    {
+        "id": 33,
+        "Success_info_id": "Success_info_313819",
+        "saved_amount_label": "Saved: $2250",
+        "client_initials": "GS",
+        "debt_processed_label": "$4786.00",
+        "debt_settled_lebel": "$1528.00",
+        "creditor_name": "Bank Of America",
+        "img": {
+            "alt_text": "Saved $2250 with Bank of America for Client GS",
+            "src": "https://www.ovlg.com/sites/files/79_BankOfAmerica_1371474083.jpg"
+        }
+    },
+    {
+        "id": 34,
+        "Success_info_id": "Success_info_317063",
+        "saved_amount_label": "Saved: $2224.72",
+        "client_initials": "TS",
+        "debt_processed_label": "$4522.34",
+        "debt_settled_lebel": "$1556.05",
+        "creditor_name": "Cash Call",
+        "img": {
+            "alt_text": "Saved $2224.72 with Cash Call for Client TS",
+            "src": "https://www.ovlg.com/sites/files/74_cashcall_1371466071.jpg"
+        }
+    },
+    {
+        "id": 35,
+        "Success_info_id": "Success_info_338953",
+        "saved_amount_label": "Saved: $1660.77",
+        "client_initials": "DA",
+        "debt_processed_label": "$4026.36",
+        "debt_settled_lebel": "$1812.00",
+        "creditor_name": "Pay Pal Plus(MCM)",
+        "img": {
+            "alt_text": "Saved $1660.77 with Pay Pal Plus(MCM) for Client DA",
+            "src": "https://www.ovlg.com/sites/files/Pay%20Pal%20Plus%28MCM%29.jpg"
+        }
+    },
+    {
+        "id": 36,
+        "Success_info_id": "Success_info_323832",
+        "saved_amount_label": "Saved: $1589.98",
+        "client_initials": "BM",
+        "debt_processed_label": "$3491.97",
+        "debt_settled_lebel": "$1372.00",
+        "creditor_name": "Citi Bank",
+        "img": {
+            "alt_text": "Saved $1589.98 with Citi Bank for Client BM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Citi%20Bank_1.jpg"
+        }
+    },
+    {
+        "id": 37,
+        "Success_info_id": "Success_info_330694",
+        "saved_amount_label": "Saved: $1528.74",
+        "client_initials": "AB1",
+        "debt_processed_label": "$3388.32",
+        "debt_settled_lebel": "$1350.00",
+        "creditor_name": "Check N Go Online",
+        "img": {
+            "alt_text": "Saved $1528.74 with Check N Go Online for Client AB1",
+            "src": "https://www.ovlg.com/sites/files/Check%20n%20Go%20Online.jpg"
+        }
+    },
+    {
+        "id": 38,
+        "Success_info_id": "Success_info_322535",
+        "saved_amount_label": "Saved: $2025",
+        "client_initials": "AG",
+        "debt_processed_label": "$6120.20",
+        "debt_settled_lebel": "$2753.25",
+        "creditor_name": "Cash Call",
+        "img": {
+            "alt_text": "Saved $2025 with Cash Call for Client AG",
+            "src": "https://www.ovlg.com/sites/files/149_Cash_Call_1387963105.jpg"
+        }
+    },
+    {
+        "id": 39,
+        "Success_info_id": "Success_info_399105",
+        "saved_amount_label": "Saved: $1500.81",
+        "client_initials": "HW",
+        "debt_processed_label": "$4002.17",
+        "debt_settled_lebel": "$2001.09",
+        "creditor_name": "Capital One",
+        "img": {
+            "alt_text": "Saved $1500.81 with Capital One for Client HW",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One_3.jpg"
+        }
+    },
+    {
+        "id": 40,
+        "Success_info_id": "Success_info_323827",
+        "saved_amount_label": "Saved: $1467.17",
+        "client_initials": "BM",
+        "debt_processed_label": "$2937.23",
+        "debt_settled_lebel": "$981.00",
+        "creditor_name": "Newegg ComenityCapitalBank",
+        "img": {
+            "alt_text": "Saved $1467.17 with Newegg/ComenityCapitalBank for Client BM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Newegg%20ComenityCapitalBank.jpg"
+        }
+    },
+    {
+        "id": 41,
+        "Success_info_id": "Success_info_247706",
+        "saved_amount_label": "Saved: $1923",
+        "client_initials": "SS",
+        "debt_processed_label": "$10900.00",
+        "debt_settled_lebel": "$3403.00",
+        "creditor_name": "United Collection Bureau",
+        "img": {
+            "alt_text": "Saved $1923 with United Collection Bureau for Client SS",
+            "src": "https://www.ovlg.com/sites/files/114_United_Collection_Bureau_1373529141.jpg"
+        }
+    },
+    {
+        "id": 42,
+        "Success_info_id": "Success_info_321486",
+        "saved_amount_label": "Saved: $1441.21",
+        "client_initials": "CW1",
+        "debt_processed_label": "$4468.89",
+        "debt_settled_lebel": "$2547.28",
+        "creditor_name": "Citi Mastercard",
+        "img": {
+            "alt_text": "Saved $1441.21 with Citi Mastercard for Client CW1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Citi%20Mastercard.jpg"
+        }
+    },
+    {
+        "id": 43,
+        "Success_info_id": "Success_info_264906",
+        "saved_amount_label": "Saved: $1418.78",
+        "client_initials": "TJ",
+        "debt_processed_label": "$3140.70",
+        "debt_settled_lebel": "$1249.00",
+        "creditor_name": "HSBC Card Services",
+        "img": {
+            "alt_text": "Saved $1418.78 with HSBC Card Services for Client TJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/HSBC%20Card%20Services.jpg"
+        }
+    },
+    {
+        "id": 44,
+        "Success_info_id": "Success_info_347522",
+        "saved_amount_label": "Saved: $1417.56",
+        "client_initials": "DM2",
+        "debt_processed_label": "$3780.08",
+        "debt_settled_lebel": "$1890.00",
+        "creditor_name": "ACE Cash Express",
+        "img": {
+            "alt_text": "Saved $1417.56 with ACE Cash Express for Client DM2",
+            "src": "https://www.ovlg.com/sites/files/success_story/ACE%20cash%20express_0.jpg"
+        }
+    },
+    {
+        "id": 45,
+        "Success_info_id": "Success_info_240322",
+        "saved_amount_label": "Saved: $1795.5",
+        "client_initials": "EN",
+        "debt_processed_label": "$11090.27",
+        "debt_settled_lebel": "$6767.00",
+        "creditor_name": "United Collection Bureau",
+        "img": {
+            "alt_text": "Saved $1795.5 with United Collection Bureau for Client EN",
+            "src": "https://www.ovlg.com/sites/files/115_United_Collection_Bureau_1373530155.jpg"
+        }
+    },
+    {
+        "id": 46,
+        "Success_info_id": "Success_info_418788",
+        "saved_amount_label": "Saved: $1210.78",
+        "client_initials": "sm2",
+        "debt_processed_label": "$3592.81",
+        "debt_settled_lebel": "$1843.11",
+        "creditor_name": "Opp Loans",
+        "img": {
+            "alt_text": "Saved $1210.78 with Opp Loans for Client sm2",
+            "src": "https://www.ovlg.com/sites/files/success_story/OppLoans.jpg"
+        }
+    },
+    {
+        "id": 47,
+        "Success_info_id": "Success_info_323825",
+        "saved_amount_label": "Saved: $1308",
+        "client_initials": "BM",
+        "debt_processed_label": "$3000.00",
+        "debt_settled_lebel": "$1256.00",
+        "creditor_name": "Bill Me Later",
+        "img": {
+            "alt_text": "Saved $1308 with Bill Me Later for Client BM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Bill%20Me%20Later_0.jpg"
+        }
+    },
+    {
+        "id": 48,
+        "Success_info_id": "Success_info_276753",
+        "saved_amount_label": "Saved: $1725",
+        "client_initials": "SH",
+        "debt_processed_label": "$11950.00",
+        "debt_settled_lebel": "$8305.00",
+        "creditor_name": "Chase Bank",
+        "img": {
+            "alt_text": "Saved $1725 with Chase Bank for Client SH",
+            "src": "https://www.ovlg.com/sites/files/86_Chase_Bank_1372849422.jpg"
+        }
+    },
+    {
+        "id": 49,
+        "Success_info_id": "Success_info_324239",
+        "saved_amount_label": "Saved: $1670.46",
+        "client_initials": "NP",
+        "debt_processed_label": "$8290.94",
+        "debt_settled_lebel": "$4994.48",
+        "creditor_name": "Check N Go Online",
+        "img": {
+            "alt_text": "Saved $1670.46 with Check n Go Online for Client NP",
+            "src": "https://www.ovlg.com/sites/files/146_Check_n_Go_Online_1386066030.jpg"
+        }
+    },
+    {
+        "id": 50,
+        "Success_info_id": "Success_info_292325",
+        "saved_amount_label": "Saved: $1191.32",
+        "client_initials": "MD1",
+        "debt_processed_label": "$2758.42",
+        "debt_settled_lebel": "$1170.00",
+        "creditor_name": "Cash Call",
+        "img": {
+            "alt_text": "Saved $1191.32 with Cash Call for Client MD1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cash%20Call_1.jpg"
+        }
+    },
+    {
+        "id": 51,
+        "Success_info_id": "Success_info_245990",
+        "saved_amount_label": "Saved: $1564.08",
+        "client_initials": "CH",
+        "debt_processed_label": "$27213.57",
+        "debt_settled_lebel": "$12133.43",
+        "creditor_name": "Chase Card Services",
+        "img": {
+            "alt_text": "Saved $1564.08 with Chase Card Services for Client CH",
+            "src": "https://www.ovlg.com/sites/files/82_Chase_Card_Services_1372842694.jpg"
+        }
+    },
+    {
+        "id": 52,
+        "Success_info_id": "Success_info_393867",
+        "saved_amount_label": "Saved: $1156.47",
+        "client_initials": "KP4",
+        "debt_processed_label": "$3589.76",
+        "debt_settled_lebel": "$2047.80",
+        "creditor_name": "Ace Cash Express",
+        "img": {
+            "alt_text": "Saved $1156.47 with Ace Cash Express for Client KP4",
+            "src": "https://www.ovlg.com/sites/files/success_story/Ace%20Cash%20Express_0.jpg"
+        }
+    },
+    {
+        "id": 53,
+        "Success_info_id": "Success_info_395401",
+        "saved_amount_label": "Saved: $1133.62",
+        "client_initials": "KA",
+        "debt_processed_label": "$3022.99",
+        "debt_settled_lebel": "$1511.50",
+        "creditor_name": "Credit One Bank",
+        "img": {
+            "alt_text": "Saved $1133.62 with Credit One Bank for Client KA",
+            "src": "https://www.ovlg.com/sites/files/success_story/Credit%20One%20Bank_0.jpg"
+        }
+    },
+    {
+        "id": 54,
+        "Success_info_id": "Success_info_347523",
+        "saved_amount_label": "Saved: $1124.66",
+        "client_initials": "DM2",
+        "debt_processed_label": "$2499.24",
+        "debt_settled_lebel": "$999.70",
+        "creditor_name": "Cash Central",
+        "img": {
+            "alt_text": "Saved $1124.66 with Cash Central for Client DM2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cash%20Central_2.jpg"
+        }
+    },
+    {
+        "id": 55,
+        "Success_info_id": "Success_info_128695",
+        "saved_amount_label": "Saved: $1108.37",
+        "client_initials": "SR",
+        "debt_processed_label": "$2955.82",
+        "debt_settled_lebel": "$1478.00",
+        "creditor_name": "Wells Fargo MC",
+        "img": {
+            "alt_text": "Saved $1108.37 with Wells Fargo MC for Client SR",
+            "src": "https://www.ovlg.com/sites/files/success_story/Wells%20Fargo%20M%3AC.jpg"
+        }
+    },
+    {
+        "id": 56,
+        "Success_info_id": "Success_info_283965",
+        "saved_amount_label": "Saved: $1102.19",
+        "client_initials": "LG1",
+        "debt_processed_label": "$2449.32",
+        "debt_settled_lebel": "$979.73",
+        "creditor_name": "Victoria Secrets",
+        "img": {
+            "alt_text": "Saved $1102.19 with Victoria Secrets for Client LG1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Victoria%20Secrets.jpg"
+        }
+    },
+    {
+        "id": 57,
+        "Success_info_id": "Success_info_323826",
+        "saved_amount_label": "Saved: $1089.86",
+        "client_initials": "BM",
+        "debt_processed_label": "$2906.64",
+        "debt_settled_lebel": "$1453.50",
+        "creditor_name": "Merrick Bank",
+        "img": {
+            "alt_text": "Saved $409.88 with Merrick Bank for Client BM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Merrick%20Bank_0.jpg"
+        }
+    },
+    {
+        "id": 58,
+        "Success_info_id": "Success_info_239546",
+        "saved_amount_label": "Saved: $1080.31",
+        "client_initials": "BB",
+        "debt_processed_label": "$2618.92",
+        "debt_settled_lebel": "$1178.51",
+        "creditor_name": "Juniper Bank",
+        "img": {
+            "alt_text": "Saved $1080.31 with Juniper Bank for Client BB",
+            "src": "https://www.ovlg.com/sites/files/Juniper%20Bank.jpg"
+        }
+    },
+    {
+        "id": 59,
+        "Success_info_id": "Success_info_338950",
+        "saved_amount_label": "Saved: $1071.01",
+        "client_initials": "DA",
+        "debt_processed_label": "$2857.00",
+        "debt_settled_lebel": "$1428.99",
+        "creditor_name": "Capital One",
+        "img": {
+            "alt_text": "Saved $1071.01 with Capital One for Client DA",
+            "src": "https://www.ovlg.com/sites/files/Capital%20One_2.jpg"
+        }
+    },
+    {
+        "id": 60,
+        "Success_info_id": "Success_info_308075",
+        "saved_amount_label": "Saved: $1067.15",
+        "client_initials": "JR4",
+        "debt_processed_label": "$1772.86",
+        "debt_settled_lebel": "$350.00",
+        "creditor_name": "My Cash Now",
+        "img": {
+            "alt_text": "Saved $1067.15 with My Cash Now for Client JR4",
+            "src": "https://www.ovlg.com/sites/files/My%20Cash%20Now.jpg"
+        }
+    },
+    {
+        "id": 61,
+        "Success_info_id": "Success_info_297509",
+        "saved_amount_label": "Saved: $1413.75",
+        "client_initials": "VE",
+        "debt_processed_label": "$13100.00",
+        "debt_settled_lebel": "$7615.00",
+        "creditor_name": "First National Bank Of Omaha",
+        "img": {
+            "alt_text": "Saved $1413.75 with First National Bank of Omaha for Client VE",
+            "src": "https://www.ovlg.com/sites/files/103_First_National_Bank_of_Omaha_1372942398.jpg"
+        }
+    },
+    {
+        "id": 62,
+        "Success_info_id": "Success_info_347522",
+        "saved_amount_label": "Saved: $1044.47",
+        "client_initials": "DM2",
+        "debt_processed_label": "$2321.06",
+        "debt_settled_lebel": "$928.43",
+        "creditor_name": "Rise Credit",
+        "img": {
+            "alt_text": "Saved $1044.47 with Rise Credit for Client DM2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Rise%20Credit_1.jpg"
+        }
+    },
+    {
+        "id": 63,
+        "Success_info_id": "Success_info_261397",
+        "saved_amount_label": "Saved: $1020.7",
+        "client_initials": "JC",
+        "debt_processed_label": "$2721.87",
+        "debt_settled_lebel": "$1360.94",
+        "creditor_name": "Sears",
+        "img": {
+            "alt_text": "Saved $1020.7 with Sears for Client JC",
+            "src": "https://www.ovlg.com/sites/files/Sears_1.jpg"
+        }
+    },
+    {
+        "id": 64,
+        "Success_info_id": "Success_info_274157",
+        "saved_amount_label": "Saved: $989.15",
+        "client_initials": "RP",
+        "debt_processed_label": "$1883.86",
+        "debt_settled_lebel": "$565.00",
+        "creditor_name": "Discover Card",
+        "img": {
+            "alt_text": "Saved $989.15 with Discover Card for Client RP",
+            "src": "https://www.ovlg.com/sites/files/success_story/Discover%20Card.jpg"
+        }
+    },
+    {
+        "id": 65,
+        "Success_info_id": "Success_info_276595",
+        "saved_amount_label": "Saved: $1244.16",
+        "client_initials": "KB",
+        "debt_processed_label": "$12583.55",
+        "debt_settled_lebel": "$4077.84",
+        "creditor_name": "Chase Visa",
+        "img": {
+            "alt_text": "Saved $1244.16 with Chase Visa for Client KB",
+            "src": "https://www.ovlg.com/sites/files/85_Chase_Visa_1372848709.jpg"
+        }
+    },
+    {
+        "id": 66,
+        "Success_info_id": "Success_info_277926",
+        "saved_amount_label": "Saved: $1235.25",
+        "client_initials": "BW",
+        "debt_processed_label": "$19531.00",
+        "debt_settled_lebel": "$11424.50",
+        "creditor_name": "Prosper",
+        "img": {
+            "alt_text": "Saved $1235.25 with Prosper for Client BW",
+            "src": "https://www.ovlg.com/sites/files/71_Prosper_1370947052.jpg"
+        }
+    },
+    {
+        "id": 67,
+        "Success_info_id": "Success_info_261461",
+        "saved_amount_label": "Saved: $1231.5",
+        "client_initials": "DS",
+        "debt_processed_label": "$67180.00",
+        "debt_settled_lebel": "$40178.20",
+        "creditor_name": "FIA Card Services",
+        "img": {
+            "alt_text": "Saved $1231.5 with FIA Card Services for Client DS",
+            "src": "https://www.ovlg.com/sites/files/107_FIA_Card_Services_1373444851.jpg"
+        }
+    },
+    {
+        "id": 68,
+        "Success_info_id": "Success_info_303193",
+        "saved_amount_label": "Saved: $909.68",
+        "client_initials": "AC",
+        "debt_processed_label": "$2586.91",
+        "debt_settled_lebel": "$1374.00",
+        "creditor_name": "EZ Credit Loan",
+        "img": {
+            "alt_text": "Saved $909.68 with EZ Credit Loan for Client AC",
+            "src": "https://www.ovlg.com/sites/files/success_story/EZ%20credit%20loan.jpg"
+        }
+    },
+    {
+        "id": 69,
+        "Success_info_id": "Success_info_264905",
+        "saved_amount_label": "Saved: $905.46",
+        "client_initials": "TJ",
+        "debt_processed_label": "$2367.28",
+        "debt_settled_lebel": "$1160.00",
+        "creditor_name": "CITIBANK",
+        "img": {
+            "alt_text": "Saved $905.46 with CITIBANK for Client TJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/CITIBANK3.jpg"
+        }
+    },
+    {
+        "id": 70,
+        "Success_info_id": "Success_info_272019",
+        "saved_amount_label": "Saved: $1200.4",
+        "client_initials": "SB",
+        "debt_processed_label": "$21902.53",
+        "debt_settled_lebel": "$11827.98",
+        "creditor_name": "FIA Card Services",
+        "img": {
+            "alt_text": "Saved $1200.4 with FIA Card Services for Client SB",
+            "src": "https://www.ovlg.com/sites/files/106_FIA_Card_Services_1373443633.jpg"
+        }
+    },
+    {
+        "id": 71,
+        "Success_info_id": "Success_info_391434",
+        "saved_amount_label": "Saved: $900",
+        "client_initials": "CJ",
+        "debt_processed_label": "$1600.00",
+        "debt_settled_lebel": "$400.00",
+        "creditor_name": "American Web Loan",
+        "img": {
+            "alt_text": "Saved $900 with American Web Loan for Client CJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/American%20Web%20loan.jpg"
+        }
+    },
+    {
+        "id": 72,
+        "Success_info_id": "Success_info_386969",
+        "saved_amount_label": "Saved: $897.74",
+        "client_initials": "CY",
+        "debt_processed_label": "$1994.99",
+        "debt_settled_lebel": "$798.00",
+        "creditor_name": "First Equity Card",
+        "img": {
+            "alt_text": "Saved $897.74 with First Equity Card for Client CY",
+            "src": "https://www.ovlg.com/sites/files/success_story/First%20Equity%20Card.jpg"
+        }
+    },
+    {
+        "id": 73,
+        "Success_info_id": "Success_info_230218",
+        "saved_amount_label": "Saved: $1194.61",
+        "client_initials": "SR",
+        "debt_processed_label": "$9501.09",
+        "debt_settled_lebel": "$3347.66",
+        "creditor_name": "Capital One",
+        "img": {
+            "alt_text": "Saved $1194.61 with Capital One for Client SR",
+            "src": "https://www.ovlg.com/sites/files/28_CapitalOne_1370411912.jpg"
+        }
+    },
+    {
+        "id": 74,
+        "Success_info_id": "Success_info_336165",
+        "saved_amount_label": "Saved: $881.07",
+        "client_initials": "DJ2",
+        "debt_processed_label": "$2349.52",
+        "debt_settled_lebel": "$1174.76",
+        "creditor_name": "Capital One 8461",
+        "img": {
+            "alt_text": "Saved $881.07 with Capital One#8461 for Client DJ2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One%238461.jpg"
+        }
+    },
+    {
+        "id": 75,
+        "Success_info_id": "Success_info_323826",
+        "saved_amount_label": "Saved: $876.87",
+        "client_initials": "BM",
+        "debt_processed_label": "$1948.60",
+        "debt_settled_lebel": "$779.44",
+        "creditor_name": "Sears Store Card",
+        "img": {
+            "alt_text": "Saved $876.87 with Sears Store Card for Client BM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Sears%20Store%20Card.jpg"
+        }
+    },
+    {
+        "id": 76,
+        "Success_info_id": "Success_info_338687",
+        "saved_amount_label": "Saved: $866.25",
+        "client_initials": "DC3",
+        "debt_processed_label": "$1755.00",
+        "debt_settled_lebel": "$600.00",
+        "creditor_name": "Get Cash USA",
+        "img": {
+            "alt_text": "Saved $866.25 with Get Cash USA for Client DC3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Get%20Cash%20USA.jpg"
+        }
+    },
+    {
+        "id": 77,
+        "Success_info_id": "Success_info_128699",
+        "saved_amount_label": "Saved: $856.17",
+        "client_initials": "SR",
+        "debt_processed_label": "$1941.56",
+        "debt_settled_lebel": "$800.00",
+        "creditor_name": "HSBC(Portfolio Recovery).",
+        "img": {
+            "alt_text": "Saved $856.17 with HSBC(Portfolio Recovery). for Client SR",
+            "src": "https://www.ovlg.com/sites/files/success_story/HSBC%28Portfolio%20Recovery%29..jpg"
+        }
+    },
+    {
+        "id": 78,
+        "Success_info_id": "Success_info_261394",
+        "saved_amount_label": "Saved: $853.97",
+        "client_initials": "JC",
+        "debt_processed_label": "$2278.62",
+        "debt_settled_lebel": "$1140.00",
+        "creditor_name": "PNC Bank",
+        "img": {
+            "alt_text": "Saved $853.97 with PNC Bank  for Client JC",
+            "src": "https://www.ovlg.com/sites/files/PNC%20Bank.jpg"
+        }
+    },
+    {
+        "id": 79,
+        "Success_info_id": "Success_info_308335",
+        "saved_amount_label": "Saved: $839.69",
+        "client_initials": "KE",
+        "debt_processed_label": "$1869.59",
+        "debt_settled_lebel": "$750.00",
+        "creditor_name": "Plain Green Loans",
+        "img": {
+            "alt_text": "Saved $839.69 with Plain  Green  Loans for Client KE",
+            "src": "https://www.ovlg.com/sites/files/Plain%20green%20loans_6.jpg"
+        }
+    },
+    {
+        "id": 80,
+        "Success_info_id": "Success_info_308796",
+        "saved_amount_label": "Saved: $1109.62",
+        "client_initials": "TD",
+        "debt_processed_label": "$5615.14",
+        "debt_settled_lebel": "$2504.05",
+        "creditor_name": "Key Bank",
+        "img": {
+            "alt_text": "Saved $1109.62 with Key Bank for Client TD",
+            "src": "https://www.ovlg.com/sites/files/37_KEYBANK_1370420868.jpg"
+        }
+    },
+    {
+        "id": 81,
+        "Success_info_id": "Success_info_253295",
+        "saved_amount_label": "Saved: $1099.99",
+        "client_initials": "BR",
+        "debt_processed_label": "$12723.27",
+        "debt_settled_lebel": "$5193.28",
+        "creditor_name": "",
+        "img": {
+            "alt_text": "Saved $1099.99 with HSBC for Client BR",
+            "src": "https://www.ovlg.com/sites/files/23_HSBC_1370345471.jpg"
+        }
+    },
+    {
+        "id": 82,
+        "Success_info_id": "Success_info_295117",
+        "saved_amount_label": "Saved: $1095",
+        "client_initials": "RC",
+        "debt_processed_label": "$14560.06",
+        "debt_settled_lebel": "$7575.47",
+        "creditor_name": "Cash Call",
+        "img": {
+            "alt_text": "Saved $1095 with Cash Call for Client RC",
+            "src": "https://www.ovlg.com/sites/files/68_CashCall_1370936649.jpg"
+        }
+    },
+    {
+        "id": 83,
+        "Success_info_id": "Success_info_323825",
+        "saved_amount_label": "Saved: $820.31",
+        "client_initials": "BM",
+        "debt_processed_label": "$1828.74",
+        "debt_settled_lebel": "$735.00",
+        "creditor_name": "Juniper Bank",
+        "img": {
+            "alt_text": "Saved $820.31 with Juniper Bank for Client BM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Juniper%20Bank_0.jpg"
+        }
+    },
+    {
+        "id": 84,
+        "Success_info_id": "Success_info_336166",
+        "saved_amount_label": "Saved: $819.23",
+        "client_initials": "DJ2",
+        "debt_processed_label": "$2185.30",
+        "debt_settled_lebel": "$1093.00",
+        "creditor_name": "Credit One Bank",
+        "img": {
+            "alt_text": "Saved $819.23 with Credit One Bank for Client DJ2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Credit%20One%20Bank_1.jpg"
+        }
+    },
+    {
+        "id": 85,
+        "Success_info_id": "Success_info_296810",
+        "saved_amount_label": "Saved: $1087.5",
+        "client_initials": "MH",
+        "debt_processed_label": "$3500.00",
+        "debt_settled_lebel": "$1830.00",
+        "creditor_name": "Cash Call",
+        "img": {
+            "alt_text": "Saved $1087.5 with Cash Call for Client MH",
+            "src": "https://www.ovlg.com/sites/files/51_CashCall_1370507001.jpg"
+        }
+    },
+    {
+        "id": 86,
+        "Success_info_id": "Success_info_338688",
+        "saved_amount_label": "Saved: $801.78",
+        "client_initials": "DC3",
+        "debt_processed_label": "$1784.04",
+        "debt_settled_lebel": "$715.00",
+        "creditor_name": "Plain Green Loans",
+        "img": {
+            "alt_text": "Saved $801.78 with Plain Green Loans for Client DC3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Plain%20Green%20loans.jpg"
+        }
+    },
+    {
+        "id": 87,
+        "Success_info_id": "Success_info_308334",
+        "saved_amount_label": "Saved: $791.25",
+        "client_initials": "KE",
+        "debt_processed_label": "$1405.00",
+        "debt_settled_lebel": "$350.00",
+        "creditor_name": "Archer Direct",
+        "img": {
+            "alt_text": "Saved $791.25 with Archer  Direct  for Client KE",
+            "src": "https://www.ovlg.com/sites/files/archer%20direct_9.jpg"
+        }
+    },
+    {
+        "id": 88,
+        "Success_info_id": "Success_info_393867",
+        "saved_amount_label": "Saved: $770.85",
+        "client_initials": "KP4",
+        "debt_processed_label": "$1713.00",
+        "debt_settled_lebel": "$685.20",
+        "creditor_name": "Tower Lending",
+        "img": {
+            "alt_text": "Saved $770.85 with Tower Lending for Client KP4",
+            "src": "https://www.ovlg.com/sites/files/success_story/Tower%20Lending.jpg"
+        }
+    },
+    {
+        "id": 89,
+        "Success_info_id": "Success_info_274164",
+        "saved_amount_label": "Saved: $766.47",
+        "client_initials": "RP",
+        "debt_processed_label": "$1621.96",
+        "debt_settled_lebel": "$600.00",
+        "creditor_name": "Citibank",
+        "img": {
+            "alt_text": "Saved $766.47 with Citibank for Client RP",
+            "src": "https://www.ovlg.com/sites/files/success_story/citibank.jpg"
+        }
+    },
+    {
+        "id": 90,
+        "Success_info_id": "Success_info_303197",
+        "saved_amount_label": "Saved: $763.92",
+        "client_initials": "AC",
+        "debt_processed_label": "$1918.56",
+        "debt_settled_lebel": "$900.00",
+        "creditor_name": "PLS",
+        "img": {
+            "alt_text": "Saved $763.92 with PLS for Client AC",
+            "src": "https://www.ovlg.com/sites/files/success_story/PLS.jpg"
+        }
+    },
+    {
+        "id": 91,
+        "Success_info_id": "Success_info_398499",
+        "saved_amount_label": "Saved: $762",
+        "client_initials": "RR",
+        "debt_processed_label": "$1666.00",
+        "debt_settled_lebel": "$650.00",
+        "creditor_name": "Target Cash Now",
+        "img": {
+            "alt_text": "Saved $762 with Target Cash Now for Client RR",
+            "src": "https://www.ovlg.com/sites/files/success_story/Target%20Cash%20Now.jpg"
+        }
+    },
+    {
+        "id": 92,
+        "Success_info_id": "Success_info_364784",
+        "saved_amount_label": "Saved: $747.97",
+        "client_initials": "DTV",
+        "debt_processed_label": "$1995.21",
+        "debt_settled_lebel": "$997.92",
+        "creditor_name": "Dell Financial Service",
+        "img": {
+            "alt_text": "Saved $747.97 with Dell Financial Service for Client DTV",
+            "src": "https://www.ovlg.com/sites/files/success_story/Dell%20Financial%20Service.jpg"
+        }
+    },
+    {
+        "id": 93,
+        "Success_info_id": "Success_info_303191",
+        "saved_amount_label": "Saved: $746.45",
+        "client_initials": "AC",
+        "debt_processed_label": "$1983.27",
+        "debt_settled_lebel": "$988.00",
+        "creditor_name": "Ace Cash Express",
+        "img": {
+            "alt_text": "Saved $746.45 with Ace Cash Express for Client AC",
+            "src": "https://www.ovlg.com/sites/files/success_story/Ace%20cash%20express.jpg"
+        }
+    },
+    {
+        "id": 94,
+        "Success_info_id": "Success_info_231281",
+        "saved_amount_label": "Saved: $987",
+        "client_initials": "NJ",
+        "debt_processed_label": "$32142.61",
+        "debt_settled_lebel": "$17761.39",
+        "creditor_name": "Cash Store",
+        "img": {
+            "alt_text": "Saved $987 with Cash Store for Client NJ",
+            "src": "https://www.ovlg.com/sites/files/157_Cash_Store_1388044528.jpg"
+        }
+    },
+    {
+        "id": 95,
+        "Success_info_id": "Success_info_398403",
+        "saved_amount_label": "Saved: $731.57",
+        "client_initials": "BW",
+        "debt_processed_label": "$4075.51",
+        "debt_settled_lebel": "$3100.08",
+        "creditor_name": "Loan Me",
+        "img": {
+            "alt_text": "Saved $731.57 with Loan Me for Client BW",
+            "src": "https://www.ovlg.com/sites/files/success_story/Loan%20Me.jpg"
+        }
+    },
+    {
+        "id": 96,
+        "Success_info_id": "Success_info_397473",
+        "saved_amount_label": "Saved: $728.32",
+        "client_initials": "JM",
+        "debt_processed_label": "$1620.19",
+        "debt_settled_lebel": "$649.10",
+        "creditor_name": "AT&T Mobility",
+        "img": {
+            "alt_text": "Saved $728.32 with AT&T Mobility  for Client JM",
+            "src": "https://www.ovlg.com/sites/files/success_story/AT%26T%20Mobility.jpg"
+        }
+    },
+    {
+        "id": 97,
+        "Success_info_id": "Success_info_321343",
+        "saved_amount_label": "Saved: $725.37",
+        "client_initials": "IB",
+        "debt_processed_label": "$1612.16",
+        "debt_settled_lebel": "$645.00",
+        "creditor_name": "Great Plains Lending",
+        "img": {
+            "alt_text": "Saved $725.37 with Great Plains Lending for Client IB",
+            "src": "https://www.ovlg.com/sites/files/success_story/Great%20Plains%20Lending_0.jpg"
+        }
+    },
+    {
+        "id": 98,
+        "Success_info_id": "Success_info_298148",
+        "saved_amount_label": "Saved: $943.69",
+        "client_initials": "LT",
+        "debt_processed_label": "$12991.68",
+        "debt_settled_lebel": "$6643.44",
+        "creditor_name": "Advance America Cash Advance",
+        "img": {
+            "alt_text": "Saved $943.69 with Advance America Cash Advance for Client LT",
+            "src": "https://www.ovlg.com/sites/files/105_Advance_America_Cash_Advance_1372996709.jpg"
+        }
+    },
+    {
+        "id": 99,
+        "Success_info_id": "Success_info_270072",
+        "saved_amount_label": "Saved: $938.22",
+        "client_initials": "SR",
+        "debt_processed_label": "$4195.96",
+        "debt_settled_lebel": "$1548.00",
+        "creditor_name": "Magnum Cash Advances",
+        "img": {
+            "alt_text": "Saved $938.22 with Magnum Cash Advances for Client SR",
+            "src": "https://www.ovlg.com/sites/files/32_Magnumcashadvance_1370415997.jpg"
+        }
+    },
+    {
+        "id": 100,
+        "Success_info_id": "Success_info_261389",
+        "saved_amount_label": "Saved: $685.72",
+        "client_initials": "JC",
+        "debt_processed_label": "$1662.29",
+        "debt_settled_lebel": "$748.00",
+        "creditor_name": "Bill Me Later",
+        "img": {
+            "alt_text": "Saved $685.72 with Bill Me Later for Client JC",
+            "src": "https://www.ovlg.com/sites/files/Bill%20Me%20Later.jpg"
+        }
+    },
+    {
+        "id": 101,
+        "Success_info_id": "Success_info_245660",
+        "saved_amount_label": "Saved: $901.5",
+        "client_initials": "RC",
+        "debt_processed_label": "$57921.15",
+        "debt_settled_lebel": "$25697.21",
+        "creditor_name": "Bill Me Later",
+        "img": {
+            "alt_text": "Saved $901.5 with Bill Me Later for Client RC",
+            "src": "https://www.ovlg.com/sites/files/126_Bill_me_later_1373548251.jpg"
+        }
+    },
+    {
+        "id": 102,
+        "Success_info_id": "Success_info_303654",
+        "saved_amount_label": "Saved: $899.25",
+        "client_initials": "AF",
+        "debt_processed_label": "$5875.00",
+        "debt_settled_lebel": "$2546.34",
+        "creditor_name": "PNC Bank",
+        "img": {
+            "alt_text": "Saved $899.25 with PNC Bank  for Client AF",
+            "src": "https://www.ovlg.com/sites/files/11_PNCBank_1370003262.jpg"
+        }
+    },
+    {
+        "id": 103,
+        "Success_info_id": "Success_info_271322",
+        "saved_amount_label": "Saved: $660",
+        "client_initials": "DB3",
+        "debt_processed_label": "$1780.00",
+        "debt_settled_lebel": "$900.00",
+        "creditor_name": "Cashnet",
+        "img": {
+            "alt_text": "Saved $660 with Cashnet for Client DB3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cashnet.jpg"
+        }
+    },
+    {
+        "id": 104,
+        "Success_info_id": "Success_info_232165",
+        "saved_amount_label": "Saved: $876",
+        "client_initials": "MB",
+        "debt_processed_label": "$38972.00",
+        "debt_settled_lebel": "$15326.60",
+        "creditor_name": "Brachfeld Law Group",
+        "img": {
+            "alt_text": "Saved $876 with Brachfeld Law Group for Client MB",
+            "src": "https://www.ovlg.com/sites/files/127_Brachfeild_Law_Group_1373614693.jpg"
+        }
+    },
+    {
+        "id": 105,
+        "Success_info_id": "Success_info_235223",
+        "saved_amount_label": "Saved: $869",
+        "client_initials": "WB",
+        "debt_processed_label": "$114948.59",
+        "debt_settled_lebel": "$72506.68",
+        "creditor_name": "First National Bank Of Omaha",
+        "img": {
+            "alt_text": "Saved $869 with First National Bank of Omaha for Client WB",
+            "src": "https://www.ovlg.com/sites/files/102_First_National_Bank_Omaha_1372940943.jpg"
+        }
+    },
+    {
+        "id": 106,
+        "Success_info_id": "Success_info_299499",
+        "saved_amount_label": "Saved: $868.05",
+        "client_initials": "AM",
+        "debt_processed_label": "$2800.00",
+        "debt_settled_lebel": "$1642.60",
+        "creditor_name": "Cash Call",
+        "img": {
+            "alt_text": "Saved $868.05 with Cash Call for Client AM",
+            "src": "https://www.ovlg.com/sites/files/69_CashCall_1370937742.jpg"
+        }
+    },
+    {
+        "id": 107,
+        "Success_info_id": "Success_info_347522",
+        "saved_amount_label": "Saved: $646.94",
+        "client_initials": "DM2",
+        "debt_processed_label": "$1725.17",
+        "debt_settled_lebel": "$862.59",
+        "creditor_name": "Capital One 6376",
+        "img": {
+            "alt_text": "Saved $646.94 with Capital One# 6376 for Client DM2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One%23%206376_0.jpg"
+        }
+    },
+    {
+        "id": 108,
+        "Success_info_id": "Success_info_251071",
+        "saved_amount_label": "Saved: $860.25",
+        "client_initials": "DP",
+        "debt_processed_label": "$4529.00",
+        "debt_settled_lebel": "$3145.00",
+        "creditor_name": "Brachfeld Law Group",
+        "img": {
+            "alt_text": "Saved $860.25 with Brachfeld Law Group for Client DP",
+            "src": "https://www.ovlg.com/sites/files/118_Barchfield_law_Group_1373537967.jpg"
+        }
+    },
+    {
+        "id": 109,
+        "Success_info_id": "Success_info_248286",
+        "saved_amount_label": "Saved: $855",
+        "client_initials": "RT",
+        "debt_processed_label": "$9600.00",
+        "debt_settled_lebel": "$4606.00",
+        "creditor_name": "Chase Visa",
+        "img": {
+            "alt_text": "Saved $855 with Chase Visa for Client RT",
+            "src": "https://www.ovlg.com/sites/files/83_Chase_Visa_1372845537.jpg"
+        }
+    },
+    {
+        "id": 110,
+        "Success_info_id": "Success_info_336165",
+        "saved_amount_label": "Saved: $613.66",
+        "client_initials": "DJ2",
+        "debt_processed_label": "$1636.47",
+        "debt_settled_lebel": "$818.26",
+        "creditor_name": "Merrick Bank",
+        "img": {
+            "alt_text": "Saved $613.66 with Merrick Bank for Client DJ2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Merrick%20Bank.jpg"
+        }
+    },
+    {
+        "id": 111,
+        "Success_info_id": "Success_info_302781",
+        "saved_amount_label": "Saved: $802.14",
+        "client_initials": "GG",
+        "debt_processed_label": "$2861.35",
+        "debt_settled_lebel": "$1557.48",
+        "creditor_name": "Merrick Bank",
+        "img": {
+            "alt_text": "Saved $802.14 with Merrick Bank for Client GG",
+            "src": "https://www.ovlg.com/sites/files/24_MerrickBank_1370346316.jpg"
+        }
+    },
+    {
+        "id": 112,
+        "Success_info_id": "Success_info_264623",
+        "saved_amount_label": "Saved: $600.17",
+        "client_initials": "TE",
+        "debt_processed_label": "$1602.23",
+        "debt_settled_lebel": "$802.00",
+        "creditor_name": "Macy's Store Card",
+        "img": {
+            "alt_text": "Saved $600.17 with Macy's Store Card for Client TE",
+            "src": "https://www.ovlg.com/sites/files/Macys_Store_Card.jpg"
+        }
+    },
+    {
+        "id": 113,
+        "Success_info_id": "Success_info_386965",
+        "saved_amount_label": "Saved: $599.34",
+        "client_initials": "CY",
+        "debt_processed_label": "$1843.12",
+        "debt_settled_lebel": "$1044.00",
+        "creditor_name": "Capital One(ARS National Service)",
+        "img": {
+            "alt_text": "Saved $599.34 with Capital One(ARS National Service) for Client CY",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One%28ARS%20National%20Service%29.jpg"
+        }
+    },
+    {
+        "id": 114,
+        "Success_info_id": "Success_info_327640",
+        "saved_amount_label": "Saved: $596.87",
+        "client_initials": "JS1",
+        "debt_processed_label": "$1591.69",
+        "debt_settled_lebel": "$795.86",
+        "creditor_name": "FIRESTONE CREDIT FRIST",
+        "img": {
+            "alt_text": "Saved $596.87 with FIRESTONE   CREDIT  FRIST for Client JS1",
+            "src": "https://www.ovlg.com/sites/files/success_story/FIRESTONE%20CREDIT%20FRIST.jpg"
+        }
+    },
+    {
+        "id": 115,
+        "Success_info_id": "Success_info_270430",
+        "saved_amount_label": "Saved: $787.82",
+        "client_initials": "RK",
+        "debt_processed_label": "$31362.90",
+        "debt_settled_lebel": "$18210.00",
+        "creditor_name": "American Express",
+        "img": {
+            "alt_text": "Saved $787.82 with American Express for Client RK",
+            "src": "https://www.ovlg.com/sites/files/50_AmericanExpress_1370505295.jpg"
+        }
+    },
+    {
+        "id": 116,
+        "Success_info_id": "Success_info_271326",
+        "saved_amount_label": "Saved: $583.2",
+        "client_initials": "DB3",
+        "debt_processed_label": "$1296.00",
+        "debt_settled_lebel": "$518.40",
+        "creditor_name": "Go Cash",
+        "img": {
+            "alt_text": "Saved $583.2 with Go Cash  for Client DB3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Go%20Cash.jpg"
+        }
+    },
+    {
+        "id": 117,
+        "Success_info_id": "Success_info_264908",
+        "saved_amount_label": "Saved: $575.21",
+        "client_initials": "TJ",
+        "debt_processed_label": "$1406.95",
+        "debt_settled_lebel": "$640.00",
+        "creditor_name": "Pinnacle Credit Services, LLC",
+        "img": {
+            "alt_text": "Saved $575.21 with Pinnacle Credit Services, LLC for Client TJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/Pinnacle%20Credit%20Services%20LLC.jpg"
+        }
+    },
+    {
+        "id": 118,
+        "Success_info_id": "Success_info_386961",
+        "saved_amount_label": "Saved: $574.98",
+        "client_initials": "CY",
+        "debt_processed_label": "$1278.64",
+        "debt_settled_lebel": "$512.00",
+        "creditor_name": "Citi Cards",
+        "img": {
+            "alt_text": "Saved $574.98 with Citi Cards for Client CY",
+            "src": "https://www.ovlg.com/sites/files/success_story/Citi%20Cards.jpg"
+        }
+    },
+    {
+        "id": 119,
+        "Success_info_id": "Success_info_347516",
+        "saved_amount_label": "Saved: $571.55",
+        "client_initials": "DM2",
+        "debt_processed_label": "$1482.07",
+        "debt_settled_lebel": "$720.00",
+        "creditor_name": "Check N GO",
+        "img": {
+            "alt_text": "Saved $571.55 with Check N GO for Client DM2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Check%20N%20GO_0.jpg"
+        }
+    },
+    {
+        "id": 120,
+        "Success_info_id": "Success_info_347517",
+        "saved_amount_label": "Saved: $567.15",
+        "client_initials": "DM2",
+        "debt_processed_label": "$1396.20",
+        "debt_settled_lebel": "$640.00",
+        "creditor_name": "Spot Loan",
+        "img": {
+            "alt_text": "Saved $567.15 with Spot Loan for Client DM2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Spot%20Loan_2.jpg"
+        }
+    },
+    {
+        "id": 121,
+        "Success_info_id": "Success_info_347518",
+        "saved_amount_label": "Saved: $560.6",
+        "client_initials": "DM2",
+        "debt_processed_label": "$1246.47",
+        "debt_settled_lebel": "$499.00",
+        "creditor_name": "Plain Green Loans",
+        "img": {
+            "alt_text": "Saved $560.6 with Plain Green Loans for Client DM2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Plain%20Green%20Loans_0.jpg"
+        }
+    },
+    {
+        "id": 122,
+        "Success_info_id": "Success_info_295479",
+        "saved_amount_label": "Saved: $557.49",
+        "client_initials": "CL1",
+        "debt_processed_label": "$1243.32",
+        "debt_settled_lebel": "$500.00",
+        "creditor_name": "PLAIN GREEN",
+        "img": {
+            "alt_text": "Saved $557.49 with PLAIN GREEN for Client CL1",
+            "src": "https://www.ovlg.com/sites/files/PLAIN%20GREEN.jpg"
+        }
+    },
+    {
+        "id": 123,
+        "Success_info_id": "Success_info_338603",
+        "saved_amount_label": "Saved: $555",
+        "client_initials": "TM1",
+        "debt_processed_label": "$950.00",
+        "debt_settled_lebel": "$210.00",
+        "creditor_name": "Mobiloans",
+        "img": {
+            "alt_text": "Saved $555 with Mobiloans for Client TM1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Mobiloans.jpg"
+        }
+    },
+    {
+        "id": 124,
+        "Success_info_id": "Success_info_308335",
+        "saved_amount_label": "Saved: $551.25",
+        "client_initials": "KE",
+        "debt_processed_label": "$1135.00",
+        "debt_settled_lebel": "$400.00",
+        "creditor_name": "500 Fast Cash",
+        "img": {
+            "alt_text": "Saved $551.25 with 500  Fast  Cash for Client KE",
+            "src": "https://www.ovlg.com/sites/files/500%20fast%20cash.jpg"
+        }
+    },
+    {
+        "id": 125,
+        "Success_info_id": "Success_info_271326",
+        "saved_amount_label": "Saved: $550.5",
+        "client_initials": "DB3",
+        "debt_processed_label": "$1222.00",
+        "debt_settled_lebel": "$488.00",
+        "creditor_name": "Cash Direct Expres GECC(Alliance Asset Management)",
+        "img": {
+            "alt_text": "Saved $550.5 with Cash Direct Expres GECC(Alliance Asset Management) for Client DB3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cash%20direct%20Expres%20GECC%28Alliance%20Asset%20Management%29.jpg"
+        }
+    },
+    {
+        "id": 126,
+        "Success_info_id": "Success_info_292407",
+        "saved_amount_label": "Saved: $545.63",
+        "client_initials": "TF",
+        "debt_processed_label": "$1455.02",
+        "debt_settled_lebel": "$727.51",
+        "creditor_name": "Lowes(First Step Group)",
+        "img": {
+            "alt_text": "Saved $545.63 with Lowes(First Step Group) for Client TF",
+            "src": "https://www.ovlg.com/sites/files/lowes%28First%20Step%20Group%29.jpg"
+        }
+    },
+    {
+        "id": 127,
+        "Success_info_id": "Success_info_386961",
+        "saved_amount_label": "Saved: $541.52",
+        "client_initials": "CY",
+        "debt_processed_label": "$1622.03",
+        "debt_settled_lebel": "$900.00",
+        "creditor_name": "Credit One Bank",
+        "img": {
+            "alt_text": "Saved $541.52 with Credit One Bank for Client CY",
+            "src": "https://www.ovlg.com/sites/files/success_story/Credit%20One%20Bank_2.jpg"
+        }
+    },
+    {
+        "id": 128,
+        "Success_info_id": "Success_info_128696",
+        "saved_amount_label": "Saved: $536.2",
+        "client_initials": "SR",
+        "debt_processed_label": "$1158.21",
+        "debt_settled_lebel": "$443.28",
+        "creditor_name": "Bank Of America",
+        "img": {
+            "alt_text": "Saved $536.2 with Bank Of America for Client SR",
+            "src": "https://www.ovlg.com/sites/files/success_story/Bank%20of%20America_0.jpg"
+        }
+    },
+    {
+        "id": 129,
+        "Success_info_id": "Success_info_327525",
+        "saved_amount_label": "Saved: $713.25",
+        "client_initials": "KW",
+        "debt_processed_label": "$5478.06",
+        "debt_settled_lebel": "$2605.56",
+        "creditor_name": "Applied Bank Card",
+        "img": {
+            "alt_text": "Saved $713.25 with Applied Bank Card for Client KW",
+            "src": "https://www.ovlg.com/sites/files/134_Applied_Bank_Card_1378280430.jpg"
+        }
+    },
+    {
+        "id": 130,
+        "Success_info_id": "Success_info_328311",
+        "saved_amount_label": "Saved: $712.5",
+        "client_initials": "RQ",
+        "debt_processed_label": "$2300.00",
+        "debt_settled_lebel": "$930.00",
+        "creditor_name": "Cash Net USA",
+        "img": {
+            "alt_text": "Saved $712.5 with Cash Net USA for Client RQ",
+            "src": "https://www.ovlg.com/sites/files/147_Cash_Net_USA_1387956595.jpg"
+        }
+    },
+    {
+        "id": 131,
+        "Success_info_id": "Success_info_335191",
+        "saved_amount_label": "Saved: $529.12",
+        "client_initials": "EP1",
+        "debt_processed_label": "$2224.49",
+        "debt_settled_lebel": "$1519.00",
+        "creditor_name": "Discover Card",
+        "img": {
+            "alt_text": "Saved $529.12 with Discover Card for Client EP1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Discover%20card_0.jpg"
+        }
+    },
+    {
+        "id": 132,
+        "Success_info_id": "Success_info_319360",
+        "saved_amount_label": "Saved: $517.5",
+        "client_initials": "PB2",
+        "debt_processed_label": "$1140.00",
+        "debt_settled_lebel": "$450.00",
+        "creditor_name": "Jetlending.com",
+        "img": {
+            "alt_text": "Saved $517.5 with Jetlending.com for Client PB2",
+            "src": "https://www.ovlg.com/sites/files/jetlending.com_.jpg"
+        }
+    },
+    {
+        "id": 133,
+        "Success_info_id": "Success_info_274163",
+        "saved_amount_label": "Saved: $514.34",
+        "client_initials": "RP",
+        "debt_processed_label": "$1559.78",
+        "debt_settled_lebel": "$874.00",
+        "creditor_name": "American Express",
+        "img": {
+            "alt_text": "Saved $514.34 with American Express for Client RP",
+            "src": "https://www.ovlg.com/sites/files/success_story/American%20Express_0.jpg"
+        }
+    },
+    {
+        "id": 134,
+        "Success_info_id": "Success_info_323831",
+        "saved_amount_label": "Saved: $513.82",
+        "client_initials": "BM",
+        "debt_processed_label": "$1000.00",
+        "debt_settled_lebel": "$314.91",
+        "creditor_name": "Capital One 3178",
+        "img": {
+            "alt_text": "Saved $513.82 with Capital One# 3178 for Client BM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One%203178.jpg"
+        }
+    },
+    {
+        "id": 135,
+        "Success_info_id": "Success_info_364791",
+        "saved_amount_label": "Saved: $512.35",
+        "client_initials": "DTV",
+        "debt_processed_label": "$1366.23",
+        "debt_settled_lebel": "$683.10",
+        "creditor_name": "Bank Of America",
+        "img": {
+            "alt_text": "Saved $512.35 with Bank Of America for Client DTV",
+            "src": "https://www.ovlg.com/sites/files/success_story/Bank%20Of%20America.jpg"
+        }
+    },
+    {
+        "id": 136,
+        "Success_info_id": "Success_info_265220",
+        "saved_amount_label": "Saved: $680.25",
+        "client_initials": "CA",
+        "debt_processed_label": "$8928.97",
+        "debt_settled_lebel": "$4039.27",
+        "creditor_name": "Chase Bank",
+        "img": {
+            "alt_text": "Saved $680.25 with Chase Bank for Client CA",
+            "src": "https://www.ovlg.com/sites/files/84_Chase_Bank_1372846537.jpg"
+        }
+    },
+    {
+        "id": 137,
+        "Success_info_id": "Success_info_338685",
+        "saved_amount_label": "Saved: $505.52",
+        "client_initials": "DC3",
+        "debt_processed_label": "$1394.03",
+        "debt_settled_lebel": "$720.00",
+        "creditor_name": "Spotloan",
+        "img": {
+            "alt_text": "Saved $505.52 with Spotloan for Client DC3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Spotloan.jpg"
+        }
+    },
+    {
+        "id": 138,
+        "Success_info_id": "Success_info_332893",
+        "saved_amount_label": "Saved: $499.73",
+        "client_initials": "BJ1",
+        "debt_processed_label": "$1665.54",
+        "debt_settled_lebel": "$999.24",
+        "creditor_name": "St. Lukes Hospital",
+        "img": {
+            "alt_text": "Saved $499.73 with St. Lukes Hospital for Client BJ1",
+            "src": "https://www.ovlg.com/sites/files/St.%20Lukes%20Hospital.jpg"
+        }
+    },
+    {
+        "id": 139,
+        "Success_info_id": "Success_info_292324",
+        "saved_amount_label": "Saved: $495.09",
+        "client_initials": "MD1",
+        "debt_processed_label": "$1225.12",
+        "debt_settled_lebel": "$565.00",
+        "creditor_name": "Plain Green",
+        "img": {
+            "alt_text": "Saved $495.09 with Plain Green for Client MD1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Plain%20Green.jpg"
+        }
+    },
+    {
+        "id": 140,
+        "Success_info_id": "Success_info_347519",
+        "saved_amount_label": "Saved: $491.3",
+        "client_initials": "DM2",
+        "debt_processed_label": "$1455.07",
+        "debt_settled_lebel": "$800.00",
+        "creditor_name": "MaxLend",
+        "img": {
+            "alt_text": "Saved $491.3 with MaxLend for Client DM2",
+            "src": "https://www.ovlg.com/sites/files/success_story/MaxLend_0.jpg"
+        }
+    },
+    {
+        "id": 141,
+        "Success_info_id": "Success_info_324493",
+        "saved_amount_label": "Saved: $653.7",
+        "client_initials": "LP",
+        "debt_processed_label": "$11086.44",
+        "debt_settled_lebel": "$5711.60",
+        "creditor_name": "JC Penny",
+        "img": {
+            "alt_text": "Saved $653.7 with JC Penny for Client LP",
+            "src": "https://www.ovlg.com/sites/files/156_JC_Penney_1388042773.jpg"
+        }
+    },
+    {
+        "id": 142,
+        "Success_info_id": "Success_info_327641",
+        "saved_amount_label": "Saved: $488.76",
+        "client_initials": "JS1",
+        "debt_processed_label": "$926.68",
+        "debt_settled_lebel": "$275.00",
+        "creditor_name": "GREAT PLAIN LENDING",
+        "img": {
+            "alt_text": "Saved $488.76 with GREAT PLAIN LENDING for Client JS1",
+            "src": "https://www.ovlg.com/sites/files/success_story/GREAT%20PLAIN%20LENDING.jpg"
+        }
+    },
+    {
+        "id": 143,
+        "Success_info_id": "Success_info_300702",
+        "saved_amount_label": "Saved: $647.25",
+        "client_initials": "CB",
+        "debt_processed_label": "$6300.00",
+        "debt_settled_lebel": "$4790.00",
+        "creditor_name": "Cash Call",
+        "img": {
+            "alt_text": "Saved $647.25 with Cash Call for Client CB",
+            "src": "https://www.ovlg.com/sites/files/64_CashCall_1370600583.jpg"
+        }
+    },
+    {
+        "id": 144,
+        "Success_info_id": "Success_info_336172",
+        "saved_amount_label": "Saved: $483.1",
+        "client_initials": "DJ2",
+        "debt_processed_label": "$1288.26",
+        "debt_settled_lebel": "$644.13",
+        "creditor_name": "Capital One 9847",
+        "img": {
+            "alt_text": "Saved $483.1 with Capital One#9847 for Client DJ2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One%239847.jpg"
+        }
+    },
+    {
+        "id": 145,
+        "Success_info_id": "Success_info_338684",
+        "saved_amount_label": "Saved: $480",
+        "client_initials": "DC3",
+        "debt_processed_label": "$1040.00",
+        "debt_settled_lebel": "$400.00",
+        "creditor_name": "Castle Payday",
+        "img": {
+            "alt_text": "Saved $480 with Castle Payday for Client DC3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Castle%20Payday_0.jpg"
+        }
+    },
+    {
+        "id": 146,
+        "Success_info_id": "Success_info_319356",
+        "saved_amount_label": "Saved: $478.13",
+        "client_initials": "PB2",
+        "debt_processed_label": "$1057.50",
+        "debt_settled_lebel": "$420.00",
+        "creditor_name": "Greentrust",
+        "img": {
+            "alt_text": "Saved $478.13 with Greentrust for Client PB2",
+            "src": "https://www.ovlg.com/sites/files/greentrust.jpg"
+        }
+    },
+    {
+        "id": 147,
+        "Success_info_id": "Success_info_245661",
+        "saved_amount_label": "Saved: $631.67",
+        "client_initials": "RC",
+        "debt_processed_label": "$57921.15",
+        "debt_settled_lebel": "$25697.21",
+        "creditor_name": "Chase Card Services",
+        "img": {
+            "alt_text": "Saved $631.67 with Chase Card Services for Client RC",
+            "src": "https://www.ovlg.com/sites/files/81_Chase_Card_Services_1372841959.jpg"
+        }
+    },
+    {
+        "id": 148,
+        "Success_info_id": "Success_info_308073",
+        "saved_amount_label": "Saved: $473.63",
+        "client_initials": "JR4",
+        "debt_processed_label": "$842.50",
+        "debt_settled_lebel": "$211.00",
+        "creditor_name": "Cash Jar",
+        "img": {
+            "alt_text": "Saved $473.63 with Cash Jar for Client JR4",
+            "src": "https://www.ovlg.com/sites/files/Cash%20Jar.jpg"
+        }
+    },
+    {
+        "id": 149,
+        "Success_info_id": "Success_info_391431",
+        "saved_amount_label": "Saved: $467.81",
+        "client_initials": "CJ",
+        "debt_processed_label": "$1248.75",
+        "debt_settled_lebel": "$625.00",
+        "creditor_name": "Castle Payday",
+        "img": {
+            "alt_text": "Saved $467.81 with Castle Payday for Client CJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/Castle%20Payday.jpg"
+        }
+    },
+    {
+        "id": 150,
+        "Success_info_id": "Success_info_271324",
+        "saved_amount_label": "Saved: $466.5",
+        "client_initials": "DB3",
+        "debt_processed_label": "$1038.00",
+        "debt_settled_lebel": "$416.00",
+        "creditor_name": "Sure Advance( Alliance Asset Management )",
+        "img": {
+            "alt_text": "Saved $466.5 with Sure Advance( Alliance Asset Management ) for Client DB3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Sure%20advance%28%20Alliance%20Asset%20Management%20%29_0.jpg"
+        }
+    },
+    {
+        "id": 151,
+        "Success_info_id": "Success_info_331878",
+        "saved_amount_label": "Saved: $461.14",
+        "client_initials": "JR3",
+        "debt_processed_label": "$945.85",
+        "debt_settled_lebel": "$331.00",
+        "creditor_name": "Max Lend",
+        "img": {
+            "alt_text": "Saved $461.14 with Max Lend for Client JR3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Max%20Lend.jpg"
+        }
+    },
+    {
+        "id": 152,
+        "Success_info_id": "Success_info_397475",
+        "saved_amount_label": "Saved: $456.41",
+        "client_initials": "JM",
+        "debt_processed_label": "$1067.64",
+        "debt_settled_lebel": "$459.09",
+        "creditor_name": "Sprint",
+        "img": {
+            "alt_text": "Saved $456.41 with Sprint for Client JM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Sprint.jpg"
+        }
+    },
+    {
+        "id": 153,
+        "Success_info_id": "Success_info_283972",
+        "saved_amount_label": "Saved: $455.72",
+        "client_initials": "LG1",
+        "debt_processed_label": "$2430.47",
+        "debt_settled_lebel": "$1822.85",
+        "creditor_name": "American Express ( Blue )",
+        "img": {
+            "alt_text": "Saved $455.72 with American Express ( Blue ) for Client LG1",
+            "src": "https://www.ovlg.com/sites/files/success_story/American%20Express%20%28%20Blue%20%29.jpg"
+        }
+    },
+    {
+        "id": 154,
+        "Success_info_id": "Success_info_321337",
+        "saved_amount_label": "Saved: $455",
+        "client_initials": "IB",
+        "debt_processed_label": "$1011.67",
+        "debt_settled_lebel": "$405.00",
+        "creditor_name": "Mobiloans",
+        "img": {
+            "alt_text": "Saved $455 with Mobiloans for Client IB",
+            "src": "https://www.ovlg.com/sites/files/success_story/Mobiloans_0.jpg"
+        }
+    },
+    {
+        "id": 155,
+        "Success_info_id": "Success_info_308330",
+        "saved_amount_label": "Saved: $449.41",
+        "client_initials": "KE",
+        "debt_processed_label": "$999.21",
+        "debt_settled_lebel": "$400.00",
+        "creditor_name": "Great Plains Lending",
+        "img": {
+            "alt_text": "Saved $449.41 with Great Plains Lending for Client KE",
+            "src": "https://www.ovlg.com/sites/files/Great%20Plains%20Lending.jpg"
+        }
+    },
+    {
+        "id": 156,
+        "Success_info_id": "Success_info_418790",
+        "saved_amount_label": "Saved: $445.88",
+        "client_initials": "sm2",
+        "debt_processed_label": "$990.85",
+        "debt_settled_lebel": "$396.34",
+        "creditor_name": "Credit One",
+        "img": {
+            "alt_text": "Saved $445.88 with Credit One for Client sm2",
+            "src": "https://www.ovlg.com/sites/files/success_story/CreditOne.jpg"
+        }
+    },
+    {
+        "id": 157,
+        "Success_info_id": "Success_info_321340",
+        "saved_amount_label": "Saved: $437.09",
+        "client_initials": "IB",
+        "debt_processed_label": "$1165.59",
+        "debt_settled_lebel": "$582.80",
+        "creditor_name": "Fingerhut CIT Bank",
+        "img": {
+            "alt_text": "Saved $437.09 with Fingerhut/CIT Bank for Client IB",
+            "src": "https://www.ovlg.com/sites/files/success_story/Fingerhut%3ACIT%20Bank.jpg"
+        }
+    },
+    {
+        "id": 158,
+        "Success_info_id": "Success_info_264904",
+        "saved_amount_label": "Saved: $426",
+        "client_initials": "TJ",
+        "debt_processed_label": "$1768.00",
+        "debt_settled_lebel": "$1200.00",
+        "creditor_name": "Credit Cousel Inc Source One",
+        "img": {
+            "alt_text": "Saved $426 with Credit Cousel Inc / Source One for Client TJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/Credit%20Cousel%20Inc%20Source%20One.jpg"
+        }
+    },
+    {
+        "id": 159,
+        "Success_info_id": "Success_info_280255",
+        "saved_amount_label": "Saved: $564",
+        "client_initials": "CW",
+        "debt_processed_label": "$10979.80",
+        "debt_settled_lebel": "$7105.91",
+        "creditor_name": "Chase Bank",
+        "img": {
+            "alt_text": "Saved $564 with Chase Bank for Client CW",
+            "src": "https://www.ovlg.com/sites/files/35_CashNetUSA_1370419168.jpg"
+        }
+    },
+    {
+        "id": 160,
+        "Success_info_id": "Success_info_282940",
+        "saved_amount_label": "Saved: $562.5",
+        "client_initials": "PT",
+        "debt_processed_label": "$10184.77",
+        "debt_settled_lebel": "$5769.91",
+        "creditor_name": "Payday One",
+        "img": {
+            "alt_text": "Saved $562.5 with Payday One for Client PT",
+            "src": "https://www.ovlg.com/sites/files/151_Payday_one_1387966075.jpg"
+        }
+    },
+    {
+        "id": 161,
+        "Success_info_id": "Success_info_338491",
+        "saved_amount_label": "Saved: $420.9",
+        "client_initials": "RN",
+        "debt_processed_label": "$935.33",
+        "debt_settled_lebel": "$374.13",
+        "creditor_name": "J C Penny - General Electric Capital Corporation",
+        "img": {
+            "alt_text": "Saved $420.9 with J C Penny - General Electric Capital Corporation for Client RN",
+            "src": "https://www.ovlg.com/sites/files/J%20C%20Penny%20-%20General%20Electric%20Capital%20Corporation.jpg"
+        }
+    },
+    {
+        "id": 162,
+        "Success_info_id": "Success_info_321489",
+        "saved_amount_label": "Saved: $419.9",
+        "client_initials": "CW1",
+        "debt_processed_label": "$1679.87",
+        "debt_settled_lebel": "$1120.00",
+        "creditor_name": "Synchrony Bank-PayPal",
+        "img": {
+            "alt_text": "Saved $419.9 with Synchrony Bank-PayPal for Client CW1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Synchrony%20Bank-PayPal.jpg"
+        }
+    },
+    {
+        "id": 163,
+        "Success_info_id": "Success_info_338684",
+        "saved_amount_label": "Saved: $416.25",
+        "client_initials": "DC3",
+        "debt_processed_label": "$830.00",
+        "debt_settled_lebel": "$275.00",
+        "creditor_name": "Clear Loan Solutions",
+        "img": {
+            "alt_text": "Saved $416.25 with Clear Loan Solutions for Client DC3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Clear%20loan%20solutions.jpg"
+        }
+    },
+    {
+        "id": 164,
+        "Success_info_id": "Success_info_338563",
+        "saved_amount_label": "Saved: $416.16",
+        "client_initials": "CJ1",
+        "debt_processed_label": "$2054.88",
+        "debt_settled_lebel": "$1500.00",
+        "creditor_name": "CashNetUSA",
+        "img": {
+            "alt_text": "Saved $416.16 with CashNetUSA for Client CJ1",
+            "src": "https://www.ovlg.com/sites/files/CashNetUSA.jpg"
+        }
+    },
+    {
+        "id": 165,
+        "Success_info_id": "Success_info_271321",
+        "saved_amount_label": "Saved: $406.88",
+        "client_initials": "DB3",
+        "debt_processed_label": "$842.50",
+        "debt_settled_lebel": "$300.00",
+        "creditor_name": "Cashjar",
+        "img": {
+            "alt_text": "Saved $406.88 with Cashjar for Client DB3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cashjar.jpg"
+        }
+    },
+    {
+        "id": 166,
+        "Success_info_id": "Success_info_359824",
+        "saved_amount_label": "Saved: $539.25",
+        "client_initials": "AA",
+        "debt_processed_label": "$3478.14",
+        "debt_settled_lebel": "$1482.98",
+        "creditor_name": "Asset Acceptance LLC",
+        "img": {
+            "alt_text": "Saved $539.25 with Asset Acceptance LLC for Client AA",
+            "src": "https://www.ovlg.com/sites/files/6_AssetAcceptanceLLC_1369994119.jpg"
+        }
+    },
+    {
+        "id": 167,
+        "Success_info_id": "Success_info_399107",
+        "saved_amount_label": "Saved: $402.62",
+        "client_initials": "HW",
+        "debt_processed_label": "$976.83",
+        "debt_settled_lebel": "$440.00",
+        "creditor_name": "First Bankcard NRA",
+        "img": {
+            "alt_text": "Saved $402.62 with First Bankcard/NRA for Client HW",
+            "src": "https://www.ovlg.com/sites/files/success_story/First%20Bankcard%20NRA.jpg"
+        }
+    },
+    {
+        "id": 168,
+        "Success_info_id": "Success_info_335192",
+        "saved_amount_label": "Saved: $398.7",
+        "client_initials": "EP1",
+        "debt_processed_label": "$966.60",
+        "debt_settled_lebel": "$435.00",
+        "creditor_name": "Capital One",
+        "img": {
+            "alt_text": "Saved $398.7 with Capital One for Client EP1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One_1.jpg"
+        }
+    },
+    {
+        "id": 169,
+        "Success_info_id": "Success_info_308139",
+        "saved_amount_label": "Saved: $528.21",
+        "client_initials": "MT",
+        "debt_processed_label": "$3080.27",
+        "debt_settled_lebel": "$1752.72",
+        "creditor_name": "Cash Call",
+        "img": {
+            "alt_text": "Saved $528.21 with Cash Call for Client MT",
+            "src": "https://www.ovlg.com/sites/files/75_CashCall_1371466939.jpg"
+        }
+    },
+    {
+        "id": 170,
+        "Success_info_id": "Success_info_336171",
+        "saved_amount_label": "Saved: $389.69",
+        "client_initials": "DJ2",
+        "debt_processed_label": "$1298.97",
+        "debt_settled_lebel": "$779.38",
+        "creditor_name": "Eddie Bauer",
+        "img": {
+            "alt_text": "Saved $389.69 with Eddie Bauer for Client DJ2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Eddie%20Bauer.jpg"
+        }
+    },
+    {
+        "id": 171,
+        "Success_info_id": "Success_info_321345",
+        "saved_amount_label": "Saved: $384.28",
+        "client_initials": "IB",
+        "debt_processed_label": "$1212.37",
+        "debt_settled_lebel": "$700.00",
+        "creditor_name": "Cash Net USA",
+        "img": {
+            "alt_text": "Saved $384.28 with Cash Net USA for Client IB",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cash%20Net%20USA_3.jpg"
+        }
+    },
+    {
+        "id": 172,
+        "Success_info_id": "Success_info_308329",
+        "saved_amount_label": "Saved: $382.5",
+        "client_initials": "KE",
+        "debt_processed_label": "$1310.00",
+        "debt_settled_lebel": "$800.00",
+        "creditor_name": "United Cash Loans",
+        "img": {
+            "alt_text": "Saved $382.5 with United Cash Loans for Client KE",
+            "src": "https://www.ovlg.com/sites/files/United%20Cash%20Loans_7.jpg"
+        }
+    },
+    {
+        "id": 173,
+        "Success_info_id": "Success_info_397469",
+        "saved_amount_label": "Saved: $372.96",
+        "client_initials": "JM",
+        "debt_processed_label": "$1243.21",
+        "debt_settled_lebel": "$745.93",
+        "creditor_name": "Comenity Bank Express",
+        "img": {
+            "alt_text": "Saved $372.96 with Comenity Bank / Express for Client JM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Comenity%20Bank%20%20Express.jpg"
+        }
+    },
+    {
+        "id": 174,
+        "Success_info_id": "Success_info_319357",
+        "saved_amount_label": "Saved: $371.25",
+        "client_initials": "PB2",
+        "debt_processed_label": "$845.00",
+        "debt_settled_lebel": "$350.00",
+        "creditor_name": "Westrivercash",
+        "img": {
+            "alt_text": "Saved $371.25 with Westrivercash for Client PB2",
+            "src": "https://www.ovlg.com/sites/files/Westrivercash_0.jpg"
+        }
+    },
+    {
+        "id": 175,
+        "Success_info_id": "Success_info_255497",
+        "saved_amount_label": "Saved: $488.25",
+        "client_initials": "JA",
+        "debt_processed_label": "$9205.00",
+        "debt_settled_lebel": "$4818.94",
+        "creditor_name": "US Bank",
+        "img": {
+            "alt_text": "Saved $488.25 with US Bank for Client JA",
+            "src": "https://www.ovlg.com/sites/files/13_USBank_1370004512.jpg"
+        }
+    },
+    {
+        "id": 176,
+        "Success_info_id": "Success_info_287005",
+        "saved_amount_label": "Saved: $363.83",
+        "client_initials": "KW1",
+        "debt_processed_label": "$859.10",
+        "debt_settled_lebel": "$374.00",
+        "creditor_name": "Spot Loan",
+        "img": {
+            "alt_text": "Saved $363.83 with Spot Loan for Client KW1",
+            "src": "https://www.ovlg.com/sites/files/Spot%20Loan.jpg"
+        }
+    },
+    {
+        "id": 177,
+        "Success_info_id": "Success_info_238791",
+        "saved_amount_label": "Saved: $362.34",
+        "client_initials": "TB1",
+        "debt_processed_label": "$966.24",
+        "debt_settled_lebel": "$483.12",
+        "creditor_name": "Monroe Muffer And Brake (Firestone At CFNA)",
+        "img": {
+            "alt_text": "Saved $362.34 with Monroe Muffer And Brake (Firestone At CFNA) for Client TB1",
+            "src": "https://www.ovlg.com/sites/files/Monroe%20Muffer%20and%20Brake%20%28Firestone%20at%20CFNA%29.jpg"
+        }
+    },
+    {
+        "id": 178,
+        "Success_info_id": "Success_info_240642",
+        "saved_amount_label": "Saved: $482.25",
+        "client_initials": "KS",
+        "debt_processed_label": "$19578.00",
+        "debt_settled_lebel": "$10534.00",
+        "creditor_name": "Bill Me Later",
+        "img": {
+            "alt_text": "Saved $482.25 with Bill Me Later for Client KS",
+            "src": "https://www.ovlg.com/sites/files/125_Bill_me_later_1373547609.jpg"
+        }
+    },
+    {
+        "id": 179,
+        "Success_info_id": "Success_info_294729",
+        "saved_amount_label": "Saved: $481.5",
+        "client_initials": "EM",
+        "debt_processed_label": "$13112.31",
+        "debt_settled_lebel": "$5015.38",
+        "creditor_name": "Asset Acceptance LLC",
+        "img": {
+            "alt_text": "Saved $481.5 with Asset Acceptance LLC for Client EM",
+            "src": "https://www.ovlg.com/sites/files/90_ASSET_ACCEPTANCE_LLC_1372857633.jpg"
+        }
+    },
+    {
+        "id": 180,
+        "Success_info_id": "Success_info_336172",
+        "saved_amount_label": "Saved: $355.79",
+        "client_initials": "DJ2",
+        "debt_processed_label": "$950.38",
+        "debt_settled_lebel": "$476.00",
+        "creditor_name": "First Premier Bank 7043",
+        "img": {
+            "alt_text": "Saved $355.79 with First Premier Bank#7043 for Client DJ2",
+            "src": "https://www.ovlg.com/sites/files/success_story/First%20Premier%20Bank%237043.jpg"
+        }
+    },
+    {
+        "id": 181,
+        "Success_info_id": "Success_info_323824",
+        "saved_amount_label": "Saved: $355.58",
+        "client_initials": "BM",
+        "debt_processed_label": "$948.21",
+        "debt_settled_lebel": "$474.11",
+        "creditor_name": "Capital One 9681",
+        "img": {
+            "alt_text": "Saved $355.58 with Capital One# 9681 for Client BM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One%209681.jpg"
+        }
+    },
+    {
+        "id": 182,
+        "Success_info_id": "Success_info_386962",
+        "saved_amount_label": "Saved: $348.89",
+        "client_initials": "CY",
+        "debt_processed_label": "$942.24",
+        "debt_settled_lebel": "$477.05",
+        "creditor_name": "Capital One 9697",
+        "img": {
+            "alt_text": "Saved $348.89 with Capital One# 9697 for Client CY",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One%209697.jpg"
+        }
+    },
+    {
+        "id": 183,
+        "Success_info_id": "Success_info_301579",
+        "saved_amount_label": "Saved: $456.07",
+        "client_initials": "DV",
+        "debt_processed_label": "$7539.61",
+        "debt_settled_lebel": "$3317.48",
+        "creditor_name": "Applied Bank Card",
+        "img": {
+            "alt_text": "Saved $456.07 with Applied Bank Card for Client DV",
+            "src": "https://www.ovlg.com/sites/files/135_APPLIED_BANK_CARD_1378281668.jpg"
+        }
+    },
+    {
+        "id": 184,
+        "Success_info_id": "Success_info_271322",
+        "saved_amount_label": "Saved: $340.5",
+        "client_initials": "DB3",
+        "debt_processed_label": "$854.00",
+        "debt_settled_lebel": "$400.00",
+        "creditor_name": "Integrity Advance",
+        "img": {
+            "alt_text": "Saved $340.5 with Integrity Advance for Client DB3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Integrity%20Advance.jpg"
+        }
+    },
+    {
+        "id": 185,
+        "Success_info_id": "Success_info_323302",
+        "saved_amount_label": "Saved: $453.68",
+        "client_initials": "AV",
+        "debt_processed_label": "$12378.01",
+        "debt_settled_lebel": "$7101.37",
+        "creditor_name": "JC Penny",
+        "img": {
+            "alt_text": "Saved $453.68 with JC Penny for Client AV",
+            "src": "https://www.ovlg.com/sites/files/139_JC_penny_1378293187.jpg"
+        }
+    },
+    {
+        "id": 186,
+        "Success_info_id": "Success_info_335192",
+        "saved_amount_label": "Saved: $339.19",
+        "client_initials": "EP1",
+        "debt_processed_label": "$822.28",
+        "debt_settled_lebel": "$370.03",
+        "creditor_name": "Barclay Card",
+        "img": {
+            "alt_text": "Saved $339.19 with Barclay Card for Client EP1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Barclay%20Card.jpg"
+        }
+    },
+    {
+        "id": 187,
+        "Success_info_id": "Success_info_327641",
+        "saved_amount_label": "Saved: $338.21",
+        "client_initials": "JS1",
+        "debt_processed_label": "$900.94",
+        "debt_settled_lebel": "$450.00",
+        "creditor_name": "FIRST NATIONAL C.C.",
+        "img": {
+            "alt_text": "Saved $338.21 with FIRST NATIONAL C.C. for Client JS1",
+            "src": "https://www.ovlg.com/sites/files/success_story/FIRST%20NATIONAL%20C.C..jpg"
+        }
+    },
+    {
+        "id": 188,
+        "Success_info_id": "Success_info_282523",
+        "saved_amount_label": "Saved: $450",
+        "client_initials": "TM",
+        "debt_processed_label": "$14201.12",
+        "debt_settled_lebel": "$7819.05",
+        "creditor_name": "East Side Lenders",
+        "img": {
+            "alt_text": "Saved $450 with East Side Lenders for Client TM",
+            "src": "https://www.ovlg.com/sites/files/141_East_Side_Lenders_1386052852.jpg"
+        }
+    },
+    {
+        "id": 189,
+        "Success_info_id": "Success_info_264908",
+        "saved_amount_label": "Saved: $337.25",
+        "client_initials": "TJ",
+        "debt_processed_label": "$824.66",
+        "debt_settled_lebel": "$375.00",
+        "creditor_name": "CashnetUSA",
+        "img": {
+            "alt_text": "Saved $337.25 with CashnetUSA for Client TJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/CashnetUSA.jpg"
+        }
+    },
+    {
+        "id": 190,
+        "Success_info_id": "Success_info_338562",
+        "saved_amount_label": "Saved: $329.84",
+        "client_initials": "CJ1",
+        "debt_processed_label": "$879.58",
+        "debt_settled_lebel": "$439.79",
+        "creditor_name": "GEMB Walmart",
+        "img": {
+            "alt_text": "Saved $329.84 with GEMB/Walmart for Client CJ1",
+            "src": "https://www.ovlg.com/sites/files/GEMB%3AWalmart.jpg"
+        }
+    },
+    {
+        "id": 191,
+        "Success_info_id": "Success_info_398500",
+        "saved_amount_label": "Saved: $328.5",
+        "client_initials": "RR",
+        "debt_processed_label": "$650.00",
+        "debt_settled_lebel": "$212.00",
+        "creditor_name": "Lend Green",
+        "img": {
+            "alt_text": "Saved $328.5 with Lend Green for Client RR",
+            "src": "https://www.ovlg.com/sites/files/success_story/Lend%20green.jpg"
+        }
+    },
+    {
+        "id": 192,
+        "Success_info_id": "Success_info_263436",
+        "saved_amount_label": "Saved: $430.31",
+        "client_initials": "MF",
+        "debt_processed_label": "$8584.76",
+        "debt_settled_lebel": "$5396.50",
+        "creditor_name": "First Premier Bank",
+        "img": {
+            "alt_text": "Saved $430.31 with First Premier Bank for Client MF",
+            "src": "https://www.ovlg.com/sites/files/160_First_Premier_Bank_1389869310.jpg"
+        }
+    },
+    {
+        "id": 193,
+        "Success_info_id": "Success_info_338601",
+        "saved_amount_label": "Saved: $318.39",
+        "client_initials": "TM1",
+        "debt_processed_label": "$975.52",
+        "debt_settled_lebel": "$551.00",
+        "creditor_name": "Spot Loan",
+        "img": {
+            "alt_text": "Saved $318.39 with Spot Loan for Client TM1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Spot%20Loan_0.jpg"
+        }
+    },
+    {
+        "id": 194,
+        "Success_info_id": "Success_info_327639",
+        "saved_amount_label": "Saved: $316.58",
+        "client_initials": "JS1",
+        "debt_processed_label": "$769.09",
+        "debt_settled_lebel": "$346.98",
+        "creditor_name": "CREDIT ONE BANK",
+        "img": {
+            "alt_text": "Saved $316.58 with CREDIT ONE BANK  for Client JS1",
+            "src": "https://www.ovlg.com/sites/files/success_story/CREDIT%20ONE%20BANK_0.jpg"
+        }
+    },
+    {
+        "id": 195,
+        "Success_info_id": "Success_info_308334",
+        "saved_amount_label": "Saved: $315",
+        "client_initials": "KE",
+        "debt_processed_label": "$670.00",
+        "debt_settled_lebel": "$250.00",
+        "creditor_name": "My Next Pay Check",
+        "img": {
+            "alt_text": "Saved $315 with My Next Pay Check for Client KE",
+            "src": "https://www.ovlg.com/sites/files/my%20next%20pay%20check_8.jpg"
+        }
+    },
+    {
+        "id": 196,
+        "Success_info_id": "Success_info_274163",
+        "saved_amount_label": "Saved: $307.58",
+        "client_initials": "RP",
+        "debt_processed_label": "$1370.11",
+        "debt_settled_lebel": "$960.00",
+        "creditor_name": "Capital One",
+        "img": {
+            "alt_text": "Saved $307.58 with Capital One for Client RP",
+            "src": "https://www.ovlg.com/sites/files/success_story/capital%20one.jpg"
+        }
+    },
+    {
+        "id": 197,
+        "Success_info_id": "Success_info_323831",
+        "saved_amount_label": "Saved: $307.18",
+        "client_initials": "BM",
+        "debt_processed_label": "$2049.57",
+        "debt_settled_lebel": "$1640.00",
+        "creditor_name": "Discover Card",
+        "img": {
+            "alt_text": "Saved $307.18 with Discover Card for Client BM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Discover%20card_1.jpg"
+        }
+    },
+    {
+        "id": 198,
+        "Success_info_id": "Success_info_264908",
+        "saved_amount_label": "Saved: $306.75",
+        "client_initials": "TJ",
+        "debt_processed_label": "$649.00",
+        "debt_settled_lebel": "$240.00",
+        "creditor_name": "Northcash",
+        "img": {
+            "alt_text": "Saved $306.75 with Northcash for Client TJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/Northcash.jpg"
+        }
+    },
+    {
+        "id": 199,
+        "Success_info_id": "Success_info_283964",
+        "saved_amount_label": "Saved: $303.76",
+        "client_initials": "LG1",
+        "debt_processed_label": "$990.01",
+        "debt_settled_lebel": "$585.00",
+        "creditor_name": "Nordstrom Account Balance",
+        "img": {
+            "alt_text": "Saved $303.76 with Nordstrom Account Balance for Client LG1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Nordstrom%20account%20balance.jpg"
+        }
+    },
+    {
+        "id": 200,
+        "Success_info_id": "Success_info_338563",
+        "saved_amount_label": "Saved: $293.45",
+        "client_initials": "CJ1",
+        "debt_processed_label": "$652.10",
+        "debt_settled_lebel": "$260.84",
+        "creditor_name": "Walmart",
+        "img": {
+            "alt_text": "Saved $293.45 with Walmart for Client CJ1",
+            "src": "https://www.ovlg.com/sites/files/Walmart.jpg"
+        }
+    },
+    {
+        "id": 201,
+        "Success_info_id": "Success_info_292323",
+        "saved_amount_label": "Saved: $288.6",
+        "client_initials": "MD1",
+        "debt_processed_label": "$699.65",
+        "debt_settled_lebel": "$314.85",
+        "creditor_name": "Wallmart 6953",
+        "img": {
+            "alt_text": "Saved $288.6 with Wallmart#6953 for Client MD1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Wallmart%206953.jpg"
+        }
+    },
+    {
+        "id": 202,
+        "Success_info_id": "Success_info_309737",
+        "saved_amount_label": "Saved: $383.83",
+        "client_initials": "LR",
+        "debt_processed_label": "$15823.86",
+        "debt_settled_lebel": "$10245.93",
+        "creditor_name": "JC Penny",
+        "img": {
+            "alt_text": "Saved $383.83 with JC Penny for Client LR",
+            "src": "https://www.ovlg.com/sites/files/138_JC_Penny_1378288168.jpg"
+        }
+    },
+    {
+        "id": 203,
+        "Success_info_id": "Success_info_308333",
+        "saved_amount_label": "Saved: $283.5",
+        "client_initials": "KE",
+        "debt_processed_label": "$528.00",
+        "debt_settled_lebel": "$150.00",
+        "creditor_name": "Everest Cash Advance",
+        "img": {
+            "alt_text": "Saved $283.5 with Everest Cash Advance for Client KE",
+            "src": "https://www.ovlg.com/sites/files/Everest%20cash%20advance.jpg"
+        }
+    },
+    {
+        "id": 204,
+        "Success_info_id": "Success_info_287006",
+        "saved_amount_label": "Saved: $281.25",
+        "client_initials": "KW1",
+        "debt_processed_label": "$625.00",
+        "debt_settled_lebel": "$250.00",
+        "creditor_name": "Check N Go",
+        "img": {
+            "alt_text": "Saved $281.25 with Check N Go for Client KW1",
+            "src": "https://www.ovlg.com/sites/files/Check%20N%20Go.jpg"
+        }
+    },
+    {
+        "id": 205,
+        "Success_info_id": "Success_info_338690",
+        "saved_amount_label": "Saved: $280.25",
+        "client_initials": "DC3",
+        "debt_processed_label": "$643.67",
+        "debt_settled_lebel": "$270.00",
+        "creditor_name": "Paypal Webbbank",
+        "img": {
+            "alt_text": "Saved $280.25 with Paypal/Webbbank for Client DC3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Paypal%3AWebbbank.jpg"
+        }
+    },
+    {
+        "id": 206,
+        "Success_info_id": "Success_info_267429",
+        "saved_amount_label": "Saved: $372.59",
+        "client_initials": "RS",
+        "debt_processed_label": "$7320.71",
+        "debt_settled_lebel": "$3983.50",
+        "creditor_name": "American Express",
+        "img": {
+            "alt_text": "Saved $372.59 with American Express for Client RS",
+            "src": "https://www.ovlg.com/sites/files/22_AmericanExpress_1370344490.jpg"
+        }
+    },
+    {
+        "id": 207,
+        "Success_info_id": "Success_info_327643",
+        "saved_amount_label": "Saved: $279.38",
+        "client_initials": "JS1",
+        "debt_processed_label": "$892.50",
+        "debt_settled_lebel": "$520.00",
+        "creditor_name": "DOLLAR QUICK",
+        "img": {
+            "alt_text": "Saved $279.38 with DOLLAR QUICK for Client JS1",
+            "src": "https://www.ovlg.com/sites/files/success_story/DOLLAR%20QUICK.jpg"
+        }
+    },
+    {
+        "id": 208,
+        "Success_info_id": "Success_info_347515",
+        "saved_amount_label": "Saved: $278.12",
+        "client_initials": "DM2",
+        "debt_processed_label": "$824.06",
+        "debt_settled_lebel": "$453.23",
+        "creditor_name": "Capital One 5769",
+        "img": {
+            "alt_text": "Saved $278.12 with Capital One#5769 for Client DM2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One%235769_0.jpg"
+        }
+    },
+    {
+        "id": 209,
+        "Success_info_id": "Success_info_295476",
+        "saved_amount_label": "Saved: $277.5",
+        "client_initials": "CL1",
+        "debt_processed_label": "$795.00",
+        "debt_settled_lebel": "$425.00",
+        "creditor_name": "WHITE HILLS",
+        "img": {
+            "alt_text": "Saved $277.5 with WHITE HILLS for Client CL1",
+            "src": "https://www.ovlg.com/sites/files/WHITE%20HILLS_0.jpg"
+        }
+    },
+    {
+        "id": 210,
+        "Success_info_id": "Success_info_319357",
+        "saved_amount_label": "Saved: $277.25",
+        "client_initials": "PB2",
+        "debt_processed_label": "$616.12",
+        "debt_settled_lebel": "$246.45",
+        "creditor_name": "Orchard Bank",
+        "img": {
+            "alt_text": "Saved $277.25 with Orchard Bank for Client PB2",
+            "src": "https://www.ovlg.com/sites/files/Orchard%20Bank.jpg"
+        }
+    },
+    {
+        "id": 211,
+        "Success_info_id": "Success_info_327638",
+        "saved_amount_label": "Saved: $275.7",
+        "client_initials": "JS1",
+        "debt_processed_label": "$657.60",
+        "debt_settled_lebel": "$290.00",
+        "creditor_name": "Check-N-Go",
+        "img": {
+            "alt_text": "Saved $275.7 with Check-N-Go for Client JS1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Check-N-Go.jpg"
+        }
+    },
+    {
+        "id": 212,
+        "Success_info_id": "Success_info_393929",
+        "saved_amount_label": "Saved: $275.2",
+        "client_initials": "WJ",
+        "debt_processed_label": "$766.93",
+        "debt_settled_lebel": "$400.00",
+        "creditor_name": "Cash Central",
+        "img": {
+            "alt_text": "Saved $275.2 with Cash Central for Client WJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cash%20Central_0.jpg"
+        }
+    },
+    {
+        "id": 213,
+        "Success_info_id": "Success_info_295480",
+        "saved_amount_label": "Saved: $273.75",
+        "client_initials": "CL1",
+        "debt_processed_label": "$665.00",
+        "debt_settled_lebel": "$300.00",
+        "creditor_name": "ACTION PAYDAY",
+        "img": {
+            "alt_text": "Saved $273.75 with ACTION PAYDAY for Client CL1",
+            "src": "https://www.ovlg.com/sites/files/ACTION%20PAYDAY.jpg"
+        }
+    },
+    {
+        "id": 214,
+        "Success_info_id": "Success_info_399109",
+        "saved_amount_label": "Saved: $267.44",
+        "client_initials": "HW",
+        "debt_processed_label": "$699.58",
+        "debt_settled_lebel": "$343.00",
+        "creditor_name": "Credit One Bank VISA (MCM)",
+        "img": {
+            "alt_text": "Saved $267.44 with Credit One Bank VISA (MCM) for Client HW",
+            "src": "https://www.ovlg.com/sites/files/success_story/Credit%20One%20Bank%20VISA%20%28MCM%29.jpg"
+        }
+    },
+    {
+        "id": 215,
+        "Success_info_id": "Success_info_239550",
+        "saved_amount_label": "Saved: $265.46",
+        "client_initials": "BB",
+        "debt_processed_label": "$589.90",
+        "debt_settled_lebel": "$235.96",
+        "creditor_name": "Sears",
+        "img": {
+            "alt_text": "Saved $265.46 with Sears for Client BB",
+            "src": "https://www.ovlg.com/sites/files/Sears.jpg"
+        }
+    },
+    {
+        "id": 216,
+        "Success_info_id": "Success_info_283972",
+        "saved_amount_label": "Saved: $261.97",
+        "client_initials": "LG1",
+        "debt_processed_label": "$698.58",
+        "debt_settled_lebel": "$349.29",
+        "creditor_name": "NewYork & Company",
+        "img": {
+            "alt_text": "Saved $261.97 with NewYork & Company for Client LG1",
+            "src": "https://www.ovlg.com/sites/files/success_story/NewYork%20%26%20Company.jpg"
+        }
+    },
+    {
+        "id": 217,
+        "Success_info_id": "Success_info_242662",
+        "saved_amount_label": "Saved: $346.5",
+        "client_initials": "MJ",
+        "debt_processed_label": "$5867.00",
+        "debt_settled_lebel": "$3706.00",
+        "creditor_name": "Quick Cash",
+        "img": {
+            "alt_text": "Saved $346.5 with Quick Cash for Client MJ",
+            "src": "https://www.ovlg.com/sites/files/43_QuickCash_1370429992.jpg"
+        }
+    },
+    {
+        "id": 218,
+        "Success_info_id": "Success_info_321338",
+        "saved_amount_label": "Saved: $258.75",
+        "client_initials": "IB",
+        "debt_processed_label": "$575.00",
+        "debt_settled_lebel": "$230.00",
+        "creditor_name": "PayDayOne",
+        "img": {
+            "alt_text": "Saved $258.75 with PayDayOne for Client IB",
+            "src": "https://www.ovlg.com/sites/files/success_story/PayDayOne.jpg"
+        }
+    },
+    {
+        "id": 219,
+        "Success_info_id": "Success_info_283966",
+        "saved_amount_label": "Saved: $249.36",
+        "client_initials": "LG1",
+        "debt_processed_label": "$554.14",
+        "debt_settled_lebel": "$221.66",
+        "creditor_name": "Orchard Bank (HSBC)",
+        "img": {
+            "alt_text": "Saved $249.36 with Orchard Bank (HSBC) for Client LG1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Orchard%20Bank%20%28HSBC%29.jpg"
+        }
+    },
+    {
+        "id": 220,
+        "Success_info_id": "Success_info_254192",
+        "saved_amount_label": "Saved: $332.25",
+        "client_initials": "VG",
+        "debt_processed_label": "$2243.00",
+        "debt_settled_lebel": "$1372.00",
+        "creditor_name": "Spot On Loans",
+        "img": {
+            "alt_text": "Saved $332.25 with spot on loans for Client VG",
+            "src": "https://www.ovlg.com/sites/files/113_Spot_on_loans_1373527499.jpg"
+        }
+    },
+    {
+        "id": 221,
+        "Success_info_id": "Success_info_317264",
+        "saved_amount_label": "Saved: $329.1",
+        "client_initials": "TS",
+        "debt_processed_label": "$5854.87",
+        "debt_settled_lebel": "$2767.56",
+        "creditor_name": "Cash Cure",
+        "img": {
+            "alt_text": "Saved $329.1 with Cash cure for Client TS",
+            "src": "https://www.ovlg.com/sites/files/80_CashCure_1371475129.jpg"
+        }
+    },
+    {
+        "id": 222,
+        "Success_info_id": "Success_info_332322",
+        "saved_amount_label": "Saved: $326.99",
+        "client_initials": "LM",
+        "debt_processed_label": "$4627.50",
+        "debt_settled_lebel": "$3153.11",
+        "creditor_name": "Bill Me Later",
+        "img": {
+            "alt_text": "Saved $326.99 with Bill Me Later for Client LM",
+            "src": "https://www.ovlg.com/sites/files/166_Bill_Me_Later_1389943927.jpg"
+        }
+    },
+    {
+        "id": 223,
+        "Success_info_id": "Success_info_330751",
+        "saved_amount_label": "Saved: $325.5",
+        "client_initials": "DP",
+        "debt_processed_label": "$734.00",
+        "debt_settled_lebel": "$300.00",
+        "creditor_name": "Check N Go Online",
+        "img": {
+            "alt_text": "Saved $325.5 with Check n Go Online for Client DP",
+            "src": "https://www.ovlg.com/sites/files/163_Check-N-Go_1389941453.jpg"
+        }
+    },
+    {
+        "id": 224,
+        "Success_info_id": "Success_info_374506",
+        "saved_amount_label": "Saved: $243.68",
+        "client_initials": "KL",
+        "debt_processed_label": "$637.87",
+        "debt_settled_lebel": "$312.96",
+        "creditor_name": "CREDIT ONE BANK",
+        "img": {
+            "alt_text": "Saved $243.68 with CREDIT ONE BANK  for Client KL",
+            "src": "https://www.ovlg.com/sites/files/CREDIT%20ONE%20BANK.jpg"
+        }
+    },
+    {
+        "id": 225,
+        "Success_info_id": "Success_info_287009",
+        "saved_amount_label": "Saved: $240",
+        "client_initials": "KW1",
+        "debt_processed_label": "$650.00",
+        "debt_settled_lebel": "$330.00",
+        "creditor_name": "Cash Net Usa",
+        "img": {
+            "alt_text": "Saved $240 with Cash Net Usa for Client KW1",
+            "src": "https://www.ovlg.com/sites/files/Cash%20Net%20Usa.jpg"
+        }
+    },
+    {
+        "id": 226,
+        "Success_info_id": "Success_info_293714",
+        "saved_amount_label": "Saved: $315.87",
+        "client_initials": "SK",
+        "debt_processed_label": "$4563.41",
+        "debt_settled_lebel": "$2854.27",
+        "creditor_name": "First Premier Bank",
+        "img": {
+            "alt_text": "Saved $315.87 with First Premier Bank for Client SK",
+            "src": "https://www.ovlg.com/sites/files/97_First_Premier_Bank_1372927474.jpg"
+        }
+    },
+    {
+        "id": 227,
+        "Success_info_id": "Success_info_321338",
+        "saved_amount_label": "Saved: $236.25",
+        "client_initials": "IB",
+        "debt_processed_label": "$575.00",
+        "debt_settled_lebel": "$260.00",
+        "creditor_name": "Check N Go",
+        "img": {
+            "alt_text": "Saved $236.25 with Check N Go for Client IB",
+            "src": "https://www.ovlg.com/sites/files/success_story/Check%20N%20Go_1.jpg"
+        }
+    },
+    {
+        "id": 228,
+        "Success_info_id": "Success_info_347517",
+        "saved_amount_label": "Saved: $234",
+        "client_initials": "JH3",
+        "debt_processed_label": "$625.00",
+        "debt_settled_lebel": "$313.00",
+        "creditor_name": "Check Into Cash",
+        "img": {
+            "alt_text": "Saved $234 with Check Into Cash for Client JH3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Check%20into%20Cash_0.jpg"
+        }
+    },
+    {
+        "id": 229,
+        "Success_info_id": "Success_info_292324",
+        "saved_amount_label": "Saved: $232.5",
+        "client_initials": "MD1",
+        "debt_processed_label": "$510.00",
+        "debt_settled_lebel": "$200.00",
+        "creditor_name": "Shamrock Marketing Group",
+        "img": {
+            "alt_text": "Saved $232.5 with Shamrock Marketing Group for Client MD1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Shamrock%20Marketing%20Group.jpg"
+        }
+    },
+    {
+        "id": 230,
+        "Success_info_id": "Success_info_323828",
+        "saved_amount_label": "Saved: $230.3",
+        "client_initials": "BM",
+        "debt_processed_label": "$511.77",
+        "debt_settled_lebel": "$204.71",
+        "creditor_name": "Home Depot",
+        "img": {
+            "alt_text": "Saved $230.3 with Home Depot for Client BM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Home%20Depot_0.jpg"
+        }
+    },
+    {
+        "id": 231,
+        "Success_info_id": "Success_info_294773",
+        "saved_amount_label": "Saved: $303.93",
+        "client_initials": "TB",
+        "debt_processed_label": "$2982.03",
+        "debt_settled_lebel": "$2137.00",
+        "creditor_name": "Cash Call",
+        "img": {
+            "alt_text": "Saved $303.93 with Cash Call for Client TB",
+            "src": "https://www.ovlg.com/sites/files/31_CashCall_1370414274.jpg"
+        }
+    },
+    {
+        "id": 232,
+        "Success_info_id": "Success_info_327641",
+        "saved_amount_label": "Saved: $227.59",
+        "client_initials": "JS1",
+        "debt_processed_label": "$1042.88",
+        "debt_settled_lebel": "$739.43",
+        "creditor_name": "Power Finance",
+        "img": {
+            "alt_text": "Saved $227.59 with Power Finance for Client JS1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Power%20Finance.jpg"
+        }
+    },
+    {
+        "id": 233,
+        "Success_info_id": "Success_info_225115",
+        "saved_amount_label": "Saved: $302.76",
+        "client_initials": "JP",
+        "debt_processed_label": "$41220.60",
+        "debt_settled_lebel": "$16213.66",
+        "creditor_name": "Bank Of America",
+        "img": {
+            "alt_text": "Saved $302.76 with Bank of America for Client JP",
+            "src": "https://www.ovlg.com/sites/files/20_BankofAmerica_1370342776.jpg"
+        }
+    },
+    {
+        "id": 234,
+        "Success_info_id": "Success_info_264908",
+        "saved_amount_label": "Saved: $225.75",
+        "client_initials": "TJ",
+        "debt_processed_label": "$602.00",
+        "debt_settled_lebel": "$301.00",
+        "creditor_name": "EZ Loan",
+        "img": {
+            "alt_text": "Saved $225.75 with EZ Loan for Client TJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/EZ%20Loan.jpg"
+        }
+    },
+    {
+        "id": 235,
+        "Success_info_id": "Success_info_292321",
+        "saved_amount_label": "Saved: $225",
+        "client_initials": "MD1",
+        "debt_processed_label": "$550.00",
+        "debt_settled_lebel": "$250.00",
+        "creditor_name": "500 Fast Cash",
+        "img": {
+            "alt_text": "Saved $225 with 500 Fast Cash for Client MD1",
+            "src": "https://www.ovlg.com/sites/files/success_story/500%20Fast%20Cash_0.jpg"
+        }
+    },
+    {
+        "id": 236,
+        "Success_info_id": "Success_info_292322",
+        "saved_amount_label": "Saved: $224.77",
+        "client_initials": "MD1",
+        "debt_processed_label": "$599.38",
+        "debt_settled_lebel": "$299.69",
+        "creditor_name": "Layne Bryant",
+        "img": {
+            "alt_text": "Saved $224.77 with Layne Bryant for Client MD1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Layne%20Bryant.jpg"
+        }
+    },
+    {
+        "id": 237,
+        "Success_info_id": "Success_info_261391",
+        "saved_amount_label": "Saved: $224.2",
+        "client_initials": "JC",
+        "debt_processed_label": "$852.93",
+        "debt_settled_lebel": "$554.00",
+        "creditor_name": "Cfna",
+        "img": {
+            "alt_text": "Saved $224.2 with Cfna for Client JC",
+            "src": "https://www.ovlg.com/sites/files/cfna.jpg"
+        }
+    },
+    {
+        "id": 238,
+        "Success_info_id": "Success_info_284495",
+        "saved_amount_label": "Saved: $298.56",
+        "client_initials": "SC",
+        "debt_processed_label": "$12434.70",
+        "debt_settled_lebel": "$7494.29",
+        "creditor_name": "JC Penny",
+        "img": {
+            "alt_text": "Saved $298.56 with JC Penny for Client SC",
+            "src": "https://www.ovlg.com/sites/files/155_JC_Penney_1388041606.jpg"
+        }
+    },
+    {
+        "id": 239,
+        "Success_info_id": "Success_info_338708",
+        "saved_amount_label": "Saved: $223.63",
+        "client_initials": "AC1",
+        "debt_processed_label": "$548.17",
+        "debt_settled_lebel": "$250.00",
+        "creditor_name": "Victoria's Secret",
+        "img": {
+            "alt_text": "Saved $223.63 with Victoria's Secret for Client AC1",
+            "src": "https://www.ovlg.com/sites/files/Victoria%27s%20Secret.jpg"
+        }
+    },
+    {
+        "id": 240,
+        "Success_info_id": "Success_info_292146",
+        "saved_amount_label": "Saved: $297.03",
+        "client_initials": "LB",
+        "debt_processed_label": "$9922.38",
+        "debt_settled_lebel": "$4688.71",
+        "creditor_name": "Portfolio Recovery Associates",
+        "img": {
+            "alt_text": "Saved $297.03 with portfolio recovery associates  for Client LB",
+            "src": "https://www.ovlg.com/sites/files/10_PortfolioRecoveryAssociates_1370000889.jpg"
+        }
+    },
+    {
+        "id": 241,
+        "Success_info_id": "Success_info_327641",
+        "saved_amount_label": "Saved: $215.17",
+        "client_initials": "JS1",
+        "debt_processed_label": "$963.96",
+        "debt_settled_lebel": "$677.07",
+        "creditor_name": "Applied Bank",
+        "img": {
+            "alt_text": "Saved $215.17 with Applied Bank for Client JS1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Applied%20Bank.jpg"
+        }
+    },
+    {
+        "id": 242,
+        "Success_info_id": "Success_info_264907",
+        "saved_amount_label": "Saved: $213.75",
+        "client_initials": "TJ",
+        "debt_processed_label": "$835.00",
+        "debt_settled_lebel": "$550.00",
+        "creditor_name": "Riverbend Cash",
+        "img": {
+            "alt_text": "Saved $213.75 with Riverbend Cash for Client TJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/Riverbend%20Cash.jpg"
+        }
+    },
+    {
+        "id": 243,
+        "Success_info_id": "Success_info_386969",
+        "saved_amount_label": "Saved: $213",
+        "client_initials": "CY",
+        "debt_processed_label": "$568.00",
+        "debt_settled_lebel": "$284.00",
+        "creditor_name": "Payday Loan Yes(Recieveable Performance MG)",
+        "img": {
+            "alt_text": "Saved $213 with Payday Loan Yes(Recieveable Performance MG) for Client CY",
+            "src": "https://www.ovlg.com/sites/files/success_story/Payday%20Loan%20Yes%28Recieveable%20Performance%20MG%29.jpg"
+        }
+    },
+    {
+        "id": 244,
+        "Success_info_id": "Success_info_393925",
+        "saved_amount_label": "Saved: $210.75",
+        "client_initials": "WJ",
+        "debt_processed_label": "$381.00",
+        "debt_settled_lebel": "$100.00",
+        "creditor_name": "American Web Loan",
+        "img": {
+            "alt_text": "Saved $210.75 with American Web Loan for Client WJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/American%20Web%20Loan.jpg"
+        }
+    },
+    {
+        "id": 245,
+        "Success_info_id": "Success_info_343028",
+        "saved_amount_label": "Saved: $279.75",
+        "client_initials": "LG",
+        "debt_processed_label": "$10707.11",
+        "debt_settled_lebel": "$4835.96",
+        "creditor_name": "East Side Lenders",
+        "img": {
+            "alt_text": "Saved $279.75 with East Side Lenders for Client LG",
+            "src": "https://www.ovlg.com/sites/files/62_EastSideLenders_1370574890.jpg"
+        }
+    },
+    {
+        "id": 246,
+        "Success_info_id": "Success_info_295477",
+        "saved_amount_label": "Saved: $206.25",
+        "client_initials": "CL1",
+        "debt_processed_label": "$675.00",
+        "debt_settled_lebel": "$400.00",
+        "creditor_name": "CASTLE PAYDAY",
+        "img": {
+            "alt_text": "Saved $206.25 with CASTLE PAYDAY for Client CL1",
+            "src": "https://www.ovlg.com/sites/files/CASTLE%20PAYDAY.jpg"
+        }
+    },
+    {
+        "id": 247,
+        "Success_info_id": "Success_info_287004",
+        "saved_amount_label": "Saved: $202.5",
+        "client_initials": "KW1",
+        "debt_processed_label": "$390.00",
+        "debt_settled_lebel": "$120.00",
+        "creditor_name": "500 Fast Cash",
+        "img": {
+            "alt_text": "Saved $202.5 with 500 Fast Cash for Client KW1",
+            "src": "https://www.ovlg.com/sites/files/500%20Fast%20Cash.jpg"
+        }
+    },
+    {
+        "id": 248,
+        "Success_info_id": "Success_info_333041",
+        "saved_amount_label": "Saved: $270",
+        "client_initials": "CG",
+        "debt_processed_label": "$6840.00",
+        "debt_settled_lebel": "$5390.89",
+        "creditor_name": "Cash Central",
+        "img": {
+            "alt_text": "Saved $270 with Cash Central for Client CG",
+            "src": "https://www.ovlg.com/sites/files/154_Cash_Central_1387974063.jpg"
+        }
+    },
+    {
+        "id": 249,
+        "Success_info_id": "Success_info_330357",
+        "saved_amount_label": "Saved: $262.5",
+        "client_initials": "JB",
+        "debt_processed_label": "$600.00",
+        "debt_settled_lebel": "$250.00",
+        "creditor_name": "Cash Net USA",
+        "img": {
+            "alt_text": "Saved $262.5 with Cash Net USA for Client JB",
+            "src": "https://www.ovlg.com/sites/files/161_Cash_Net_Usa_1389872433.jpg"
+        }
+    },
+    {
+        "id": 250,
+        "Success_info_id": "Success_info_283970",
+        "saved_amount_label": "Saved: $193.31",
+        "client_initials": "LG1",
+        "debt_processed_label": "$429.58",
+        "debt_settled_lebel": "$171.83",
+        "creditor_name": "HSBC BEST BUY",
+        "img": {
+            "alt_text": "Saved $193.31 with HSBC BEST BUY for Client LG1",
+            "src": "https://www.ovlg.com/sites/files/success_story/HSBC%20BEST%20BUY.jpg"
+        }
+    },
+    {
+        "id": 251,
+        "Success_info_id": "Success_info_292328",
+        "saved_amount_label": "Saved: $191.84",
+        "client_initials": "MD1",
+        "debt_processed_label": "$426.31",
+        "debt_settled_lebel": "$170.53",
+        "creditor_name": "",
+        "img": {
+            "alt_text": "Saved $191.84 with  for Client MD1",
+            "src": "https://www.ovlg.com/sites/files/success_story/HSBC_0.jpg"
+        }
+    },
+    {
+        "id": 252,
+        "Success_info_id": "Success_info_338692",
+        "saved_amount_label": "Saved: $191.28",
+        "client_initials": "DC3",
+        "debt_processed_label": "$835.04",
+        "debt_settled_lebel": "$580.00",
+        "creditor_name": "Express Cash Mart",
+        "img": {
+            "alt_text": "Saved $191.28 with Express Cash Mart for Client DC3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Express%20Cash%20Mart.jpg"
+        }
+    },
+    {
+        "id": 253,
+        "Success_info_id": "Success_info_319355",
+        "saved_amount_label": "Saved: $185.27",
+        "client_initials": "PB2",
+        "debt_processed_label": "$449.14",
+        "debt_settled_lebel": "$202.11",
+        "creditor_name": "Verizon Wireless Alltel",
+        "img": {
+            "alt_text": "Saved $185.27 with Verizon Wireless/ Alltel for Client PB2",
+            "src": "https://www.ovlg.com/sites/files/Verizon%20Wireless%3A%20Alltel_1.jpg"
+        }
+    },
+    {
+        "id": 254,
+        "Success_info_id": "Success_info_214656",
+        "saved_amount_label": "Saved: $242.98",
+        "client_initials": "MJ",
+        "debt_processed_label": "$4078.32",
+        "debt_settled_lebel": "$2498.00",
+        "creditor_name": "JC Penny",
+        "img": {
+            "alt_text": "Saved $242.98 with JC Penny for Client MJ",
+            "src": "https://www.ovlg.com/sites/files/131_JC_Penny_1373625236.jpg"
+        }
+    },
+    {
+        "id": 255,
+        "Success_info_id": "Success_info_264902",
+        "saved_amount_label": "Saved: $180.69",
+        "client_initials": "TJ",
+        "debt_processed_label": "$401.53",
+        "debt_settled_lebel": "$160.61",
+        "creditor_name": "First Cash",
+        "img": {
+            "alt_text": "Saved $180.69 with First Cash for Client TJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/First%20Cash.jpg"
+        }
+    },
+    {
+        "id": 256,
+        "Success_info_id": "Success_info_398502",
+        "saved_amount_label": "Saved: $178.5",
+        "client_initials": "RR",
+        "debt_processed_label": "$450.00",
+        "debt_settled_lebel": "$212.00",
+        "creditor_name": "North Cash",
+        "img": {
+            "alt_text": "Saved $178.5 with North Cash for Client RR",
+            "src": "https://www.ovlg.com/sites/files/success_story/North%20cash.jpg"
+        }
+    },
+    {
+        "id": 257,
+        "Success_info_id": "Success_info_302517",
+        "saved_amount_label": "Saved: $176.25",
+        "client_initials": "SG",
+        "debt_processed_label": "$530.00",
+        "debt_settled_lebel": "$295.00",
+        "creditor_name": "White Hills Cash",
+        "img": {
+            "alt_text": "Saved $176.25 with White Hills Cash for Client SG",
+            "src": "https://www.ovlg.com/sites/files/success_story/White%20Hills%20Cash.jpg"
+        }
+    },
+    {
+        "id": 258,
+        "Success_info_id": "Success_info_393866",
+        "saved_amount_label": "Saved: $175.5",
+        "client_initials": "KP4",
+        "debt_processed_label": "$390.00",
+        "debt_settled_lebel": "$156.00",
+        "creditor_name": "Impact Payment Solutions",
+        "img": {
+            "alt_text": "Saved $175.5 with Impact Payment Solutions for Client KP4",
+            "src": "https://www.ovlg.com/sites/files/success_story/Impact%20Payment%20Solutions.jpg"
+        }
+    },
+    {
+        "id": 259,
+        "Success_info_id": "Success_info_391433",
+        "saved_amount_label": "Saved: $172.5",
+        "client_initials": "CJ",
+        "debt_processed_label": "$780.00",
+        "debt_settled_lebel": "$550.00",
+        "creditor_name": "Target Cash",
+        "img": {
+            "alt_text": "Saved $172.5 with Target Cash for Client CJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/Target%20Cash.jpg"
+        }
+    },
+    {
+        "id": 260,
+        "Success_info_id": "Success_info_374506",
+        "saved_amount_label": "Saved: $171.91",
+        "client_initials": "KL",
+        "debt_processed_label": "$458.41",
+        "debt_settled_lebel": "$229.20",
+        "creditor_name": "Money Key",
+        "img": {
+            "alt_text": "Saved $171.91 with Money Key for Client KL",
+            "src": "https://www.ovlg.com/sites/files/Money%20Key.jpg"
+        }
+    },
+    {
+        "id": 261,
+        "Success_info_id": "Success_info_332629",
+        "saved_amount_label": "Saved: $225",
+        "client_initials": "AL",
+        "debt_processed_label": "$12449.91",
+        "debt_settled_lebel": "$5252.26",
+        "creditor_name": "Cash Central",
+        "img": {
+            "alt_text": "Saved $225 with Cash Central for Client AL",
+            "src": "https://www.ovlg.com/sites/files/162_Cash_Central_1389873525.jpg"
+        }
+    },
+    {
+        "id": 262,
+        "Success_info_id": "Success_info_332746",
+        "saved_amount_label": "Saved: $225",
+        "client_initials": "RA",
+        "debt_processed_label": "$4030.00",
+        "debt_settled_lebel": "$2090.00",
+        "creditor_name": "Cash Net USA",
+        "img": {
+            "alt_text": "Saved $225 with Cash Net USA for Client RA",
+            "src": "https://www.ovlg.com/sites/files/172_Cash_Net_USA_1399359366.jpg"
+        }
+    },
+    {
+        "id": 263,
+        "Success_info_id": "Success_info_302514",
+        "saved_amount_label": "Saved: $167.06",
+        "client_initials": "SG",
+        "debt_processed_label": "$372.75",
+        "debt_settled_lebel": "$150.00",
+        "creditor_name": "Cash Cow Owe",
+        "img": {
+            "alt_text": "Saved $167.06 with Cash Cow Owe for Client SG",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cash%20Cow%20Owe.jpg"
+        }
+    },
+    {
+        "id": 264,
+        "Success_info_id": "Success_info_338686",
+        "saved_amount_label": "Saved: $166.8",
+        "client_initials": "DC3",
+        "debt_processed_label": "$635.50",
+        "debt_settled_lebel": "$413.10",
+        "creditor_name": "Capital One",
+        "img": {
+            "alt_text": "Saved $166.8 with Capital One for Client DC3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One_2.jpg"
+        }
+    },
+    {
+        "id": 265,
+        "Success_info_id": "Success_info_336167",
+        "saved_amount_label": "Saved: $163.73",
+        "client_initials": "DJ2",
+        "debt_processed_label": "$437.31",
+        "debt_settled_lebel": "$219.00",
+        "creditor_name": "First Premier Bank 3991",
+        "img": {
+            "alt_text": "Saved $163.73 with First Premier Bank#3991 for Client DJ2",
+            "src": "https://www.ovlg.com/sites/files/success_story/First%20Premier%20Bank%233991.jpg"
+        }
+    },
+    {
+        "id": 266,
+        "Success_info_id": "Success_info_336168",
+        "saved_amount_label": "Saved: $162.54",
+        "client_initials": "DJ2",
+        "debt_processed_label": "$433.44",
+        "debt_settled_lebel": "$216.72",
+        "creditor_name": "Capital One 0132",
+        "img": {
+            "alt_text": "Saved $162.54 with Capital One# 0132 for Client DJ2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One%23%200132.jpg"
+        }
+    },
+    {
+        "id": 267,
+        "Success_info_id": "Success_info_309981",
+        "saved_amount_label": "Saved: $215.42",
+        "client_initials": "KM",
+        "debt_processed_label": "$6451.34",
+        "debt_settled_lebel": "$2545.26",
+        "creditor_name": "Capital One",
+        "img": {
+            "alt_text": "Saved $215.42 with Capital One for Client KM",
+            "src": "https://www.ovlg.com/sites/files/36_CapitalOne_1370420032.jpg"
+        }
+    },
+    {
+        "id": 268,
+        "Success_info_id": "Success_info_327641",
+        "saved_amount_label": "Saved: $161.3",
+        "client_initials": "JS1",
+        "debt_processed_label": "$515.06",
+        "debt_settled_lebel": "$300.00",
+        "creditor_name": "Cash Central",
+        "img": {
+            "alt_text": "Saved $161.3 with Cash Central for Client JS1",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cash%20Central_6.jpg"
+        }
+    },
+    {
+        "id": 269,
+        "Success_info_id": "Success_info_338711",
+        "saved_amount_label": "Saved: $160.64",
+        "client_initials": "AC1",
+        "debt_processed_label": "$356.99",
+        "debt_settled_lebel": "$142.80",
+        "creditor_name": "Kay Jewelers",
+        "img": {
+            "alt_text": "Saved $160.64 with Kay Jewelers for Client AC1",
+            "src": "https://www.ovlg.com/sites/files/Kay%20Jewelers.jpg"
+        }
+    },
+    {
+        "id": 270,
+        "Success_info_id": "Success_info_397476",
+        "saved_amount_label": "Saved: $158.81",
+        "client_initials": "JM",
+        "debt_processed_label": "$423.48",
+        "debt_settled_lebel": "$211.74",
+        "creditor_name": "Capital One 9253",
+        "img": {
+            "alt_text": "Saved $158.81 with Capital One# 9253 for Client JM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Capital%20One%209253.jpg"
+        }
+    },
+    {
+        "id": 271,
+        "Success_info_id": "Success_info_274157",
+        "saved_amount_label": "Saved: $157.5",
+        "client_initials": "RP",
+        "debt_processed_label": "$350.00",
+        "debt_settled_lebel": "$140.00",
+        "creditor_name": "Triple Services LLC",
+        "img": {
+            "alt_text": "Saved $157.5 with Triple Services LLC for Client RP",
+            "src": "https://www.ovlg.com/sites/files/success_story/Triple%20Services%20LLC.jpg"
+        }
+    },
+    {
+        "id": 272,
+        "Success_info_id": "Success_info_327636",
+        "saved_amount_label": "Saved: $155.91",
+        "client_initials": "JS1",
+        "debt_processed_label": "$692.28",
+        "debt_settled_lebel": "$484.40",
+        "creditor_name": "MATRIX CONTINENTAL FINANCE",
+        "img": {
+            "alt_text": "Saved $155.91 with MATRIX CONTINENTAL FINANCE for Client JS1",
+            "src": "https://www.ovlg.com/sites/files/success_story/MATRIX%20CONTINENTAL%20FINANCE.jpg"
+        }
+    },
+    {
+        "id": 273,
+        "Success_info_id": "Success_info_245735",
+        "saved_amount_label": "Saved: $207",
+        "client_initials": "TK",
+        "debt_processed_label": "$39560.45",
+        "debt_settled_lebel": "$13093.00",
+        "creditor_name": "First Premier Bank",
+        "img": {
+            "alt_text": "Saved $207 with First Premier Bank for Client TK",
+            "src": "https://www.ovlg.com/sites/files/96_First_Premier_Bank_1372925656.jpg"
+        }
+    },
+    {
+        "id": 274,
+        "Success_info_id": "Success_info_327638",
+        "saved_amount_label": "Saved: $152.87",
+        "client_initials": "JS1",
+        "debt_processed_label": "$503.83",
+        "debt_settled_lebel": "$300.00",
+        "creditor_name": "Check Into Cash",
+        "img": {
+            "alt_text": "Saved $152.87 with Check Into Cash for Client JS1",
+            "src": "https://www.ovlg.com/sites/files/success_story/check%20into%20cash.jpeg"
+        }
+    },
+    {
+        "id": 275,
+        "Success_info_id": "Success_info_332895",
+        "saved_amount_label": "Saved: $150.53",
+        "client_initials": "BJ1",
+        "debt_processed_label": "$350.70",
+        "debt_settled_lebel": "$150.00",
+        "creditor_name": "Memorial Hermann Patient Business Services",
+        "img": {
+            "alt_text": "Saved $150.53 with Memorial Hermann Patient Business Services for Client BJ1",
+            "src": "https://www.ovlg.com/sites/files/Memorial%20Hermann%20Patient%20Business%20Services.jpg"
+        }
+    },
+    {
+        "id": 276,
+        "Success_info_id": "Success_info_393930",
+        "saved_amount_label": "Saved: $149.28",
+        "client_initials": "WJ",
+        "debt_processed_label": "$599.04",
+        "debt_settled_lebel": "$400.00",
+        "creditor_name": "",
+        "img": {
+            "alt_text": "Saved $149.28 with  for Client WJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/Greenline%20Loans.jpg"
+        }
+    },
+    {
+        "id": 277,
+        "Success_info_id": "Success_info_398505",
+        "saved_amount_label": "Saved: $147.75",
+        "client_initials": "RR",
+        "debt_processed_label": "$377.00",
+        "debt_settled_lebel": "$180.00",
+        "creditor_name": "Green Valley",
+        "img": {
+            "alt_text": "Saved $147.75 with Green Valley for Client RR",
+            "src": "https://www.ovlg.com/sites/files/success_story/Green%20Valley.jpg"
+        }
+    },
+    {
+        "id": 278,
+        "Success_info_id": "Success_info_338691",
+        "saved_amount_label": "Saved: $147.11",
+        "client_initials": "DC3",
+        "debt_processed_label": "$358.15",
+        "debt_settled_lebel": "$162.00",
+        "creditor_name": "Walmart Credit Card 4587",
+        "img": {
+            "alt_text": "Saved $147.11 with Walmart Credit Card#4587 for Client DC3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Walmart%20Credit%20Card4587.jpg"
+        }
+    },
+    {
+        "id": 279,
+        "Success_info_id": "Success_info_274165",
+        "saved_amount_label": "Saved: $146.63",
+        "client_initials": "RP",
+        "debt_processed_label": "$495.50",
+        "debt_settled_lebel": "$300.00",
+        "creditor_name": "White Hills Cash",
+        "img": {
+            "alt_text": "Saved $146.63 with White Hills Cash for Client RP",
+            "src": "https://www.ovlg.com/sites/files/success_story/white%20hills%20cash.jpg"
+        }
+    },
+    {
+        "id": 280,
+        "Success_info_id": "Success_info_264900",
+        "saved_amount_label": "Saved: $146.25",
+        "client_initials": "TJ",
+        "debt_processed_label": "$460.00",
+        "debt_settled_lebel": "$265.00",
+        "creditor_name": "Green Valley Cash",
+        "img": {
+            "alt_text": "Saved $146.25 with Green Valley Cash for Client TJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/Green%20Valley%20Cash.jpg"
+        }
+    },
+    {
+        "id": 281,
+        "Success_info_id": "Success_info_307738",
+        "saved_amount_label": "Saved: $194.25",
+        "client_initials": "CO",
+        "debt_processed_label": "$9030.00",
+        "debt_settled_lebel": "$5294.46",
+        "creditor_name": "First Premier Bank",
+        "img": {
+            "alt_text": "Saved $194.25 with First Premier Bank for Client CO",
+            "src": "https://www.ovlg.com/sites/files/98_First_Premier_Bank_1372928555.jpg"
+        }
+    },
+    {
+        "id": 282,
+        "Success_info_id": "Success_info_317114",
+        "saved_amount_label": "Saved: $193.61",
+        "client_initials": "JA",
+        "debt_processed_label": "$4071.74",
+        "debt_settled_lebel": "$2241.14",
+        "creditor_name": "Cash Central",
+        "img": {
+            "alt_text": "Saved $193.61 with Cash Central for Client JA",
+            "src": "https://www.ovlg.com/sites/files/59_cashcentral_1370519225.jpg"
+        }
+    },
+    {
+        "id": 283,
+        "Success_info_id": "Success_info_308332",
+        "saved_amount_label": "Saved: $138.75",
+        "client_initials": "KE",
+        "debt_processed_label": "$610.00",
+        "debt_settled_lebel": "$425.00",
+        "creditor_name": "St. Armonds Group",
+        "img": {
+            "alt_text": "Saved $138.75 with St. Armonds Group for Client KE",
+            "src": "https://www.ovlg.com/sites/files/St.%20Armonds%20Group_2.jpg"
+        }
+    },
+    {
+        "id": 284,
+        "Success_info_id": "Success_info_239547",
+        "saved_amount_label": "Saved: $138.67",
+        "client_initials": "BB",
+        "debt_processed_label": "$369.89",
+        "debt_settled_lebel": "$185.00",
+        "creditor_name": "Lane Bryant",
+        "img": {
+            "alt_text": "Saved $138.67 with Lane Bryant  for Client BB",
+            "src": "https://www.ovlg.com/sites/files/Lane%20Bryant.jpg"
+        }
+    },
+    {
+        "id": 285,
+        "Success_info_id": "Success_info_302518",
+        "saved_amount_label": "Saved: $133.13",
+        "client_initials": "SG",
+        "debt_processed_label": "$355.00",
+        "debt_settled_lebel": "$177.50",
+        "creditor_name": "Money Mart",
+        "img": {
+            "alt_text": "Saved $133.13 with Money Mart  for Client SG",
+            "src": "https://www.ovlg.com/sites/files/success_story/Money%20Mart.jpg"
+        }
+    },
+    {
+        "id": 286,
+        "Success_info_id": "Success_info_310611",
+        "saved_amount_label": "Saved: $176.25",
+        "client_initials": "KB",
+        "debt_processed_label": "$11679.00",
+        "debt_settled_lebel": "$5888.02",
+        "creditor_name": "Magnum Cash Advances",
+        "img": {
+            "alt_text": "Saved $176.25 with Magnum Cash Advances for Client KB",
+            "src": "https://www.ovlg.com/sites/files/60_MagnumCashAdvances_1370521924.jpg"
+        }
+    },
+    {
+        "id": 287,
+        "Success_info_id": "Success_info_274164",
+        "saved_amount_label": "Saved: $131.25",
+        "client_initials": "RP",
+        "debt_processed_label": "$350.00",
+        "debt_settled_lebel": "$175.00",
+        "creditor_name": "Westgate Group",
+        "img": {
+            "alt_text": "Saved $131.25 with Westgate Group for Client RP",
+            "src": "https://www.ovlg.com/sites/files/success_story/westgate%20group.jpg"
+        }
+    },
+    {
+        "id": 288,
+        "Success_info_id": "Success_info_278512",
+        "saved_amount_label": "Saved: $172.5",
+        "client_initials": "ES",
+        "debt_processed_label": "$1157.00",
+        "debt_settled_lebel": "$500.00",
+        "creditor_name": "Advance America Cash Advance",
+        "img": {
+            "alt_text": "Saved $172.5 with Advance America Cash Advance for Client ES",
+            "src": "https://www.ovlg.com/sites/files/19_advanceamerica_1370341826.jpg"
+        }
+    },
+    {
+        "id": 289,
+        "Success_info_id": "Success_info_336808",
+        "saved_amount_label": "Saved: $172.5",
+        "client_initials": "JD",
+        "debt_processed_label": "$690.01",
+        "debt_settled_lebel": "$460.01",
+        "creditor_name": "Check Into Cash",
+        "img": {
+            "alt_text": "Saved $172.5 with Check Into Cash for Client JD",
+            "src": "https://www.ovlg.com/sites/files/170_Check_Into_Cash_1399284641.jpg"
+        }
+    },
+    {
+        "id": 290,
+        "Success_info_id": "Success_info_252709",
+        "saved_amount_label": "Saved: $166.5",
+        "client_initials": "KM",
+        "debt_processed_label": "$24224.62",
+        "debt_settled_lebel": "$13936.74",
+        "creditor_name": "Check N Go Online",
+        "img": {
+            "alt_text": "Saved $166.5 with Check n Go Online for Client KM",
+            "src": "https://www.ovlg.com/sites/files/145_Check_n_Go_Online_1386062430.jpg"
+        }
+    },
+    {
+        "id": 291,
+        "Success_info_id": "Success_info_338686",
+        "saved_amount_label": "Saved: $123.75",
+        "client_initials": "DC3",
+        "debt_processed_label": "$515.00",
+        "debt_settled_lebel": "$350.00",
+        "creditor_name": "Cash Central",
+        "img": {
+            "alt_text": "Saved $123.75 with Cash Central for Client DC3",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cash%20Central_4.jpg"
+        }
+    },
+    {
+        "id": 292,
+        "Success_info_id": "Success_info_289086",
+        "saved_amount_label": "Saved: $165",
+        "client_initials": "RM",
+        "debt_processed_label": "$1695.00",
+        "debt_settled_lebel": "$991.47",
+        "creditor_name": "Mr. Money",
+        "img": {
+            "alt_text": "Saved $165 with Mr. Money for Client RM",
+            "src": "https://www.ovlg.com/sites/files/47_MrMoney_1370436852.jpg"
+        }
+    },
+    {
+        "id": 293,
+        "Success_info_id": "Success_info_302098",
+        "saved_amount_label": "Saved: $158.25",
+        "client_initials": "JH",
+        "debt_processed_label": "$7844.43",
+        "debt_settled_lebel": "$4175.12",
+        "creditor_name": "",
+        "img": {
+            "alt_text": "Saved $158.25 with HSBC for Client JH",
+            "src": "https://www.ovlg.com/sites/files/137_HSBC_1378286923.jpg"
+        }
+    },
+    {
+        "id": 294,
+        "Success_info_id": "Success_info_393930",
+        "saved_amount_label": "Saved: $115.05",
+        "client_initials": "WJ",
+        "debt_processed_label": "$453.40",
+        "debt_settled_lebel": "$300.00",
+        "creditor_name": "Speedy Cash",
+        "img": {
+            "alt_text": "Saved $115.05 with Speedy Cash for Client WJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/Speedy%20Cash_1.jpg"
+        }
+    },
+    {
+        "id": 295,
+        "Success_info_id": "Success_info_174697",
+        "saved_amount_label": "Saved: $151.78",
+        "client_initials": "JI",
+        "debt_processed_label": "$12405.45",
+        "debt_settled_lebel": "$10709.00",
+        "creditor_name": "Capital One",
+        "img": {
+            "alt_text": "Saved $151.78 with Capital One for Client JI",
+            "src": "https://www.ovlg.com/sites/files/7_CapitalOne_1369997865.jpg"
+        }
+    },
+    {
+        "id": 296,
+        "Success_info_id": "Success_info_311140",
+        "saved_amount_label": "Saved: $146.25",
+        "client_initials": "MH",
+        "debt_processed_label": "$6480.52",
+        "debt_settled_lebel": "$2901.00",
+        "creditor_name": "East Side Lenders",
+        "img": {
+            "alt_text": "Saved $146.25 with East Side Lenders for Client MH",
+            "src": "https://www.ovlg.com/sites/files/72_eastsidelenders_1371463375.jpg"
+        }
+    },
+    {
+        "id": 297,
+        "Success_info_id": "Success_info_277730",
+        "saved_amount_label": "Saved: $145.58",
+        "client_initials": "GG",
+        "debt_processed_label": "$9821.63",
+        "debt_settled_lebel": "$6456.48",
+        "creditor_name": "Payday One",
+        "img": {
+            "alt_text": "Saved $145.58 with Payday One for Client GG",
+            "src": "https://www.ovlg.com/sites/files/100_Payday_One_1372934755.jpg"
+        }
+    },
+    {
+        "id": 298,
+        "Success_info_id": "Success_info_320174",
+        "saved_amount_label": "Saved: $131.25",
+        "client_initials": "TC",
+        "debt_processed_label": "$2212.00",
+        "debt_settled_lebel": "$1436.75",
+        "creditor_name": "Cash Central",
+        "img": {
+            "alt_text": "Saved $131.25 with Cash Central for Client TC",
+            "src": "https://www.ovlg.com/sites/files/76_CashCentral_1371467609.jpg"
+        }
+    },
+    {
+        "id": 299,
+        "Success_info_id": "Success_info_303599",
+        "saved_amount_label": "Saved: $127.5",
+        "client_initials": "JH",
+        "debt_processed_label": "$9712.13",
+        "debt_settled_lebel": "$5620.96",
+        "creditor_name": "Cash Net USA",
+        "img": {
+            "alt_text": "Saved $127.5 with Cash Net USA for Client JH",
+            "src": "https://www.ovlg.com/sites/files/164_Cash_Net_USA_1389942155.jpg"
+        }
+    },
+    {
+        "id": 300,
+        "Success_info_id": "Success_info_330885",
+        "saved_amount_label": "Saved: $120",
+        "client_initials": "MR",
+        "debt_processed_label": "$2053.00",
+        "debt_settled_lebel": "$1265.00",
+        "creditor_name": "Cash Central",
+        "img": {
+            "alt_text": "Saved $120 with Cash Central for Client MR",
+            "src": "https://www.ovlg.com/sites/files/153_Cash_Central_1387972039.jpg"
+        }
+    },
+    {
+        "id": 301,
+        "Success_info_id": "Success_info_253789",
+        "saved_amount_label": "Saved: $116.25",
+        "client_initials": "SD",
+        "debt_processed_label": "$839.00",
+        "debt_settled_lebel": "$684.00",
+        "creditor_name": "Spot On Loans",
+        "img": {
+            "alt_text": "Saved $116.25 with spot on loans for Client SD",
+            "src": "https://www.ovlg.com/sites/files/112_Spot_on_loans_1373527026.jpg"
+        }
+    },
+    {
+        "id": 302,
+        "Success_info_id": "Success_info_285018",
+        "saved_amount_label": "Saved: $115.5",
+        "client_initials": "AR",
+        "debt_processed_label": "$22346.00",
+        "debt_settled_lebel": "$12140.38",
+        "creditor_name": "First Premier Bank",
+        "img": {
+            "alt_text": "Saved $115.5 with First Premier Bank for Client AR",
+            "src": "https://www.ovlg.com/sites/files/30_FirstPremierBank_1370413510.jpg"
+        }
+    },
+    {
+        "id": 303,
+        "Success_info_id": "Success_info_308334",
+        "saved_amount_label": "Saved: $86.63",
+        "client_initials": "KE",
+        "debt_processed_label": "$175.50",
+        "debt_settled_lebel": "$60.00",
+        "creditor_name": "Bottom Dollar",
+        "img": {
+            "alt_text": "Saved $86.63 with Bottom Dollar for Client KE",
+            "src": "https://www.ovlg.com/sites/files/Bottom%20dollar_6.jpg"
+        }
+    },
+    {
+        "id": 304,
+        "Success_info_id": "Success_info_399352",
+        "saved_amount_label": "Saved: $86.54",
+        "client_initials": "GO",
+        "debt_processed_label": "$310.08",
+        "debt_settled_lebel": "$194.70",
+        "creditor_name": "First National Credit Card",
+        "img": {
+            "alt_text": "Saved $86.54 with First National Credit Card for Client GO",
+            "src": "https://www.ovlg.com/sites/files/success_story/First%20National%20Credit%20Card.jpg"
+        }
+    },
+    {
+        "id": 305,
+        "Success_info_id": "Success_info_308336",
+        "saved_amount_label": "Saved: $86.25",
+        "client_initials": "KE",
+        "debt_processed_label": "$300.00",
+        "debt_settled_lebel": "$185.00",
+        "creditor_name": "Cash In A Wink",
+        "img": {
+            "alt_text": "Saved $86.25 with Cash In A Wink for Client KE",
+            "src": "https://www.ovlg.com/sites/files/cash%20in%20a%20wink_0.jpg"
+        }
+    },
+    {
+        "id": 306,
+        "Success_info_id": "Success_info_343387",
+        "saved_amount_label": "Saved: $113.21",
+        "client_initials": "MS",
+        "debt_processed_label": "$1788.14",
+        "debt_settled_lebel": "$1217.64",
+        "creditor_name": "Cash Store",
+        "img": {
+            "alt_text": "Saved $113.21 with Cash Store for Client MS",
+            "src": "https://www.ovlg.com/sites/files/49_CashStore_1370438087.jpg"
+        }
+    },
+    {
+        "id": 307,
+        "Success_info_id": "Success_info_302451",
+        "saved_amount_label": "Saved: $112.5",
+        "client_initials": "SC",
+        "debt_processed_label": "$12182.05",
+        "debt_settled_lebel": "$6238.72",
+        "creditor_name": "Check Into Cash",
+        "img": {
+            "alt_text": "Saved $112.5 with Check Into Cash for Client SC",
+            "src": "https://www.ovlg.com/sites/files/169_Check_Into_Cash_1399281379.jpg"
+        }
+    },
+    {
+        "id": 308,
+        "Success_info_id": "Success_info_315190",
+        "saved_amount_label": "Saved: $112.5",
+        "client_initials": "TM",
+        "debt_processed_label": "$8086.67",
+        "debt_settled_lebel": "$5029.78",
+        "creditor_name": "Check Into Cash",
+        "img": {
+            "alt_text": "Saved $112.5 with Check Into Cash for Client TM",
+            "src": "https://www.ovlg.com/sites/files/144_Check_into_Cash_1386061033.jpg"
+        }
+    },
+    {
+        "id": 309,
+        "Success_info_id": "Success_info_327309",
+        "saved_amount_label": "Saved: $112.5",
+        "client_initials": "SB",
+        "debt_processed_label": "$2298.03",
+        "debt_settled_lebel": "$1071.22",
+        "creditor_name": "Check Into Cash",
+        "img": {
+            "alt_text": "Saved $112.5 with Check Into Cash for Client SB",
+            "src": "https://www.ovlg.com/sites/files/143_Check_Into_Cash_1386057201.jpg"
+        }
+    },
+    {
+        "id": 310,
+        "Success_info_id": "Success_info_308073",
+        "saved_amount_label": "Saved: $82.5",
+        "client_initials": "JR4",
+        "debt_processed_label": "$225.00",
+        "debt_settled_lebel": "$115.00",
+        "creditor_name": "Discount Advances",
+        "img": {
+            "alt_text": "Saved $82.5 with Discount Advances for Client JR4",
+            "src": "https://www.ovlg.com/sites/files/Discount%20Advances.jpg"
+        }
+    },
+    {
+        "id": 311,
+        "Success_info_id": "Success_info_335282",
+        "saved_amount_label": "Saved: $79.88",
+        "client_initials": "DB",
+        "debt_processed_label": "$286.50",
+        "debt_settled_lebel": "$180.00",
+        "creditor_name": "Cash Net USA",
+        "img": {
+            "alt_text": "Saved $79.88 with Cash Net USA for Client DB",
+            "src": "https://www.ovlg.com/sites/files/Cash%20Net%20USA.jpg"
+        }
+    },
+    {
+        "id": 312,
+        "Success_info_id": "Success_info_347520",
+        "saved_amount_label": "Saved: $75.47",
+        "client_initials": "DM2",
+        "debt_processed_label": "$503.12",
+        "debt_settled_lebel": "$402.49",
+        "creditor_name": "Speedy Cash",
+        "img": {
+            "alt_text": "Saved $75.47 with Speedy Cash for Client DM2",
+            "src": "https://www.ovlg.com/sites/files/success_story/Speedy%20Cash_3.jpg"
+        }
+    },
+    {
+        "id": 313,
+        "Success_info_id": "Success_info_399352",
+        "saved_amount_label": "Saved: $75.21",
+        "client_initials": "GO",
+        "debt_processed_label": "$250.28",
+        "debt_settled_lebel": "$150.00",
+        "creditor_name": "Cash Central",
+        "img": {
+            "alt_text": "Saved $75.21 with Cash Central for Client GO",
+            "src": "https://www.ovlg.com/sites/files/success_story/Cash%20Central_5.jpg"
+        }
+    },
+    {
+        "id": 314,
+        "Success_info_id": "Success_info_128702",
+        "saved_amount_label": "Saved: $72.2",
+        "client_initials": "SR",
+        "debt_processed_label": "$160.44",
+        "debt_settled_lebel": "$64.18",
+        "creditor_name": "WELLS FARGO BANK CHECKING",
+        "img": {
+            "alt_text": "Saved $72.2 with WELLS FARGO BANK CHECKING for Client SR",
+            "src": "https://www.ovlg.com/sites/files/success_story/WELLS%20FARGO%20BANK%20CHECKING.jpg"
+        }
+    },
+    {
+        "id": 315,
+        "Success_info_id": "Success_info_242837",
+        "saved_amount_label": "Saved: $93.92",
+        "client_initials": "DS",
+        "debt_processed_label": "$4554.73",
+        "debt_settled_lebel": "$2565.53",
+        "creditor_name": "Advance America Cash Advance",
+        "img": {
+            "alt_text": "Saved $93.92 with Advance America Cash Advance for Client DS",
+            "src": "https://www.ovlg.com/sites/files/142_Advance_America_Cash_Advance_1386054590.jpg"
+        }
+    },
+    {
+        "id": 316,
+        "Success_info_id": "Success_info_253063",
+        "saved_amount_label": "Saved: $90",
+        "client_initials": "MJ",
+        "debt_processed_label": "$1661.68",
+        "debt_settled_lebel": "$1180.68",
+        "creditor_name": "Loan Shop Online",
+        "img": {
+            "alt_text": "Saved $90 with Loan Shop Online for Client MJ",
+            "src": "https://www.ovlg.com/sites/files/122_Loan_shop_online_1373542987.jpg"
+        }
+    },
+    {
+        "id": 317,
+        "Success_info_id": "Success_info_274158",
+        "saved_amount_label": "Saved: $67.5",
+        "client_initials": "RP",
+        "debt_processed_label": "$130.00",
+        "debt_settled_lebel": "$40.00",
+        "creditor_name": "500fast Cash",
+        "img": {
+            "alt_text": "Saved $67.5 with 500fast Cash for Client RP",
+            "src": "https://www.ovlg.com/sites/files/success_story/500fast%20cash.jpg"
+        }
+    },
+    {
+        "id": 318,
+        "Success_info_id": "Success_info_228853",
+        "saved_amount_label": "Saved: $81.35",
+        "client_initials": "DC",
+        "debt_processed_label": "$7503.19",
+        "debt_settled_lebel": "$3276.00",
+        "creditor_name": "Bill Me Later",
+        "img": {
+            "alt_text": "Saved $81.35 with Bill Me Later for Client DC",
+            "src": "https://www.ovlg.com/sites/files/124_Bill_me_later_1373545963.jpg"
+        }
+    },
+    {
+        "id": 319,
+        "Success_info_id": "Success_info_245300",
+        "saved_amount_label": "Saved: $77.25",
+        "client_initials": "GA",
+        "debt_processed_label": "$6686.67",
+        "debt_settled_lebel": "$3791.63",
+        "creditor_name": "First Premier Bank",
+        "img": {
+            "alt_text": "Saved $77.25 with First Premier Bank for Client GA",
+            "src": "https://www.ovlg.com/sites/files/17_FirstPremierBank_1370339691.jpg"
+        }
+    },
+    {
+        "id": 320,
+        "Success_info_id": "Success_info_302517",
+        "saved_amount_label": "Saved: $57",
+        "client_initials": "SG",
+        "debt_processed_label": "$380.00",
+        "debt_settled_lebel": "$304.00",
+        "creditor_name": "Ace Cash Express",
+        "img": {
+            "alt_text": "Saved $57 with Ace Cash Express for Client SG",
+            "src": "https://www.ovlg.com/sites/files/success_story/Ace%20cash%20express_0.jpg"
+        }
+    },
+    {
+        "id": 321,
+        "Success_info_id": "Success_info_303819",
+        "saved_amount_label": "Saved: $75",
+        "client_initials": "GR",
+        "debt_processed_label": "$2715.00",
+        "debt_settled_lebel": "$1858.03",
+        "creditor_name": "Payday One",
+        "img": {
+            "alt_text": "Saved $75 with Payday One for Client GR",
+            "src": "https://www.ovlg.com/sites/files/150_Payday_one_1387965171.jpg"
+        }
+    },
+    {
+        "id": 322,
+        "Success_info_id": "Success_info_397474",
+        "saved_amount_label": "Saved: $55.6",
+        "client_initials": "JM",
+        "debt_processed_label": "$370.65",
+        "debt_settled_lebel": "$296.52",
+        "creditor_name": "Macy's Dept. Store",
+        "img": {
+            "alt_text": "Saved $55.6 with Macy's Dept. Store for Client JM",
+            "src": "https://www.ovlg.com/sites/files/success_story/Macy%27s%20Dept%20Store.jpg"
+        }
+    },
+    {
+        "id": 323,
+        "Success_info_id": "Success_info_330392",
+        "saved_amount_label": "Saved: $74.03",
+        "client_initials": "MB",
+        "debt_processed_label": "$3968.71",
+        "debt_settled_lebel": "$1946.91",
+        "creditor_name": "Cash Net USA",
+        "img": {
+            "alt_text": "Saved $74.03 with Cash Net USA for Client MB",
+            "src": "https://www.ovlg.com/sites/files/148_Cash_Net_USA_1387958026.jpg"
+        }
+    },
+    {
+        "id": 324,
+        "Success_info_id": "Success_info_239214",
+        "saved_amount_label": "Saved: $72",
+        "client_initials": "CH",
+        "debt_processed_label": "$10037.77",
+        "debt_settled_lebel": "$7252.54",
+        "creditor_name": "Advance America Cash Advance",
+        "img": {
+            "alt_text": "Saved $72 with Advance America Cash Advance for Client CH",
+            "src": "https://www.ovlg.com/sites/files/104_Advance_America_1372945396.jpg"
+        }
+    },
+    {
+        "id": 325,
+        "Success_info_id": "Success_info_393925",
+        "saved_amount_label": "Saved: $45.94",
+        "client_initials": "WJ",
+        "debt_processed_label": "$306.23",
+        "debt_settled_lebel": "$244.98",
+        "creditor_name": "Ace Cash Express",
+        "img": {
+            "alt_text": "Saved $45.94 with Ace Cash Express for Client WJ",
+            "src": "https://www.ovlg.com/sites/files/success_story/Ace%20Cash%20Express.jpg"
+        }
+    },
+    {
+        "id": 326,
+        "Success_info_id": "Success_info_374500",
+        "saved_amount_label": "Saved: $44.67",
+        "client_initials": "KL",
+        "debt_processed_label": "$119.20",
+        "debt_settled_lebel": "$59.64",
+        "creditor_name": "Check In To Cash",
+        "img": {
+            "alt_text": "Saved $44.67 with Check In To Cash for Client KL",
+            "src": "https://www.ovlg.com/sites/files/Check%20in%20to%20Cash.jpg"
+        }
+    },
+    {
+        "id": 327,
+        "Success_info_id": "Success_info_230408",
+        "saved_amount_label": "Saved: $59.25",
+        "client_initials": "DM",
+        "debt_processed_label": "$7703.34",
+        "debt_settled_lebel": "$4874.95",
+        "creditor_name": "ACE Cash Express",
+        "img": {
+            "alt_text": "Saved $59.25 with ACE cash express for Client DM",
+            "src": "https://www.ovlg.com/sites/files/34_AceCashExpress_1370418194.jpg"
+        }
+    },
+    {
+        "id": 328,
+        "Success_info_id": "Success_info_335281",
+        "saved_amount_label": "Saved: $41.61",
+        "client_initials": "DB",
+        "debt_processed_label": "$310.48",
+        "debt_settled_lebel": "$255.00",
+        "creditor_name": "Cash Central",
+        "img": {
+            "alt_text": "Saved $41.61 with Cash Central for Client DB",
+            "src": "https://www.ovlg.com/sites/files/Cash%20Central.jpg"
+        }
+    },
+    {
+        "id": 329,
+        "Success_info_id": "Success_info_317116",
+        "saved_amount_label": "Saved: $48.89",
+        "client_initials": "JA",
+        "debt_processed_label": "$4071.74",
+        "debt_settled_lebel": "$2241.14",
+        "creditor_name": "Cash Net USA",
+        "img": {
+            "alt_text": "Saved $48.89 with Cash Net USA for Client JA",
+            "src": "https://www.ovlg.com/sites/files/21_cashnetUSA_1370343462.jpg"
+        }
+    },
+    {
+        "id": 330,
+        "Success_info_id": "Success_info_274162",
+        "saved_amount_label": "Saved: $33.75",
+        "client_initials": "RP",
+        "debt_processed_label": "$195.00",
+        "debt_settled_lebel": "$150.00",
+        "creditor_name": "One Click Cash",
+        "img": {
+            "alt_text": "Saved $33.75 with One Click Cash for Client RP",
+            "src": "https://www.ovlg.com/sites/files/success_story/One%20Click%20Cash.jpg"
+        }
+    },
+    {
+        "id": 331,
+        "Success_info_id": "Success_info_398505",
+        "saved_amount_label": "Saved: $25.3",
+        "client_initials": "RR",
+        "debt_processed_label": "$613.73",
+        "debt_settled_lebel": "$580.00",
+        "creditor_name": "Spot Loan",
+        "img": {
+            "alt_text": "Saved $25.3 with Spot Loan for Client RR",
+            "src": "https://www.ovlg.com/sites/files/success_story/Spot%20loan.jpg"
+        }
+    },
+    {
+        "id": 332,
+        "Success_info_id": "Success_info_259822",
+        "saved_amount_label": "Saved: $27.73",
+        "client_initials": "EF",
+        "debt_processed_label": "$4517.26",
+        "debt_settled_lebel": "$2440.00",
+        "creditor_name": "NCO Financial Systems, Inc",
+        "img": {
+            "alt_text": "Saved $27.73 with NCO Financial Systems, Inc for Client EF",
+            "src": "https://www.ovlg.com/sites/files/109_NCO_Financial_Systems_1373452265.jpg"
+        }
+    },
+    {
+        "id": 333,
+        "Success_info_id": "Success_info_288610",
+        "saved_amount_label": "Saved: $24",
+        "client_initials": "KL",
+        "debt_processed_label": "$6496.00",
+        "debt_settled_lebel": "$4297.00",
+        "creditor_name": "Cash Cure",
+        "img": {
+            "alt_text": "Saved $24 with Cash cure for Client KL",
+            "src": "https://www.ovlg.com/sites/files/46_Cashcure_1370436299.jpg"
+        }
+    },
+    {
+        "id": 334,
+        "Success_info_id": "Success_info_283546",
+        "saved_amount_label": "Saved: $23.63",
+        "client_initials": "TD",
+        "debt_processed_label": "$6342.75",
+        "debt_settled_lebel": "$3252.10",
+        "creditor_name": "Cash Net USA",
+        "img": {
+            "alt_text": "Saved $23.63 with Cash Net USA for Client TD",
+            "src": "https://www.ovlg.com/sites/files/73_cashnetusa_1371465133.jpg"
+        }
+    },
+    {
+        "id": 335,
+        "Success_info_id": "Success_info_292132",
+        "saved_amount_label": "Saved: $22.5",
+        "client_initials": "KC",
+        "debt_processed_label": "$530.00",
+        "debt_settled_lebel": "$500.00",
+        "creditor_name": "Wells Fargo Financial Bank",
+        "img": {
+            "alt_text": "Saved $22.5 with Wells Fargo Financial Bank for Client KC",
+            "src": "https://www.ovlg.com/sites/files/12_WellsFargoFinancial_1370003874.jpg"
+        }
+    }
+]

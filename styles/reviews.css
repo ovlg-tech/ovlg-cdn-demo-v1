@@ -151,11 +151,11 @@
     width: 88px;
     display: block;
 }
-.center-block {
+/*.center-block {
     display: block;
     margin-right: auto;
     margin-left: auto;
-}
+}*/
 .testimonialItem {
     padding: 1em;
     background: #fff;

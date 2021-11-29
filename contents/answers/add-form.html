@@ -1,0 +1,59 @@
+<form action="/answers" method="post" id="answers-ask-question-ajax-form" accept-charset="UTF-8"
+    onSubmit="return askQuestionFormSubmit(event)">
+    <div>
+        <div class="inline-messages">
+            <div class="alert alert-block alert-danger messages error d-none" id="ask_question_error_msg">
+            </div>
+            <div class="alert alert-block alert-success messages status d-none" id="ask_question_success_msg">
+            </div>
+        </div>
+        <div class="form-item form-item-questioncategory form-type-select form-group">
+            <label class="control-label" for="edit-questioncategory">Topic <span class="form-required"
+                    title="This field is required.">*</span></label>
+            <select class="topicinputselectclass form-control form-select required" id="edit-questioncategory"
+                name="questioncategory">
+                <option value="" selected="selected">- Select -</option>
+                <option value="138">wills &amp; trusts</option>
+                <option value="132">payday loan help</option>
+                <option value="137">defamation protection</option>
+                <option value="136">company formation</option>
+                <option value="133">budgeting</option>
+                <option value="134">credit report and score</option>
+                <option value="129">creditors and collection agencies</option>
+                <option value="135">debt scams</option>
+                <option value="130">debt help</option>
+                <option value="131">bankruptcy help</option>
+            </select>
+        </div>
+        <div class="form-item form-item-questionsubject form-type-textfield form-group"> <label class="control-label"
+                for="edit-questionsubject">Question <span class="form-required"
+                    title="This field is required.">*</span></label>
+            <input class="questioninputselectclass form-control form-text required" type="text"
+                id="edit-questionsubject" name="questionsubject" value="" size="45" maxlength="128">
+        </div>
+        <div class="form-item form-item-questionbody form-type-textarea form-group">
+            <label class="control-label" for="edit-questionbody">Description <span class="form-required"
+                    title="This field is required.">*</span></label>
+            <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+                <textarea class="Descriptioninputselectclass form-control form-textarea required" id="edit-questionbody"
+                    name="questionbody" cols="60" rows="5"></textarea>
+                <div class="grippie"></div>
+            </div>
+        </div>
+        <div class="form-item form-item-user-email form-type-textfield form-group"> <label class="control-label"
+                for="edit-user-email">Email(Optional) </label>
+            <input class="emailinputselectclass form-control form-text" type="text" id="edit-user-email"
+                name="user_email" value="" size="45" maxlength="128">
+        </div>
+        <button class="bold btn btn-success form-submit ajax-processed" type="submit" id="edit-submit--3" name="op"
+            value="Save">Save</button>
+        <input type="hidden" name="form_build_id" value="form-vBfYDqS-5OA9MdBTjWBGh50YnMs16w8kjN4_lEczRo0">
+        <input type="hidden" name="form_id" value="answers_ask_question_ajax_form">
+        <div id="edit-desc" class="form-item form-type-item form-group">
+            <div class=" font-size-13 mar-t-10 bg-sky pad-10"><strong class="colr-red">*</strong> We respect your
+                <strong><a href="/privacy/" target="_blank">privacy</a></strong>. Your email address will only be used
+                to notify you about any new reply on your question.
+            </div>
+        </div>
+    </div>
+</form>

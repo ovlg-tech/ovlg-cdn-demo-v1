@@ -70,3 +70,61 @@ input:focus-visible
     border-radius: 0 0 10px 10px;
     border: 1px solid #4a1500;
 }
+
+
+.letter_input_box {
+    border: none;
+    border-bottom: 2px dashed #bbb!important;
+    background: none;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.ovlg-sample-letters-banner {
+    background: url(/next/images/ovlg-letters-banner.jpg);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 250px;
+    background-size: cover;
+    color: #666;
+    padding: 50px 0;
+}
+.colr-white {
+    color: rgb(255, 255, 255) !important;
+}
+
+.letter-heading {
+    background-color: #4A1500;
+    padding: 10px;
+    color: #fff;
+}
+
+.sample-letters-container {
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #4A1500;
+}
+
+.stick, .width100, body {
+    width: 100%;
+}
+
+ul li {
+    padding-bottom: 20px;
+}
+
+.content_title, h1, .header-h1 {
+    /* font-size: 2em; */
+    font-size: 250%;
+    line-height: 130%;
+    color: #000;
+}
+.content_title, h1, .header-h1, h2, .header-h2, h3, .header-h3, h4, .header-h4, h5, .header-h5 {
+    margin: 30px 0;
+    text-rendering: optimizelegibility;
+    font-family: 'EB Garamond', serif !important;
+    font-weight: 400 !important;
+}

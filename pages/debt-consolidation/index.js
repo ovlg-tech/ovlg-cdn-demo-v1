@@ -8,12 +8,12 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 import NavBar from "../../components/navbar";
 import WinningTheUser from '../../components/banner-section/winning-the-user'
-import dynamic from 'next/dynamic'
+// import dynamic from 'next/dynamic'
 
-const Bootstrap = dynamic(
-  () => import('../../node_modules/bootstrap'),
-  { ssr: false }
-)
+// const Bootstrap = dynamic(
+//   () => import('../../node_modules/bootstrap'),
+//   { ssr: false }
+// )
 
 export default function index({ BannerInfo, FooterInfo }) {
   useEffect(() => {
@@ -65,6 +65,15 @@ export default function index({ BannerInfo, FooterInfo }) {
           <div className="row">
             <div className="col-lg-10 offset-lg-1  body_bg">
               <div className="row">
+                <div className="col-sm-12 mt-4 mb-0 pb-0">
+                  <nav aria-label="breadcrumb mb-0 pb-0">
+                    <ul className="breadcrumb blog-breadcrumb">
+                      <li className="breadcrumb-item pb-0 mb-0"><a href="/"><i className="bi bi-house-door-fill"></i></a></li>
+                      <li className="breadcrumb-item pb-0 mb-0"><a href="/practices">Services</a></li>
+                      <li className="breadcrumb-item pb-0 mb-0 d-none d-md-inline">Debt consolidation</li>
+                    </ul>
+                  </nav>
+                </div>
                 <div className="col-md-12 main-container pad-tb-10 ">
 
                   <h2>How does our debt consolidation process work?</h2>

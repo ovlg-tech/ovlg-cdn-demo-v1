@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//import Image from 'next/image'
+import Image from 'next/image'
 import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
 
@@ -26,7 +26,50 @@ export default function PrincipalAttorneyLetter() {
   }
 
   return (
-    <div className="container">
+    <>    
+      <div className="col-lg-10 offset-md-0 offset-lg-1 pad-t-20">
+        <div className="row">          
+          <div className="col-lg-12 featured-logos mt-4 d-flex flex-md-row flex-column align-items-center justify-content-between flex-wrap">
+                <div className="featured-text header-h4 border-end pe-4">Featured In</div>
+                <div className="grayscale py-3" style={{opacity: '70%'}}>
+                  <img src={`${publicRuntimeConfig.rootPath}/images/yahoo.jpg`} alt="yahoo logo" className="img-fluid" style={{ aspectRatio: 118/36 }}/>
+                </div>
+     
+                <div className="grayscale opacity-75 py-3">
+                  <img src={`${publicRuntimeConfig.rootPath}/images/fox-News.jpg`} alt="foxnews logo" className="img-fluid" style={{ aspectRatio: 40/40 }}/>
+                </div>
+
+                <div className="grayscale opacity-75 py-3">
+                  <img src={`${publicRuntimeConfig.rootPath}/images/msn-logo.jpg`} alt="msn logo" className="img-fluid" style={{ aspectRatio: 76/33 }} />
+                </div>
+
+                <div className="grayscale opacity-75 py-3">
+                  <img src={`${publicRuntimeConfig.rootPath}/images/ENT-India.jpg`} alt="entrepreneur logo" className="img-fluid" style={{ aspectRatio: 143/37 }} />
+                </div>     
+
+                <div className="grayscale py-3">
+                  <img src={`${publicRuntimeConfig.rootPath}/images/Thrive-global.jpg`} alt="Thrive global logo" className="img-fluid" style={{ aspectRatio: 214/24 }}/>
+                </div>
+
+              {/*  <div className="grayscale opacity-75 py-3">
+                  <img src={`${publicRuntimeConfig.rootPath}/images/centsai.jpg`} alt="Centsai logo" className="img-fluid" style={{ aspectRatio: 63/49 }}/>
+                </div> */}
+
+                <div className="grayscale opacity-75 py-3">
+                  <img src={`${publicRuntimeConfig.rootPath}/images/markets-businessinsider.jpg`} alt="Markets business insider logo"  className="img-fluid" style={{ aspectRatio: 94/36 }}/>
+                </div>               
+
+                <div className="grayscale py-3">
+                  <img src={`${publicRuntimeConfig.rootPath}/images/gobankingrates.jpg`} alt="go banking rates logo" className="img-fluid" style={{ aspectRatio: 218/33 }}/>
+                </div>
+
+                
+              </div>
+        </div>
+      </div>
+      
+
+    <div className="col-lg-10 offset-md-0 offset-lg-1 pad-tb-20">
       <div className="row my-5">
         <div className="col-sm-12">
           <h2 style={{ margin: "0" }}>A letter from our Principal Attorney</h2>
@@ -73,14 +116,16 @@ export default function PrincipalAttorneyLetter() {
                     <YouTube videoId="iANWSQtx-ZQ" opts={opts} onReady={ytOnReady} />
                     :
                     <>
-                      <img
-                        src={`${publicRuntimeConfig.rootPath}/images/solomon-interview-max.webp`}
+                      <img src={`${publicRuntimeConfig.rootPath}/images/solomon-interview-max.png`} alt="Attorney youtube video thumbnail" className="w-100" />
+
+                    {/*  < Image
+                        src={`${publicRuntimeConfig.rootPath}/images/solomon-interview-max.png`}
                         alt="Attorney youtube video thumbnail"
                         className="width100 ls-is-cached lazyloaded"
                         layout="responsive"
                         width={448}
                         height={252}
-                      />
+                      /> */}
                       <i className="fa fa-youtube-play" aria-hidden="true" style={{ boxShadow: 'none' }}></i>
                     </>
 
@@ -116,5 +161,7 @@ export default function PrincipalAttorneyLetter() {
         </div>
       </div>
     </div>
+
+    </>
   );
 }

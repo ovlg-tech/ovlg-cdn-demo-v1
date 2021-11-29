@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from 'react'
-//import Image from 'next/image'
+import Image from 'next/image'
 import getConfig from 'next/config'
 const { publicRuntimeConfig } = getConfig()
-//import dynamic from 'next/dynamic'
-/*
+import dynamic from 'next/dynamic'
+
 const Bootstrap = dynamic(
     () => import('../node_modules/bootstrap'),
     { ssr: false }
-)*/
+)
+const imagesLoader = ({ src, width, quality }) => {
+    return `/images/${src}?w=${width}&q=${quality || 75}`
+}
 
 export default function NavBar() {
     const [error, setError] = useState(null);
@@ -54,7 +57,7 @@ export default function NavBar() {
                     let string = result.trim();
                     let arrayData = string.split('####');
                     // console.log('array-data');
-                    console.log(arrayData);
+                    // console.log(arrayData);
                     setLoggedInChecked(true);
                     if (arrayData[0] && arrayData[1]) {
                         setLoggedIn(result);
@@ -80,7 +83,11 @@ export default function NavBar() {
             <div>
                 <div className="container-fluid">
                     <div className="row">
-                        <div style={{ position: "fixed", top: "12px", width: "50px", height: "50px", right: "0", zIndex: "10000" }}>
+                        <div style={{ position: "fixed", top: "12px", width: "170px", height: "50px", right: "0", zIndex: "10000" }}>
+                            <a href="tel:+18005306854" title="Call Toll Free: (800)-530-OVLG" className="d-inline d-lg-none d-md-none d-xxl-none pe-4 position-relative" style={{ top: '9px' }}><i className="bi bi-telephone colr-grey font-size-26"></i></a>
+
+                            <a href="sms://+14155345474" title="SMS to: 415-534-5474" className="d-inline d-lg-none d-md-none d-xxl-none mt-5 position-relative" style={{ top: '9px' }}><i className="bi bi-chat-square-text colr-grey font-size-26"></i></a>
+
                             <button className="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span>
                             </button>
                         </div>
@@ -103,11 +110,8 @@ export default function NavBar() {
                                 <a itemProp="url" className="nav-link" href="/reviews" title="">Reviews</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tools and Guides </a>
+                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                    <li itemProp="name">
-                                        <a itemProp="url" className="dropdown-item" href="/education" title="Education">Education</a>
-                                    </li>
                                     <li itemProp="name">
                                         <a itemProp="url" className="dropdown-item" href="/letters">Sample Letters</a>
                                     </li>
@@ -202,11 +206,11 @@ export default function NavBar() {
                         <ul className="navbar-nav ms-auto mb-lg-0 menu-search-login-icon">
                             <div id="login_logout_area" className="nav-login">
                                 {loggedInChecked && loggedIn ?
-                                    <li itemprop="name" class="nav-item dropdown" style={{ padding: '0' }}>
-                                        <a itemprop="url" class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">{loggedInUserName}</a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown4" >
-                                            <li itemprop="name"><a itemprop="url" class="dropdown-item" href={loggedInUserAccount} title="">My Account</a></li>
-                                            <li itemprop="name"><a itemprop="url" class="dropdown-item" href="/user/logout">Logout</a></li>
+                                    <li itemprop="name" className="nav-item dropdown" style={{ padding: '0' }}>
+                                        <a itemprop="url" className="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">{loggedInUserName}</a>
+                                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown4" >
+                                            <li itemprop="name"><a itemprop="url" className="dropdown-item" href={loggedInUserAccount} title="">My Account</a></li>
+                                            <li itemprop="name"><a itemprop="url" className="dropdown-item" href="/user/logout">Logout</a></li>
                                         </ul>
                                     </li>
                                     :
@@ -240,9 +244,10 @@ export default function NavBar() {
                         }} />
                         <div className="nav-bbb d-block d-md-none">
                             <a className="el-inline img-bbb-logo" target="_blank"
-                                href="http://www.bbb.org/sacramento/business-reviews/debt-relief-services/oak-view-law-group-apc-in-citrus-heights-ca-47014743">
-                                <img
-                                    src={`${publicRuntimeConfig.rootPath}/images/BBB-A-Rating.png`}
+                                href="http://www.bbb.org/sacramento/business-reviews/debt-relief-services/oak-view-law-group-apc-in-citrus-heights-ca-47014743" rel="noopener">
+                                <Image
+                                    loader={imagesLoader}
+                                    src={`BBB-A-Rating.png`}
                                     alt="BBB-A-Rating"
                                     width={80}
                                     height={41}

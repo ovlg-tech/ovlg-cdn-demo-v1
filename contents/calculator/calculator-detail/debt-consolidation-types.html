@@ -1,0 +1,298 @@
+<div id="getInformation">
+    <h2>Enter your current debt</h2>
+    <div class="bg-beige pad-tb-20">
+        <div class="row mar-tb-10">
+            <div class="col-lg-3 col-sm-6 pad-tb-10 text-center">
+                <button type="button" class="btn btn-primary" data-bs-target=".bs-example-modal-sm"
+                    data-bs-toggle="modal" id="creditcard" name="creditcard" value="Add credit card debts">Add credit
+                    card debts</button><input class="form-control mar-t-10" disabled="disabled" id="TotalCreditCardBal"
+                    name="TotalCreditCardBal" size="16" type="text" value="5000">
+            </div>
+            <div class="col-lg-3 col-sm-6 pad-tb-10 text-center">
+                <button type="button" class="btn btn-primary" data-bs-target=".bs-example-modal-sm-2"
+                    data-bs-toggle="modal" id="totalinsurance" name="installmentloans" value="Add Installment loans">Add
+                    Installment loans</button>
+                <input class="form-control mar-t-10" disabled="disabled" id="TotalLoanInsBalance"
+                    name="TotalLoanInsBalance" size="16" type="text" value="5000">
+            </div>
+            <div class="col-lg-3 col-sm-6 pad-tb-10 text-center"><b>Your total debt</b>
+                <b>$</b>
+                <input class="form-control mar-t-20" disabled="disabled" id="TotalDebt" name="TotalDebt" size="12"
+                    type="text" value="10000">
+            </div>
+            <div class="col-lg-3 col-sm-6 pad-tb-10 text-center"><b>Monthly Payment</b> <b>$</b> <input
+                    class="form-control mar-t-20" id="MonthlyPayment_new" name="MonthlyPayment_new" type="text"
+                    value="1000"></div>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-bordered" id="getDebtType">
+
+
+            <!--<div style="background:url(/styles/oakviewlaw/img/arrow_r.png) no-repeat center; width:627px; height:33px; color:#c15414; text-align:center; font:bold 15px Verdana; padding-left:60px"><div style="padding-top:3px">Less Payment</div></div>-->
+
+
+            <tbody>
+                <tr class="bg-dark-50 colr-white">
+                    <th width="18%">&nbsp;</th>
+                    <th width="15%" class="text-center">Interest Rate Arbitration</th>
+                    <th width="15%" class="text-center">Debt Management</th>
+                    <th width="15%" class="text-center">Debt Settlement</th>
+                    <th width="15%" class="text-center">Bankruptcy</th>
+                </tr>
+                <tr>
+                    <td style=" background:#fff;">&nbsp;</td>
+                    <td colspan="4" align="left" style=" background:#fff;">
+                        <div style="width:100%; height:22px; color:#c15414; font:bold 16px Verdana; padding-left:0px;padding:0px 0px 0px 0px;margin:5px 0px 5px 0px;"
+                            align="center">Less Payment <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                    </td>
+                </tr>
+
+                <tr style="background:#fff; text-align:center;">
+                    <th class="text-center" style=" color:#C15414;">Recommended</th>
+                    <td></td>
+                    <td></td>
+                    <td style="background:#daf3e7 no-repeat center; border:1px solid #199054; border-bottom:none;"></td>
+                    <td></td>
+                </tr>
+                <tr style="background:#fff; padding:5px; text-align:center; font-size:12px;">
+                    <td
+                        style="padding:10px; font:Arial, Helvetica, sans-serif; font-weight:bold; font-size:13px; color:#0f7373;">
+                        Monthly payments</td>
+                    <td>$1000</td>
+                    <td>$1000</td>
+                    <td style="border:1px solid #199054; border-bottom:none;border-top:none; background:#daf3e7;">
+                        <b>$1000</b>
+                    </td>
+                    <td>$1000</td>
+                </tr>
+
+                <tr style="background:#fff; padding:5px; text-align:center; font-size:12px;">
+                    <td
+                        style="padding:10px; font:Arial, Helvetica, sans-serif; font-weight:bold; font-size:13px; color:#0f7373;">
+                        Months to become debt free</td>
+                    <td>11 Months</td>
+                    <td>Not applicable</td>
+                    <td style="border:1px solid #199054; border-bottom:none;border-top:none; background:#daf3e7;"><b>5
+                            Months</b></td>
+                    <td>Not applicable</td>
+                </tr>
+
+                <tr style="background:#fff; text-align:center; font-size:12px;">
+                    <td
+                        style="padding:10px; font:Arial, Helvetica, sans-serif; font-weight:bold; font-size:13px; color:#0f7373;">
+                        Money saved</td>
+                    <td>$208</td>
+                    <td>$0</td>
+                    <td style="border:1px solid #199054; border-bottom:none;border-top:none; background:#daf3e7;">
+                        <b>$5000</b>
+                    </td>
+                    <td>Not applicable</td>
+                </tr>
+
+
+                <tr style="background:#fff;text-align:center; font-size:12px;">
+                    <td
+                        style="padding:10px; font:Arial, Helvetica, sans-serif; font-weight:bold; font-size:13px; color:#0f7373;">
+                        Total payment made to become debt free</td>
+                    <td>$11000</td>
+                    <td>$0</td>
+                    <td style="border:1px solid #199054; border-bottom:none;border-top:none; background:#daf3e7;">
+                        <b>$5000</b>
+                    </td>
+                    <td>$1500</td>
+                </tr>
+
+
+                <tr style="background:#fff; text-align:center;">
+                    <td></td>
+                    <td valign="top" style=" font-size:13px; padding:5px;">Also known as loan consolidation.</td>
+                    <td valign="top" style=" font-size:13px; padding:5px;">Only interest is reduced.</td>
+                    <td valign="top"
+                        style=" font-size:13px; padding:5px; border:1px solid #199054; border-top:none; background:#daf3e7;">
+                        <b>Interest and principal are reduced.</b>
+                    </td>
+                    <td valign="top" style=" font-size:13px; padding:5px;">Interest and principal are reduced under
+                        court supervision.</td>
+                </tr>
+
+                <tr>
+                    <td style="background:#fff;">&nbsp;</td>
+                    <td colspan="4" style="background:#fff;">
+                        <div style="width:100%; height:22px; color:#c15414; font:bold 16px Verdana; padding-left:0px; margin:5px 0px 5px 0px;"
+                            align="center">
+                            <div style="padding:0px 0px 0px 0px; margin:5px 0px 0px 10px;"><i class="fa fa-arrow-left"
+                                    aria-hidden="true"></i> Better Credit Score</div>
+                        </div>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+    </div>
+    <form>
+        <div aria-labelledby="myLargeModalLabel" class="modal fade bs-example-modal-sm" id="window" role="dialog"
+            tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog " role="document">
+                <div class="modal-content" id="popup_content">
+                    <div class="modal-header" style="text-align:right;">
+                        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                    </div>
+                    <div class="modal-body">
+                        <table cellpadding="0" cellspacing="3" class="table" width="100%">
+                            <tbody>
+                                <tr>
+                                    <th colspan="2">
+                                        <h2>Credit Card Debts</h2>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Card 1</th>
+                                    <td><input class="form-control" id="CreditCardBalance1" name="CreditCardBalance1"
+                                            type="text" value="5000"></td>
+                                </tr>
+                                <tr>
+                                    <th>Card 2</th>
+                                    <td><input class="form-control" id="CreditCardBalance2" name="CreditCardBalance2"
+                                            placeholder="Input amount" type="text" value=""></td>
+                                </tr>
+                                <tr>
+                                    <th>Card 3</th>
+                                    <td><input class="form-control" id="CreditCardBalance3" name="CreditCardBalance3"
+                                            placeholder="Input amount" type="text" value=""></td>
+                                </tr>
+                                <tr>
+                                    <th>Card 4</th>
+                                    <td><input class="form-control" id="CreditCardBalance4" name="CreditCardBalance4"
+                                            placeholder="Input amount" type="text" value=""></td>
+                                </tr>
+                                <tr>
+                                    <th>Other</th>
+                                    <td><input class="form-control" id="CreditCardBalance5" name="CreditCardBalance5"
+                                            placeholder="Input amount" type="text" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="modal-footer">
+                                            <input id="mode" name="mode" type="hidden" value="creditcard"><input
+                                                class="btn btn-primary" data-bs-dismiss="modal" id="totalCredit"
+                                                name="Submit" type="button" value="OK">
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form>
+        <div aria-labelledby="myLargeModalLabel" class="modal fade bs-example-modal-sm-2" id="window1" role="dialog"
+            tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content" id="popup_content1">
+                    <div class="modal-header">
+                        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                    </div>
+                    <div class="modal-body">
+                        <table cellpadding="0" cellspacing="3" class="table">
+                            <tbody>
+                                <tr>
+                                    <td colspan="2">
+                                        <h2>Installment Loans</h2>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Auto 1</b></td>
+                                    <td><input class="form-control" id="Auto1CurrentBalance" name="Auto1CurrentBalance"
+                                            placeholder="Input amount" type="text" value="5000"></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Auto 2</b></td>
+                                    <td><input class="form-control" id="Auto2CurrentBalance" name="Auto2CurrentBalance"
+                                            placeholder="Input amount" type="text" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Boat</b></td>
+                                    <td><input class="form-control" id="BoatCurrentBalance" name="BoatCurrentBalance"
+                                            placeholder="Input amount" type="text" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Personal</b></td>
+                                    <td><input class="form-control" id="PersonalCurrentBalance"
+                                            name="PersonalCurrentBalance" placeholder="Input amount" type="text"
+                                            value=""></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Other</b></td>
+                                    <td><input class="form-control" id="OtherCurrentBalance" name="OtherCurrentBalance"
+                                            placeholder="Input amount" type="text" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="modal-footer">
+                                            <input id="mode" name="mode" type="hidden" value="loan"><input
+                                                class="btn btn-primary" data-bs-dismiss="modal" id="totalIns"
+                                                name="Submit" type="button" value="OK">
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<style>
+    .el-line-200 {
+        line-height: 200%
+    }
+
+    .el-mar-10 {
+        margin-top: 10px
+    }
+
+    .calculator_steps button.active {
+        border-bottom: 5px solid #4a1500
+    }
+
+    .calculator_steps button {
+        border: none;
+        background: 0 0;
+        color: #0c414b;
+        padding: 10px;
+        border-bottom: none
+    }
+
+    .calculator_steps button.active span {
+        background: #4a1500;
+        border: 1px solid #fff
+    }
+
+    .calculator_steps button span {
+        height: 15px;
+        width: 15px;
+        background: #ddd;
+        margin: auto;
+        display: table;
+        border: 1px solid #fff;
+        border-radius: 50%
+    }
+
+    .calculator_steps button[disabled=disabled] {
+        opacity: .6
+    }
+
+    .inactiveLink {
+        pointer-events: none;
+        cursor: default
+    }
+
+    .colr-green {
+        color: #099
+    }
+</style>

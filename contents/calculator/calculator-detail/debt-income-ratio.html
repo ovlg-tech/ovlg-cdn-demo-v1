@@ -1,0 +1,361 @@
+<div calculator-include-file="">
+    <div class="calculator_steps row">
+        <button class="active col-6" id="DI-step-1">STEP 1 - Calculate</button>
+        <button class="col-6" disabled="disabled" id="DI-step-2">STEP 2 - Result &amp; Suggestion</button>
+    </div>
+    <div class="tab-content row">
+        <div class="tab-pane active" id="DebtIncomeResults" role="tabpanel"
+            style="padding: 25px 15px;background: #e8e2d6;">
+            <p>Debt-to-income ratio (DTI) reflects how much of your gross monthly income is used towards your monthly
+                debt payments. To calculate your DTI and check your financial health, just enter all your debt payments
+                and annual income.
+            </p>
+            <form id="DI-Form" onsubmit="return false;">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <h3>Monthly Debt Repayment</h3>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input class="form-control" id="MonthlyRentonDI" name="monthly-rent"
+                                placeholder="Monthly Mortgage or Rent" required="" type="text">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input class="form-control" id="MonthlyCreditCardPayment" name="monthly-credit-card-payment"
+                                placeholder="Minimum Monthly Credit Card Payments" required="" type="text">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input class="form-control" id="CarLoanPayment" name="car-loan-payment"
+                                placeholder="Monthly Car Loan Payments" type="text">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input class="form-control" id="OtherLoanObligation" name="other-loan-obligation"
+                                placeholder="Other Loan Obligation" type="text">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" id="annualform">
+                        <h3>Annual Income</h3>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input class="form-control" id="GrossSalary" name="gross-salary"
+                                placeholder="Annual Gross Salary" type="text">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input class="form-control" id="BonusOvertime" name="bonus-overtime"
+                                placeholder="Bonus and Overtime" type="text">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input class="form-control" id="OtherIncome" name="other-income" placeholder="Other Income"
+                                type="text">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input class="form-control" id="AlimonyReceived" name="alimony-received"
+                                placeholder="Alimony Received" type="text">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 text-center">
+                        <div class="border-bottom-grey mar-b-10">&nbsp;</div>
+                        <input class="btn btn-success btn-lg" id="CalculateDI" name="button" type="button"
+                            value="Calculate">
+                    </div>
+                </div>
+            </form>
+
+            <h2>FAQ</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header mt-0" id="flush-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            What is the debt-to-income ratio?
+                        </button>
+                    </h3>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="flush-headingOne">
+                        <div class="accordion-body">
+                            <p>The debt-to-income ratio (DTI) measures the condition of your financial health. You can
+                                get
+                                it by using a simple formula.</p>
+                            <p>DTI ratio - Total monthly debt payments / Monthly gross income</p>
+
+                            <p>Your monthly debt obligations include student loan payments, mortgage payments, personal
+                                loans, credit card debts, car loan payments, alimony, etc.</p>
+                            <p>The debt-to-income ratio is usually expressed as a percentage. A high DTI ratio indicates
+                                poor financial health.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header mt-0" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            When should you use the debt to income ratio calculator?
+                        </button>
+                    </h3>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo">
+                        <div class="accordion-body">
+                            <p>You should use our DTI ratio calculator in the following circumstances:</p>
+                            <ul>
+                                <li>You are planning to apply for a home equity loan or a personal loan.</li>
+                                <li>When you want to check your financial health.</li>
+                                <li>When you want to know if applying for a credit card is the right decision for you.
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header mt-0" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Why should you focus on the debt to income ratio?
+                        </button>
+                    </h3>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree">
+                        <div class="accordion-body">
+                            <p>Lenders use the DTI ratio to determine your loan eligibility. When you have a high debt
+                                to
+                                income ratio, lenders consider you as a risky borrower.</p>
+                            <p>A lender’s most common question is: how will you repay the new loan if you can’t manage
+                                your
+                                recurring monthly debt payments?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header mt-0" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            What happens when you have a high debt-to-income ratio?
+                        </button>
+                    </h3>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingFour">
+                        <div class="accordion-body">
+                            <p>Your loan applications will get rejected.</p>
+                            <p>You will have to pay higher interest rates on the loans.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header mt-0" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            What are the two essential components of the debt to income ratio?
+                        </button>
+                    </h3>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix">
+                        <div class="accordion-body">
+
+                            <p><strong>Front-end ratio -</strong> It denotes the percentage of your monthly gross income
+                                used
+                                to cover your housing expenses.</p>
+
+                            <p><strong>What you can include in the housing expenses</strong></p>
+                            <ul>
+                                <li>Property taxes</li>
+                                <li>Monthly mortgage payments</li>
+                                <li>Homeowner’s insurance</li>
+                            </ul>
+                            <p>The front-end ratio is also known as the housing ratio.</p>
+                            <p><strong>Back-end ratio -</strong> It denotes the percentage of your monthly gross income
+                                used
+                                to cover your monthly expenses.</p>
+                            <p><strong>What you can include in your monthly expenses</strong></p>
+                            <ul>
+                                <li>Personal loan payments</li>
+                                <li>Credit card payments</li>
+                                <li>Auto loan payments</li>
+                                <li>Student loans</li>
+                                <li>Mortgage payments</li>
+                                <li>Child support</li>
+                                <li>Alimony</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header mt-0" id="flush-headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                            aria-controls="flush-collapseSeven">
+                            What is a good debt to income ratio?
+                        </button>
+                    </h3>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingSeven">
+                        <div class="accordion-body">
+                            <p>Lenders consider a good debt to income ratio to be when:</p>
+
+                            <p>Your front-end ratio is 28%</p>
+                            <p>Your back-end ratio is 36%</p>
+                            <p>Anything above that is a red flag for lenders. It’s not that you won’t qualify for any
+                                loan.
+                                When you apply for a home loan, mortgage lenders will look at several factors apart from
+                                your DTI ratio. These are:</p>
+                            <ul>
+                                <li>Credit history</li>
+                                <li>Credit score</li>
+                                <li>Down payment</li>
+                                <li>Assets</li>
+                                <li>Savings</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header mt-0" id="flush-headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseEight" aria-expanded="false"
+                            aria-controls="flush-collapseEight">
+                            How can you lower your DTI ratio?
+                        </button>
+                    </h3>
+                    <div id="flush-collapseEight" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingEight">
+                        <div class="accordion-body">
+                            <p>To lower your DTI ratio, focus on paying off your debts. Here are some tips you can use
+                                to do
+                                just that:</p>
+                            <ul>
+                                <li>Create a budget and reduce your unnecessary expenses. This will help generate free
+                                    cash
+                                    to pay down debts.</li>
+                                <li>Consolidate credit cards either with a debt consolidation loan or a <a
+                                        href="/debt-consolidation" target="_blank">program</a> to pay back
+                                    your creditors with a one monthly payment plan at a lower interest rate.</li>
+                                <li>Settle your unsecured debts to <a href="/debt-settlement" target="_blank">reduce
+                                        your payoff amount</a>.</li>
+                                <li>Avoid taking out new loans for the time being, as it may increase your DTI ratio.
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header mt-0" id="flush-headingNine">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseNine" aria-expanded="false"
+                            aria-controls="flush-collapseNine">
+                            Will your credit score go up after lowering your DTI ratio?
+                        </button>
+                    </h3>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingNine">
+                        <div class="accordion-body">
+                            <p>The DTI ratio does not have a direct connection to your credit score. However, a high DTI
+                                ratio implies that you may have a high credit utilization ratio.</p>
+
+                            <p>The credit utilization ratio makes up 30% of your credit score. A high credit utilization
+                                ratio drops your credit score. The ideal credit utilization ratio is 30%.</p>
+                            <p>The credit utilization ratio is the percentage of the available credit used by you. For
+                                example, if your credit limit is $1000 and your outstanding balance is $700, your credit
+                                utilization ratio is 70%, which is pretty high.</p>
+                            <p>When you pay down your debts, the outstanding balance on your credit cards also goes
+                                down,
+                                which helps lower your credit utilization ratio. It helps to boost your credit score.
+                            </p>
+                            <p>To lower your debt to income ratio, you have to either pay down debts or increase your
+                                income
+                                significantly. While it is not always possible to increase your income, you can pay off
+                                your
+                                debts through credit card debt relief programs. That will help to reduce your total owed
+                                amount, which affects your credit score.</p>
+                            <p>When your total debt amount is low, your credit score becomes high.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+        <div id="loading-demo">&nbsp;</div>
+        <div class="unvisited tab-pane" id="2nd-tab" role="tabpanel">&nbsp;</div>
+        <div class="unvisited tab-pane fade" id="3rd-tab" role="tabpanel">&nbsp;</div>
+    </div>
+</div>
+<style>
+    .el-line-200 {
+        line-height: 200%
+    }
+
+    .el-mar-10 {
+        margin-top: 10px
+    }
+
+    .calculator_steps button.active {
+        border-bottom: 5px solid #4a1500
+    }
+
+    .calculator_steps button {
+        border: none;
+        background: 0 0;
+        color: #0c414b;
+        padding: 10px;
+        border-bottom: none
+    }
+
+    .calculator_steps button.active span {
+        background: #4a1500;
+        border: 1px solid #fff
+    }
+
+    .calculator_steps button span {
+        height: 15px;
+        width: 15px;
+        background: #ddd;
+        margin: auto;
+        display: table;
+        border: 1px solid #fff;
+        border-radius: 50%
+    }
+
+    .calculator_steps button[disabled=disabled] {
+        opacity: .6
+    }
+
+    .inactiveLink {
+        pointer-events: none;
+        cursor: default
+    }
+
+    .colr-green {
+        color: #099
+    }
+</style>

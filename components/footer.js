@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react';
-//import Image from 'next/image'
+import Image from 'next/image'
 import getConfig from 'next/config'
 const { publicRuntimeConfig } = getConfig()
 
 import loadChatCode from './chatcodeLoader';
 import TrustlinkWindowOpener from './trustlink_window_opener';
+const imagesLoader = ({ src, width, quality }) => {
+  return `/images/${src}?w=${width}&q=${quality || 75}`
+}
 
 export default function Footer({ FooterInfo }) {
   const excludeJs = FooterInfo ? (FooterInfo.excludeJs ? FooterInfo.excludeJs : []) : []
@@ -30,20 +33,24 @@ export default function Footer({ FooterInfo }) {
   }
 
 
-  /*useEffect(() => {
+  // Following 2 useEffect blocks are for setting/loading chat widget for any 2 of following events whichever occurs first.
+  // i) a specified amount of time after page loaded, right now it is 15.5s 
+  // ii) user scrolles the page.
+  // I am doing it to experiment its effect on mobile device page speed. 
+  useEffect(() => {
     // bindWindowScroll()
     if (!flgWindowEventListner) {
       window.addEventListener('scroll', addChatCodeJs);
       flgWindowEventListner = true;
     }
     return () => window.removeEventListener('scroll', addChatCodeJs);
-  }, [])*/
+  }, [])
 
 
   useEffect(() => {
     const timer = setTimeout(() => {
       addChatCodeJs()
-    }, 5100);
+    }, 15500);
     return () => clearTimeout(timer);
   }, []);
 
@@ -54,56 +61,70 @@ export default function Footer({ FooterInfo }) {
         <div className="row">
           <div className="col-md-12">
             <div className="pad-tb-20 text-center" itemProp="aggregateRating" itemScope itemType="https://schema.org/AggregateRating">
-              <ul className="footerItem">
+              <ul className="footerItem d-flex flex-md-row  flex-wrap flex-column justify-content-center align-items-center">
                 <li>
-                  <a href="https://www.expertise.com/ca/sacramento/bankruptcy-attorney" rel="nofollow">
-                    <img
-                      data-src={`${publicRuntimeConfig.rootPath}/images/expertise-badge.webp`}
-                      alt="expertise badge"
-                      width={125}
-                      height={100}
-                      className="lazy"
-                    />
-                  </a>
+                  <div style={{ position: 'relative', width: '128px', height: '102px' }}>
+                    <a href="https://www.expertise.com/ca/sacramento/bankruptcy-attorney" title="expertise badge" target="_blank" rel="noopener">
+                      <Image
+                        loader={imagesLoader}
+                        src="expertise-badge-small.webp"
+                        alt="expertise badge"
+                        className="img-fluid"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </a>
+                  </div>
                 </li>
                 <li>
-                  <a href="https://botw.org/listing/oakview-law-group/" target="_blank" style={{ cursor: 'pointer' }} id="footer_trust_badge" rel="nofollow">
-                    <img
-                      data-src="https://s3.amazonaws.com/botwcdn.org/trustbadges/badge-templates/green/130x49-8.png"
+                  <div style={{ position: 'relative', width: '130px', height: '49px' }}>
+                    <a href="https://botw.org/listing/oakview-law-group/" title="best of the web trusted badge" target="_blank" rel="noopener" style={{ cursor: 'pointer' }} id="footer_trust_badge">
+                      {/* <img
+                      src="https://s3.amazonaws.com/botwcdn.org/trustbadges/badge-templates/green/130x49-8.png"
                       alt="This site is verified as a Trusted Site by Best of the Web"
-                      useMap="#Map"
-                      className="lazy"
-                    />
-                  </a>
+                      useMap="#Map" style={{ aspectRatio: 130 / 49 }}
+                    /> */}
+                      <Image
+                        loader={imagesLoader}
+                        src={`amazon-trustbadges-green-130x49-8.png`}
+                        alt="This site is verified as a Trusted Site by Best of the Web"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </a>
+                  </div>
                 </li>
                 <li>
-                  <img
-                    data-src={`${publicRuntimeConfig.rootPath}/images/TrustLink.jpg`}
-                    className="lazy"
-                    alt="TrustLink logo"
-                    useMap="#Map"
-                    width={141}
-                    height={77}
-                  />
-                  <map name="Map" id="Map">
-                    <area
-                      id="trustlink_sec"
-                      alt=""
-                      title=""
-                      href="https://www.trustlink.org/WriteReviewP.aspx?CompanyID=%2frlCIdTp%2bzkm1VWxYRRkYw%3d%3d"
-                      shape="rect"
-                      target="_blank"
-                      coords="14,56,61,71"
-                    />
-                    <area
+                  <div style={{ position: 'relative', width: '141px', height: '77px' }}>
+                    {/* <img src={`${publicRuntimeConfig.rootPath}/images/TrustLink.jpg`} alt="TrustLink logo" useMap="#Map" style={{ aspectRatio: 141 / 77 }} /> */}
+                    <Image
+                      loader={imagesLoader}
+                      src={`TrustLink.jpg`}
                       alt="TrustLink logo"
-                      title=""
-                      href="https://www.trustlink.org/Reviews/Oak-View-Law-Group-APC-206054627"
-                      target="_blank"
-                      shape="rect"
-                      coords="82,56,127,71"
+                      useMap="#Map"
+                      layout="fill"
+                      objectFit="contain"
                     />
-                  </map>
+                    <map name="Map" id="Map">
+                      <area
+                        id="trustlink_sec"
+                        alt=""
+                        title=""
+                        href="https://www.trustlink.org/WriteReviewP.aspx?CompanyID=%2frlCIdTp%2bzkm1VWxYRRkYw%3d%3d"
+                        shape="rect"
+                        target="_blank"
+                        coords="14,56,61,71"
+                      />
+                      <area
+                        alt="TrustLink logo"
+                        title=""
+                        href="https://www.trustlink.org/Reviews/Oak-View-Law-Group-APC-206054627"
+                        target="_blank"
+                        shape="rect"
+                        coords="82,56,127,71"
+                      />
+                    </map>
+                  </div>
                   <TrustlinkWindowOpener />
 
                 </li>
@@ -111,87 +132,184 @@ export default function Footer({ FooterInfo }) {
                   itemProp="itemReviewed"
                   itemScope
                   itemType="https://schema.org/Organization">
-                  <a href="https://www.bbb.org/us/ca/auburn/profile/debt-relief-services/oak-view-law-group-apc-1156-47014743/customer-reviews" rel="nofollow">
-                    <img
-                      data-src={`${publicRuntimeConfig.rootPath}/images/review-bbb.jpg`}
-                      className="lazy"
-                      alt="Customer ratings on BBB"
-                      width={141}
-                      height={77}
-                    />
-                  </a>
-                  <meta itemProp="name" content="Oak View Law Group" />
+                  <div style={{ position: 'relative', width: '141px', height: '77px' }}>
+                    <a href="https://www.bbb.org/us/ca/auburn/profile/debt-relief-services/oak-view-law-group-apc-1156-47014743/customer-reviews" title="BBB review" target="_blank" rel="noopener">
+                      {/* <img src={`${publicRuntimeConfig.rootPath}/images/review-bbb.jpg`} alt="Customer ratings on BBB" style={{ aspectRatio: 141 / 77 }} /> */}
+                      <Image
+                        loader={imagesLoader}
+                        src={`review-bbb.jpg`}
+                        alt="Customer ratings on BBB"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </a>
+                    <meta itemProp="name" content="Oak View Law Group" />
+                  </div>
                 </li>
                 <meta itemProp="reviewCount" content="84" />
                 <meta itemProp="ratingValue" content="4.95" />
-                
-                <li>
-                  <a href="https://www.credential.net/48ce1e80-ac54-4614-bd1a-0843f19250f1#gs.a5alei" target="_blank" rel="nofollow" title="IAPDA">
-                    <img
-                      data-src={`${publicRuntimeConfig.rootPath}/images/IAPDA.jpg`}
-                      className="lazy"
-                      alt="IAPDA logo"
-                      width={141}
-                      height={77}
+                { /* <li>
+                  <a target="_blank" href="http://www.bbb.org/sacramento/business-reviews/debt-relief-services/oak-view-law-group-apc-in-citrus-heights-ca-47014743" rel="nofollow">
+                    <Image
+                      loader={imagesLoader}
+                      src={`BBB-A-Rating.png`}
+                      alt="BBB-A-Rating"
+                      width={109}
+                      height={56}
                     />
                   </a>
+                </li>
+                <li
+                  itemProp="itemReviewed"
+                  itemScope
+                  itemType="https://schema.org/Organization"
+                  style={{
+                    position: "relative",
+                    top: "10px",
+                    marginBottom: "25px",
+                  }}
+                >
+                  <Image
+                    loader={imagesLoader}
+                    src={`BBB-accredited-rating.jpg`}
+                    alt="4.8 rating"
+                    width={100}
+                    height={20}
+                  />
+                  <br />
+                  <a href="https://www.bbb.org/us/ca/citrus-heights/profile/debt-relief-services/oak-view-law-group-apc-1156-47014743" rel="nofollow" target="_blank">
+                    Based on 82 reviews
+                  </a>
+                  <br />
+                  14 Years in Business
+                  <meta itemProp="name" content="Oak View Law Group" />
+                </li>
+                <meta itemProp="reviewCount" content="82" />
+                <meta itemProp="ratingValue" content="4.84" /> */}
+                <li>
+                  <div style={{ position: 'relative', width: '141px', height: '77px' }}>
+                    <a href="https://www.credential.net/48ce1e80-ac54-4614-bd1a-0843f19250f1#gs.a5alei" target="_blank" rel="noopener" title="IAPDA">
+                      {/* <img src={`${publicRuntimeConfig.rootPath}/images/IAPDA.jpg`} alt="IAPDA logo" style={{ aspectRatio: 141 / 77 }} /> */}
+                      <Image
+                        loader={imagesLoader}
+                        src={`IAPDA.jpg`}
+                        alt="IAPDA logo"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </a>
+                  </div>
                 </li>
 
                 <li>
-                  <a href="/calchamber.html" target="_blank" rel="nofollow" title="Calchamber Member">
-                    <img
-                      data-src={`${publicRuntimeConfig.rootPath}/images/calchamber_Member.jpg`}
-                      className="lazy"
-                      alt="Calchamber Member"
-                      width={156}
-                      height={36}
-                    />
-                  </a>
+                  <div style={{ position: 'relative', width: '156px', height: '35px' }}>
+                    <a href="/calchamber.html" target="_blank" rel="noopener" title="Calchamber Member">
+                      {/* <img src={`${publicRuntimeConfig.rootPath}/images/calchamber_Member.jpg`} alt="Calchamber Member" style={{ aspectRatio: 156 / 35 }} /> */}
+                      <Image
+                        loader={imagesLoader}
+                        src={`calchamber_Member.jpg`}
+                        alt="Calchamber Member"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </a>
+                  </div>
                 </li>
+                {/*  <li>
+                  <a href="/calchamber.html" target="_blank" rel="nofollow"><span
+                    title="Calchamber Member"
+                    name="Calchamber Member"
+                    className="common_sprite calchamber_Member"
+                    style={{ verticalAlign: "middle" }}
+                  ></span></a>
+                </li> */}
                 <li>
-                  <a href="/state-bar-california-certificate-registration.html" target="_blank" rel="nofollow" title="Calbar Registered">
-                    <img
-                      data-src={`${publicRuntimeConfig.rootPath}/images/calbar.jpg`}
-                      alt="Calbar Registered"
-                      width={93}
-                      height={44}
-                      className="lazy"
-                    />
-                  </a>
+                  <div style={{ position: 'relative', width: '156px', height: '35px' }}>
+                    <a href="/state-bar-california-certificate-registration.html" aria-label="Calbar Registered" target="_blank" rel="noopener" title="Calbar Registered">
+
+                      {/* <img src={`${publicRuntimeConfig.rootPath}/images/calbar.jpg`} alt="Calbar Registered" style={{ aspectRatio: 156 / 35 }} /> */}
+
+                      <Image
+                        loader={imagesLoader}
+                        src={`calbar.jpg`}
+                        alt="Calbar Registered"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </a>
+                  </div>
                 </li>
-                <li>
-                  <a href="https://www.dnb.com/business-directory/company-profiles.oak_view_law_group_a_professional_corporation.f8da0516c769b409cc43433c0beed5b2.html" target="_blank" rel="nofollow" title="D&B">
-                    <img
-                      data-src={`${publicRuntimeConfig.rootPath}/images/DandB.jpg`}
-                      className="lazy"
-                      alt="D&B"
-                      width={184}
-                      height={40}
-                    />
+                {/* <li> 
+                  <a href="/state-bar-california-certificate-registration.html" target="_blank" rel="nofollow">
+                    <span
+                      title="Calbar Registered"
+                      name="Calbar Registered"
+                      className="common_sprite calbar"
+                      style={{ verticalAlign: "middle" }}
+                    ></span>
                   </a>
+                </li> */}
+
+                <li>
+                  <div style={{ position: 'relative', width: '184px', height: '40px' }}>
+                    <a href="https://www.dnb.com/business-directory/company-profiles.oak_view_law_group_a_professional_corporation.f8da0516c769b409cc43433c0beed5b2.html" target="_blank" aria-label="D&B listed" rel="noopener" title="D&B">
+                      {/* <img src={`${publicRuntimeConfig.rootPath}/images/DandB.jpg`} alt="D&B" style={{ aspectRatio: 184 / 40 }} /> */}
+                      <Image
+                        loader={imagesLoader}
+                        src={`DandB.jpg`}
+                        alt="D&B"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </a>
+                  </div>
                 </li>
-                <li>
-                  <a href="https://seal.godaddy.com/verifySeal?sealID=soavTJ602i4zePU9VC0bdypC9PUhYG8SMgjj60novyzjcaPxLs" target="_blank" rel="nofollow" title="Godaddy">
-                    <img
-                      data-src={`${publicRuntimeConfig.rootPath}/images/go_daddy.jpg`}
-                      className="lazy"
-                      alt="Godaddy"
-                      width={153}
-                      height={81}
-                    />
+                {/* <li>
+                  <a target="_blank" href="https://www.dnb.com/business-directory/company-profiles.oak_view_law_group_a_professional_corporation.f8da0516c769b409cc43433c0beed5b2.html" rel="nofollow">
+                    <span
+                      title="D&B"
+                      name="D&B"
+                      className="common_sprite DandB"
+                      style={{ verticalAlign: "middle" }}
+                    ></span>
                   </a>
+                </li>*/}
+                <li>
+                  <div style={{ position: 'relative', width: '153px', height: '81px' }}>
+                    <a href="https://seal.godaddy.com/verifySeal?sealID=soavTJ602i4zePU9VC0bdypC9PUhYG8SMgjj60novyzjcaPxLs" target="_blank" aria-label="go daddy" rel="noopener" title="Godaddy">
+                      {/* <img src={`${publicRuntimeConfig.rootPath}/images/go_daddy.jpg`} alt="Godaddy" style={{ aspectRatio: 153 / 81 }} /> */}
+                      <Image
+                        loader={imagesLoader}
+                        src={`go_daddy.jpg`}
+                        alt="Godaddy"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </a>
+                  </div>
                 </li>
+
+                {/* <li>
+                  <a
+                    title="Godaddy"
+                    name="Godaddy"
+                    href="https://seal.godaddy.com/verifySeal?sealID=soavTJ602i4zePU9VC0bdypC9PUhYG8SMgjj60novyzjcaPxLs" rel="nofollow" className="go_daddy common_sprite"
+                    style={{ verticalAlign: "middle" }}
+                  ></a>
+                </li>*/}
                 <li>
-                  <a title="yelp" target="_blank" href="https://www.yelp.com/biz/oak-view-law-group-los-altos-2" rel="nofollow">
-                    {/* <img src={`${publicRuntimeConfig.rootPath}/images/yelp-logo.png`} alt="yelp logo" /> */}
-                    <img
-                      data-src={`${publicRuntimeConfig.rootPath}/images/yelp-logo.png`}
-                      className="lazy"
-                      alt="yelp logo"
-                      width={128}
-                      height={67}
-                    />
-                  </a>
+                  <div style={{ position: 'relative', width: '128px', height: '67px' }}>
+                    <a title="yelp" target="_blank" aria-label="yelp" rel="noopener" href="https://www.yelp.com/biz/oak-view-law-group-auburn-2">
+                      {/* <img src={`${publicRuntimeConfig.rootPath}/images/yelp-logo.png`} alt="yelp logo" style={{ aspectRatio: 128 / 67 }} /> */}
+                      <Image
+                        loader={imagesLoader}
+                        src={`yelp-logo.png`}
+                        alt="yelp logo"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </a>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -204,23 +322,24 @@ export default function Footer({ FooterInfo }) {
       <footer className="bg-brown-darker colr-white pad-tb-20" id="footer" itemScope itemType="https://schema.org/WPFooter">
         <div className="container-fluid">
           <div className="row">
-            <div className="offset-xl-1 col-xl-10">
+            <div className="offset-xl-1 col-xl-10 py-0">
               <div className="row">
                 <div className="col-lg-3 col-sm-6">
                   {/* <img src="https://www.ovlg.com/sites/all/themes/ovlg_bootstrap/ovlg/images/logo-white.png" alt="ovlg brand logo" className="img-responsive white-logo-footer mar-t-20 pad-t-10" /> */}
                   {/* <img src={`${publicRuntimeConfig.rootPath}/images/logo-white_252x47.png`} alt="ovlg brand logo" className="img-responsive white-logo-footer mar-t-20 pad-t-10" /> */}
                   <div className=" white-logo-footer mt-3 pt-2">
-                    <img
-                      data-src={`${publicRuntimeConfig.rootPath}/images/logo-white_252x47.png`}
+                    <Image
+                      loader={imagesLoader}
+                      src={`logo-white_252x47.png`}
                       alt="ovlg brand logo"
-                      className="lazy img-responsive"
+                      className="img-responsive"
                       width={252}
                       height={47}
                     />
                   </div>
                   <p className="font-size-13">Free Consultations / Fees on Success</p>
                   <p><a href="tel:+18005306854" title="Call Toll Free: (800)-530-OVLG" className="footerPhone colr-beige"><i className="fa fa-phone" aria-hidden="true"></i> (800)-530-OVLG</a></p>
-                  <h4 className="colr-white" style={{ marginBottom: "10px", marginTop: "35px" }}>Stay Connected</h4>
+                  <div className="header-h4 colr-white" style={{ marginBottom: "10px", marginTop: "35px" }}><span className="colr-white">Stay Connected</span></div>
                   <div>
                     <a title="Facebook" name="Facebook" href="http://www.facebook.com/OVLGroup" className="font-size-34 colr-white mar-r-10"><em className="fa fa-facebook-square colr-white"></em></a>
                     <a title="Twitter" name="Twitter" href="http://twitter.com/ovlg" className="font-size-34 colr-white mar-r-10"><em className="fa fa-twitter-square colr-white"></em></a>
@@ -228,23 +347,29 @@ export default function Footer({ FooterInfo }) {
                     <a title="Youtube" name="Youtube" href="https://www.youtube.com/user/OVLGroup" className="font-size-34 colr-white"><em className="fa fa-youtube-square colr-white"></em></a>
                   </div>
                 </div>
-                <div className="col-lg-3 col-sm-6 pad-l-20">
+                <div className="col-lg-4 col-sm-6 pad-l-20">
                   <div className="footer_content">
-                    <h4 className="colr-white">Important Links</h4>
-                    <ul className="footer-links">
-                      <li><a href="/about-us">About Us</a></li>
-                      <li><a href="/contact-us">Contact Us</a></li>
-                      <li><a href="/users/login">Client Login</a></li>
-                      <li><a href="/faq">FAQ</a></li>
-                      <li><a href="/privacy">Privacy Policy</a></li>
-                      <li><a href="/newsletters">Newsletter</a></li>
-                      <li><a href="/transparency">Terms of Use</a></li>
-                      <li><a href="/sitemap">Sitemap</a></li>
-                    </ul>
+                    <div className="header-h4"><span className="colr-white">Important Links</span></div>
+                    <div className="row">
+                      <ul className="footer-links col-sm-6 mb-0">
+                        <li><a href="/about-us">About Us</a></li>
+                        <li><a href="/contact-us">Contact Us</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/users/login">Client Login</a></li>
+                        <li><a href="/internship/">Scholarship</a></li>
+                      </ul>
+                      <ul className="footer-links col-sm-6">
+                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/newsletters">Newsletter</a></li>
+                        <li><a href="/transparency">Terms of Use</a></li>
+                        <li><a href="/sitemap">Sitemap</a></li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-sm-6">
-                  <h4 className="colr-white">Our Products</h4>
+                <div className="col-lg-2 col-sm-6">
+                  <div className="header-h4"><span className="colr-white">Our Products</span></div>
                   <ul className="footer-links">
                     <li><a href="/debt-relief/process.html">Debt Relief</a></li>
                     <li><a href="/debt-consolidation">Debt consolidation</a></li>
@@ -255,7 +380,7 @@ export default function Footer({ FooterInfo }) {
                   </ul>
                 </div>
                 <div className="col-lg-3 col-sm-6 pad-b-20">
-                  <h4 className="colr-white">Office Locations</h4>
+                  <div className="header-h4 colr-white"><span className="colr-white">Office Locations</span></div>
                   <div><i className="fa fa-check"></i> <b>California Office</b></div>
 
                   <div itemScope itemType="http://schema.org/PostalAddress" className="font-size-13 colr-beige">

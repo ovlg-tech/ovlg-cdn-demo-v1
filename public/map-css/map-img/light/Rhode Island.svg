@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="266px" viewBox="0 0 375 266" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>map/Rhose Island</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M224.252632,67.3888483 C202.779111,40.0079068 194.907979,18.9355662 190.546806,19.7379273 C183.277444,16.3204909 177.629089,15.1258315 170.677267,15 C165.447116,15 159.481221,15.9274524 152.09491,18.0162559 C133.37858,23.1220553 113.024959,32.3210805 91,41.5452721 C111.554211,110.603097 131.473342,180.463284 149.437644,251 C153.682608,249.980024 157.876499,249.119929 162.188079,247.983004 C194.607463,239.402034 215.830062,219.098746 242.099985,199.688862 C247.079212,195.996076 279.43198,180.371501 280.602213,173.912642 C283.308331,159.273994 283.676944,146.841098 283.075173,134.784217 C280.969345,133.773124 278.580026,134.048473 276.725121,132.536274 C248.617318,108.857 237.303583,80.1555675 224.252632,67.3888483" id="path-1"></path>
+        <filter x="-14.3%" y="-8.7%" width="128.6%" height="123.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.17 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="map/Rhose-Island" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.209999993">
+        <g id="Fill-460">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="266px" viewBox="0 0 375 266" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>map/Utah</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M280.162179,82.0776206 C259.274713,79.9517139 220.860694,73.720906 218.011225,73.5064298 C218.011225,73.5064298 217.968016,73.5064298 217.966444,73.5064298 C215.234819,73.5056442 215.820897,70.5681848 216.128863,68.8775154 C217.269593,62.6192106 218.100787,56.2972699 218.995616,50.0004694 C220.137917,41.9611481 221.260579,33.7560595 221.800304,29.7752874 C203.874653,27.4553308 186.132838,24.1156303 168.416948,21.3973608 C156.106173,19.5110704 143.891244,17.2398226 131.689671,15 C127.219453,39.9554423 98.1441825,202.712221 94,225.768017 C118.685972,230.441712 174.446636,240.678432 259.058666,251 C269.266318,169.528121 278.41023,96.1529143 280.162179,82.0776206" id="path-1"></path>
+        <filter x="-14.8%" y="-8.7%" width="129.5%" height="123.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.17 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="map/Utah" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.209999993">
+        <g id="Fill-465">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

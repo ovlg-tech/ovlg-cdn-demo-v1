@@ -1,0 +1,170 @@
+
+
+.flx {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flx-dir-row {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.flx-dir-row-rev {
+    -webkit-box-direction: reverse;
+    -webkit-box-orient: horizontal;
+    -moz-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse
+}
+
+.flx-dir-col {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.flx-dir-col-rev {
+    -webkit-box-direction: reverse;
+    -webkit-box-orient: vertical;
+    -moz-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse
+}
+
+.flx-nowrap {
+    -ms-flex-wrap: none;
+    flex-wrap: nowrap
+}
+
+.flx-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.flx-wrap-rev {
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse
+}
+
+.flx-yt {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -moz-align-items: flex-start;
+    align-items: flex-start
+}
+
+.flx-yc {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -moz-align-items: center;
+    align-items: center
+}
+
+.flx-yb {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -moz-align-items: flex-end;
+    align-items: flex-end
+}
+
+.flx-ys {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    -moz-align-items: stretch;
+    align-items: stretch
+}
+
+.flx-as-yt {
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start
+}
+
+.flx-as-yb {
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end
+}
+
+.flx-as-yc {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center
+}
+
+.flx-as-ys {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch
+}
+
+.flx-as-ybs {
+    -webkit-align-self: baseline;
+    -ms-flex-item-align: baseline;
+    align-self: baseline
+}
+
+.flx-jc-xl {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -moz-justify-content: flex-start;
+    justify-content: flex-start
+}
+
+.flx-jc-xc {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -moz-justify-content: center;
+    justify-content: center
+}
+
+.flx-jc-xr {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -moz-justify-content: flex-end;
+    justify-content: flex-end
+}
+
+.flx-jc-xa {
+    -ms-flex-pack: distribute;
+    -moz-justify-content: space-around;
+    justify-content: space-around
+}
+
+.flx-jc-xb {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -moz-justify-content: space-between;
+    justify-content: space-between
+}
+
+
+
+.text-xs-left {
+    text-align: left
+}
+
+.text-xs-right {
+    text-align: right
+}
+
+.text-xs-center {
+    text-align: center
+}
+
+.text-xs-justify {
+    text-align: justify
+}
+
+/**
+ * signup form multi-stage slider feature.
+ * page : https://www.ovlg.com/contact-us/help.html?service_request=bankruptcy
+ */

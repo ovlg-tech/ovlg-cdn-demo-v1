@@ -1,0 +1,499 @@
+<div calculator-include-file="">
+    <div style="background:#FFF; padding:5px;">
+        <h2>Credit Card Payoff Calculator</h2>
+        <p>Use this credit card payoff calculator to find out how long it will take for debt repayment. You will also
+            learn how much you will pay in interest on your credit cards.</p>
+        <p>To do the calculations, fill out the required information accurately.</p>
+        <p>Here, an example is already given.</p>
+        <table cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+                <tr>
+                    <td>
+                        <form id="creditPayCalculator">
+                            <div style="background:beige;">
+                                <table cellpadding="0" cellspacing="0" class="table" id="t1" name="t1">
+                                    <tbody>
+                                        <tr style="background:white;">
+                                            <td colspan="5">
+                                                <div id="errormessage"
+                                                    style="text-align:center;color:red; font:normal 11px Verdana; padding-top:5px">
+                                                    &nbsp;</div>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-brown colr-white text-center">
+                                            <td>Credit Card</td>
+                                            <td>Current bal. ($)</td>
+                                            <td>Interest (% p.a)</td>
+                                            <td>Monthly payment ($)</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center"><b>#1</b>
+                                                <div id="star1" style="text-align:center;color:red;float:left;">&nbsp;
+                                                </div>
+                                            </td>
+                                            <td align="center"><input class="form-control" id="CreditCardBalance1"
+                                                    name="CreditCardBalance1" size="15" type="text" value="5000"></td>
+                                            <td align="center"><input class="form-control" id="CreditCardInterestRate1"
+                                                    name="CreditCardInterestRate1" size="15" type="text" value="14">
+                                            </td>
+                                            <td align="center"><input class="form-control"
+                                                    id="CreditCardMonthlyPayments1" name="CreditCardMonthlyPayments1"
+                                                    size="15" type="text" value="158"></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center"><b>#2</b>
+                                                <div id="star2" style="text-align:center;color:red;float:left;"></div>
+                                            </td>
+                                            <td align="center"><input type="text" class="form-control" size="15"
+                                                    value="6500" name="CreditCardBalance2" id="CreditCardBalance2"></td>
+                                            <td align="center"><input type="text" size="15" class="form-control"
+                                                    value="8" name="CreditCardInterestRate2"
+                                                    id="CreditCardInterestRate2"></td>
+                                            <td align="center"><input type="text" size="15" class="form-control"
+                                                    value="250" name="CreditCardMonthlyPayments2"
+                                                    id="CreditCardMonthlyPayments2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center"><b>#3</b>
+                                                <div id="star3" style="text-align:center;color:red;float:left;"></div>
+                                            </td>
+                                            <td align="center"><input type="text" class="form-control" size="15"
+                                                    value="0" name="CreditCardBalance3" id="CreditCardBalance3"></td>
+                                            <td align="center"><input type="text" size="15" class="form-control"
+                                                    value="0" name="CreditCardInterestRate3"
+                                                    id="CreditCardInterestRate3"></td>
+                                            <td align="center"><input type="text" size="15" class="form-control"
+                                                    value="0" name="CreditCardMonthlyPayments3"
+                                                    id="CreditCardMonthlyPayments3"></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center"><b>#4</b>
+                                                <div id="star4" style="text-align:center;color:red;float:left;"></div>
+                                            </td>
+                                            <td align="center"><input type="text" class="form-control" size="15"
+                                                    value="0" name="CreditCardBalance4" id="CreditCardBalance4"></td>
+                                            <td align="center"><input type="text" size="15" class="form-control"
+                                                    value="0" name="CreditCardInterestRate4"
+                                                    id="CreditCardInterestRate4"></td>
+                                            <td align="center"><input type="text" size="15" class="form-control"
+                                                    value="0" name="CreditCardMonthlyPayments4"
+                                                    id="CreditCardMonthlyPayments4"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div id="adLoan">
+                                    <div class="float-start pad-10" id="moreloan">Have <select id="rowOpt"
+                                            name="rowOpt">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                        </select></div>
+                                    <div class="float-start pad-10">more loans <input class="btn btn-primary"
+                                            id="addRows" name="addrow" type="button" value="Add"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table><button class="btn btn-primary pull-right" id="printAuth" name="print_button"
+            value="Print amortization sheet">Print amortization sheet</button><strong class="colr-green">Result</strong>
+        <div id="result">
+
+
+            <div>
+                <table cellspacing="0" cellpadding="0" frame="void" rules="all" bordercolor="#4a1500" width="100%"
+                    style="text-align:center; border:1px solid
+    #4a1500;" class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td colspan="4" height="20" style="padding:8px;background-color: #4a1500;">
+                                <div style="text-align:center; color:#fff">
+                                    <b>Payment Report </b>(Interest Rate = 11% and Installment = $408)
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px"><b>Months</b></td>
+                            <td style="padding:6px"><b>Interest Paid</b></td>
+                            <td style="padding:6px"><b>Principal Paid</b></td>
+                            <td style="padding:6px"><b>Rest Principal </b></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">1</td>
+                            <td style="padding:6px">105</td>
+                            <td style="padding:6px">303</td>
+                            <td style="padding:6px">11197</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">2</td>
+                            <td style="padding:6px">103</td>
+                            <td style="padding:6px">305</td>
+                            <td style="padding:6px">10892</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">3</td>
+                            <td style="padding:6px">100</td>
+                            <td style="padding:6px">308</td>
+                            <td style="padding:6px">10584</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">4</td>
+                            <td style="padding:6px">97</td>
+                            <td style="padding:6px">311</td>
+                            <td style="padding:6px">10273</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">5</td>
+                            <td style="padding:6px">94</td>
+                            <td style="padding:6px">314</td>
+                            <td style="padding:6px">9959</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">6</td>
+                            <td style="padding:6px">91</td>
+                            <td style="padding:6px">317</td>
+                            <td style="padding:6px">9642</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">7</td>
+                            <td style="padding:6px">88</td>
+                            <td style="padding:6px">320</td>
+                            <td style="padding:6px">9322</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">8</td>
+                            <td style="padding:6px">85</td>
+                            <td style="padding:6px">323</td>
+                            <td style="padding:6px">8999</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">9</td>
+                            <td style="padding:6px">82</td>
+                            <td style="padding:6px">326</td>
+                            <td style="padding:6px">8673</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">10</td>
+                            <td style="padding:6px">80</td>
+                            <td style="padding:6px">328</td>
+                            <td style="padding:6px">8345</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">11</td>
+                            <td style="padding:6px">76</td>
+                            <td style="padding:6px">332</td>
+                            <td style="padding:6px">8013</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">12</td>
+                            <td style="padding:6px">73</td>
+                            <td style="padding:6px">335</td>
+                            <td style="padding:6px">7678</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">13</td>
+                            <td style="padding:6px">70</td>
+                            <td style="padding:6px">338</td>
+                            <td style="padding:6px">7340</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">14</td>
+                            <td style="padding:6px">67</td>
+                            <td style="padding:6px">341</td>
+                            <td style="padding:6px">6999</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">15</td>
+                            <td style="padding:6px">64</td>
+                            <td style="padding:6px">344</td>
+                            <td style="padding:6px">6655</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">16</td>
+                            <td style="padding:6px">61</td>
+                            <td style="padding:6px">347</td>
+                            <td style="padding:6px">6308</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">17</td>
+                            <td style="padding:6px">58</td>
+                            <td style="padding:6px">350</td>
+                            <td style="padding:6px">5958</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">18</td>
+                            <td style="padding:6px">55</td>
+                            <td style="padding:6px">353</td>
+                            <td style="padding:6px">5605</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">19</td>
+                            <td style="padding:6px">51</td>
+                            <td style="padding:6px">357</td>
+                            <td style="padding:6px">5248</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">20</td>
+                            <td style="padding:6px">48</td>
+                            <td style="padding:6px">360</td>
+                            <td style="padding:6px">4888</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">21</td>
+                            <td style="padding:6px">45</td>
+                            <td style="padding:6px">363</td>
+                            <td style="padding:6px">4525</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">22</td>
+                            <td style="padding:6px">41</td>
+                            <td style="padding:6px">367</td>
+                            <td style="padding:6px">4158</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">23</td>
+                            <td style="padding:6px">38</td>
+                            <td style="padding:6px">370</td>
+                            <td style="padding:6px">3788</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">24</td>
+                            <td style="padding:6px">35</td>
+                            <td style="padding:6px">373</td>
+                            <td style="padding:6px">3415</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">25</td>
+                            <td style="padding:6px">31</td>
+                            <td style="padding:6px">377</td>
+                            <td style="padding:6px">3038</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">26</td>
+                            <td style="padding:6px">28</td>
+                            <td style="padding:6px">380</td>
+                            <td style="padding:6px">2658</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">27</td>
+                            <td style="padding:6px">24</td>
+                            <td style="padding:6px">384</td>
+                            <td style="padding:6px">2274</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">28</td>
+                            <td style="padding:6px">21</td>
+                            <td style="padding:6px">387</td>
+                            <td style="padding:6px">1887</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">29</td>
+                            <td style="padding:6px">17</td>
+                            <td style="padding:6px">391</td>
+                            <td style="padding:6px">1496</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">30</td>
+                            <td style="padding:6px">14</td>
+                            <td style="padding:6px">394</td>
+                            <td style="padding:6px">1102</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">31</td>
+                            <td style="padding:6px">10</td>
+                            <td style="padding:6px">398</td>
+                            <td style="padding:6px">704</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">32</td>
+                            <td style="padding:6px">6</td>
+                            <td style="padding:6px">402</td>
+                            <td style="padding:6px">302</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:6px">33</td>
+                            <td style="padding:6px">3</td>
+                            <td style="padding:6px">
+                                <font color="#CE6500">302</font>
+                            </td>
+                            <td style="padding:6px">
+                                <font color="#0000ff">Paid</font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="4" style="padding:6px">Total Interest Paid <font
+                                    color="#E40A0A">
+                                    $1865</font> in <font color="#E40A0A">2
+                                </font>Years and <font color="#E40A0A">9 </font> Months</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <table cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+                <tr>
+                    <td style="text-align:right">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <table cellpadding="0" cellspacing="0" width="50%">
+                            <tbody>
+                                <tr>
+                                    <td height="34" width="9">&nbsp;</td>
+                                    <td class="numbg">&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background:#f2f2f2;" valign="top">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="font-size-13"><b>Disclaimer</b>: The Credit Card Payment Calculator is made available to
+            you
+            as a self-help tool. As such, the accuracy of the figures and the applicability of the calculator in regards
+            to
+            your individual situation cannot be guaranteed. Also, the Credit Card Payment Calculator does not include
+            credit
+            balance insurance and other fees which may be optional.</p>
+        <h2>FAQ:</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h3 class="accordion-header mt-0" id="flush-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        1. How is interest charged on a credit card?
+                    </button>
+                </h3>
+                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne">
+                    <div class="accordion-body">
+                        <p>Interest is charged when you don’t pay the outstanding balance in
+                            full on your credit card. It is also charged on the remaining amount when you make only the
+                            minimum monthly payment.</p>
+                        <p>It works as a daily rate calculated by dividing the APR (Annual
+                            Percentage Rate) by 365. Then, the current card balance is multiplied by the daily rate.</p>
+                        <p>That amount is added to your next billing statement.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header mt-0" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        2. What is your credit card interest rate?
+                    </button>
+                </h3>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo">
+                    <div class="accordion-body">
+                        <p>Revolving credit, like a credit card, comes with a standard interest rate, or APR (Annual
+                            Percentage Rate). Make sure you are aware of your card’s APR and other information when you
+                            take out your credit card. These will depend on a few factors, including your credit score.
+                            The higher your score, the better terms and conditions you might expect from your credit
+                            card issuer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header mt-0" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        3. When do you pay interest on a credit card?
+                    </button>
+                </h3>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree">
+                    <div class="accordion-body">
+                        <p>Check your card member agreement to understand the terms and conditions. Is there any grace
+                            period mentioned? If so, you can make your payment within the due date. The credit card
+                            issuer will not charge any interest if you pay your outstanding balance within each month’s
+                            due date. Once you miss that date, the card issuer will charge an interest based on the APR
+                            on your card.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header mt-0" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        4. How can you get rid of credit card debt?
+                    </button>
+                </h3>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour">
+                    <div class="accordion-body">
+                        <p>You can repay your credit card debt through <a
+                                href="/debt-consolidation/credit-card.html">credit card consolidation</a>, <a
+                                href="/debt-settlement/credit-card.html">credit card
+                                settlement</a>, or DIY strategies like balance transfer, debt snowball, or avalanche.
+                        </p>
+                        <p>You can use a suitable credit card payment calculator to choose the most appropriate debt
+                            relief method depending on your current balance, interest charges, and personal financial
+                            situation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .el-line-200 {
+        line-height: 200%
+    }
+
+    .el-mar-10 {
+        margin-top: 10px
+    }
+
+    .calculator_steps button.active {
+        border-bottom: 5px solid #4a1500
+    }
+
+    .calculator_steps button {
+        border: none;
+        background: 0 0;
+        color: #0c414b;
+        padding: 10px;
+        border-bottom: none
+    }
+
+    .calculator_steps button.active span {
+        background: #4a1500;
+        border: 1px solid #fff
+    }
+
+    .calculator_steps button span {
+        height: 15px;
+        width: 15px;
+        background: #ddd;
+        margin: auto;
+        display: table;
+        border: 1px solid #fff;
+        border-radius: 50%
+    }
+
+    .calculator_steps button[disabled=disabled] {
+        opacity: .6
+    }
+
+    .inactiveLink {
+        pointer-events: none;
+        cursor: default
+    }
+
+    .colr-green {
+        color: #099
+    }
+</style>

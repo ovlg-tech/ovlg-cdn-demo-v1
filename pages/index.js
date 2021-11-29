@@ -10,7 +10,7 @@ import HomeBanner from "../components/home/home-banner";
 import PrincipalAttorneyLetter from "../components/home/principal-attorney-letter";
 import StrategiesDebtFree from "../components/home/strategies-debt-free";
 import WhyChooseUs from "../components/home/why-choose-us";
-import GetFreeCounseling from "../components/home/get-free-counseling";
+//import GetFreeCounseling from "../components/home/get-free-counseling";
 import OurReviews from "../components/home/our-reviews";
 import ConsumerLawPracticeAreas from "../components/home/consumer-law-practice-areas";
 
@@ -79,7 +79,7 @@ export default function index({ FooterInfo }) {
           <a id="homepageInfoSection" className="AnchorText"></a>
           <WhyChooseUs></WhyChooseUs>
         </div>
-        <GetFreeCounseling></GetFreeCounseling>
+        {/* <GetFreeCounseling></GetFreeCounseling> */}
       </div>
       <div className="container-fluid main-container">
         <div className="row">

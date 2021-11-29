@@ -458,6 +458,9 @@ h2, .header-h2 {
     width: 100%;
     display: block;
   }
+  .attorney-tab {
+  font-size: 100% !important;
+  }
   .attorneyFinBox .form-group {
     margin-bottom: 10px;
     width: 100%;
