@@ -7,7 +7,7 @@ module.exports = {
       })
       return config
    },
-   trailingSlash: true,
+   //trailingSlash: false,
    // i18n: {
    //    locales: ["en"],
    //    defaultLocale: "en",
@@ -31,4 +31,14 @@ module.exports = {
       // path: "https://noop/",
       path: "",
    },
+   exportPathMap: async function (
+      defaultPathMap,
+      { dev, dir, outDir, distDir, buildId }
+    ) {
+      return {
+        '/': { page: '/' },
+        '/debt-consolidation': { page: '/debt-consolidation' },
+        '/debt-consolidation/payday-loan.html': { page: '/debt-consolidation/payday-loan.html', query: { title: 'payday loan' } },
+      }
+    },
 }
