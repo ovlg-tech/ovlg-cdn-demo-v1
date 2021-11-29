@@ -31,14 +31,14 @@ module.exports = {
       // path: "https://noop/",
       path: "",
    },
-   exportPathMap: async function (
-      defaultPathMap,
-      { dev, dir, outDir, distDir, buildId }
-    ) {
-      return {
-        '/': { page: '/' },
-        '/debt-consolidation': { page: '/debt-consolidation' },
-        '/debt-consolidation/payday-loan.html': { page: '/debt-consolidation/payday-loan.html', query: { title: 'payday loan' } },
-      }
-    },
+   // exportPathMap: async function (
+   //    defaultPathMap,
+   //    { dev, dir, outDir, distDir, buildId }
+   //  ) {
+   //    return {
+   //      '/': { page: '/' },
+   //      '/debt-consolidation': { page: '/debt-consolidation' },
+   //      '/debt-consolidation/payday-loan.html': { page: '/debt-consolidation/payday-loan.html', query: { title: 'payday loan' } },
+   //    }
+   //  },
 }
