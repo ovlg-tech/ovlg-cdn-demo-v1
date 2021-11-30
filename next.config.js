@@ -12,7 +12,7 @@ module.exports = {
    //    locales: ["en"],
    //    defaultLocale: "en",
    // },
-   pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts', 'html', 'php'],
+   // pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts', 'html', 'php'],
    publicRuntimeConfig: {
       // Will be available on both server and client
       staticFolder: '/static',
@@ -33,7 +33,7 @@ module.exports = {
     ) {
       return {
         '/': { page: '/' },
-        '/debt-consolidation': { page: '/debt-consolidation/home' },
+        //'/debt-consolidation': { page: '/debt-consolidation/home' },
         //'/debt-consolidation/payday-loan.html': { page: '/debt-consolidation/payday-loan', query: { title: 'payday loan' } },
       }
     },
