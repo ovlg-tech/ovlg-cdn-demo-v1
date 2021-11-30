@@ -2,6 +2,7 @@ import Head from "next/head";
 import React, { useEffect } from 'react'
 import Link from 'next/link'
 import getConfig from 'next/config'
+const { publicRuntimeConfig } = getConfig()
 
 export default function index({ BannerInfo, FooterInfo }) {
  

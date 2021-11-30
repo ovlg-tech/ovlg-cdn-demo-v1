@@ -7,7 +7,8 @@ module.exports = {
       })
       return config
    },
-   //trailingSlash: false,
+   //exportTrailingSlash: true, 
+   //trailingSlash: true,
    // i18n: {
    //    locales: ["en"],
    //    defaultLocale: "en",
@@ -23,13 +24,8 @@ module.exports = {
    images: {
       domains: ['www.ovlg.com', 'ik.imagekit.io', 'i1.ytimg.com', 'picsum.photos'],
       formats: ['image/webp'], //'image/avif',
-
-      // loader: 'imgix',
-      // // path: 'https://picsum.photos/200/',// 'https://example.com/myaccount/',
-      // path: '../public/images/',// 'https://example.com/myaccount/',
       loader: "imgix",
-      // path: "https://noop/",
-      path: "",
+      path: "", // "https://noop/", '../public/images/', 'https://example.com/myaccount/', 'https://picsum.photos/200/', 'https://example.com/myaccount/',
    },
    exportPathMap: async function (
       defaultPathMap,
@@ -37,8 +33,8 @@ module.exports = {
     ) {
       return {
         '/': { page: '/' },
-        '/debt-consolidation': { page: '/debt-consolidation' },
-        '/debt-consolidation/payday-loan.html': { page: '/debt-consolidation/payday-loan', query: { title: 'payday loan' } },
+        '/debt-consolidation': { page: '/debt-consolidation/home' },
+        //'/debt-consolidation/payday-loan.html': { page: '/debt-consolidation/payday-loan', query: { title: 'payday loan' } },
       }
     },
 }
