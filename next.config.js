@@ -7,7 +7,7 @@ module.exports = {
       })
       return config
    },
-   trailingSlash: true,
+   trailingSlash: false,
    // i18n: {
    //    locales: ["en"],
    //    defaultLocale: "en",
