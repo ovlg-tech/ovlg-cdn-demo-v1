@@ -7,8 +7,7 @@ module.exports = {
       })
       return config
    },
-   //exportTrailingSlash: true, 
-   //trailingSlash: true,
+   trailingSlash: true,
    // i18n: {
    //    locales: ["en"],
    //    defaultLocale: "en",
@@ -25,7 +24,7 @@ module.exports = {
       domains: ['www.ovlg.com', 'ik.imagekit.io', 'i1.ytimg.com', 'picsum.photos'],
       formats: ['image/webp'], //'image/avif',
       loader: "imgix",
-      path: "", // "https://noop/", '../public/images/', 'https://example.com/myaccount/', 'https://picsum.photos/200/', 'https://example.com/myaccount/',
+      path: "", // "https://noop/", '../public/images/', 'https://picsum.photos/200/', 'https://example.com/myaccount/',
    },
    exportPathMap: async function (
       defaultPathMap,
