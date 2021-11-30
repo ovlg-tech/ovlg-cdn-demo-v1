@@ -12,6 +12,7 @@ module.exports = {
    //    locales: ["en"],
    //    defaultLocale: "en",
    // },
+   pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts', 'html', 'php'],
    publicRuntimeConfig: {
       // Will be available on both server and client
       staticFolder: '/static',
