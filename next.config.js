@@ -27,14 +27,14 @@ module.exports = {
       loader: "imgix",
       path: "", // "https://noop/", '../public/images/', 'https://picsum.photos/200/', 'https://example.com/myaccount/',
    },
-   exportPathMap: async function (
-      defaultPathMap,
-      { dev, dir, outDir, distDir, buildId }
-    ) {
-      return {
-        '/': { page: '/' },
-        //'/debt-consolidation': { page: '/debt-consolidation/home' },
-        //'/debt-consolidation/payday-loan.html': { page: '/debt-consolidation/payday-loan', query: { title: 'payday loan' } },
-      }
-    },
+   // exportPathMap: async function (
+   //    defaultPathMap,
+   //    { dev, dir, outDir, distDir, buildId }
+   //  ) {
+   //    return {
+   //      '/': { page: '/' },
+   //      '/debt-consolidation': { page: '/debt-consolidation/home' },
+   //      '/debt-consolidation/payday-loan.html': { page: '/debt-consolidation/payday-loan', query: { title: 'payday loan' } },
+   //    }
+   //  },
 }
